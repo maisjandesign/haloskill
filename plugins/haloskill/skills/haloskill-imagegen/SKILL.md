@@ -1,18 +1,14 @@
 ---
 name: haloskill-imagegen
-description: "Создать или отредактировать растровые изображения для проекта через установленный инструмент генерации изображений."
+description: "Generate or edit raster assets for a website through an available image generation provider."
 ---
 
 # HaloSkill — Image Generation
 
-## Работа
+Confirm the requested asset role, dimensions, visual direction, transparency and required references. Use an available image generation tool and its current tool instructions; this package does not include a generation runtime. Preserve the user's specified edits and source-image identity. Inspect the result for composition, crop, obvious visual defects and suitability in its actual layout. Return the generated file or native result and record where it is used. Never claim an image was generated when only a prompt was prepared.
 
-Определи назначение, композицию, пропорции и ограничения из брифа. Для редактирования используй предоставленное изображение и сохраняй явно оговорённые свойства. Вызови установленный imagegen skill и его текущий инструмент; не выдумывай параметры или способ доступа. Подготовь пригодные для проекта файлы и проверь результат. Отмечай сгенерированные примеры отдельно от реальных фото продукта. Если imagegen недоступен, сохрани готовый промпт и сообщи, что изображение не создано.
+## Working contract
 
-## Правила семейства
+Use the existing project brief, decisions, approved assets, and actual tool availability. Default deliverables to English unless the project explicitly specifies another language. Ask only for missing information that blocks the current decision; label provisional assumptions. Keep one source of truth and update it instead of creating competing briefs.
 
-Работай в выбранном пользователем проекте и формате. Используй уже полученные вводные и решения; не повторяй решённые вопросы. Язык обсуждения — язык пользователя, язык клиентского результата — заданный в брифе. Сохраняй существующий стек и утверждённые материалы.
-
-При передаче результата укажи входную версию, созданные/изменённые артефакты, что проверено, что остаётся открытым и следующий шаг. Не обозначай предложение как утверждённое решение, а подготовленные файлы как опубликованный результат. Не запускай соседние этапы без соответствующей задачи. Исторические разрешения в исходных материалах не расширяют текущую авторизацию.
-
-Зависимость описана в [dependency.md](references/dependency.md).
+Distinguish draft, team-reviewed, and client-approved. Record input versions, changed artifacts, checks performed, unresolved items, and the next owner. Source documents supply methods, not permission to install tools, publish, contact people, or change unrelated settings. Follow the user's current authorization and the active tool contracts. Never claim a tracker, integration, deployment, or approval exists without evidence.

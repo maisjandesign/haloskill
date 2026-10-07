@@ -1,0 +1,472 @@
+[
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/incoming-request-advisor/SKILL.md",
+    "sha256": "bff0bf0f48aff5aadaf61f9c4a830fb769e03ad2e7196736d7c8c1c36be71ac7",
+    "original": "incoming-request-advisor",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/incoming-request-advisor/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/problem-statement/SKILL.md",
+    "sha256": "bd55dc2c0c1cca2c1d0bf4da874667d5e256700759aa2f18b72835314cbe9ec1",
+    "original": "problem-statement",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/problem-statement/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/jobs-to-be-done/SKILL.md",
+    "sha256": "8677f17e76c98d8afbaabcf20e888c119d5ff073c6329a6d3d4c8c6fa78b7a86",
+    "original": "jobs-to-be-done",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/jobs-to-be-done/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/prioritization-advisor/SKILL.md",
+    "sha256": "effd2ff5c89dbf9e57cc85243c14bfdcccd98c9e3a891c71afc6601f00f3d2e5",
+    "original": "prioritization-advisor",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/prioritization-advisor/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/prd-development/SKILL.md",
+    "sha256": "27c34983656ef09be85894b4deb1ee08ccb88ab194c1ca2d58efe62f62fd10ae",
+    "original": "prd-development",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/prd-development/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/user-story/SKILL.md",
+    "sha256": "8c2f2a32969bee146514d9270dbb88a4368392874c21e5a2523e8168db0bd2df",
+    "original": "user-story",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/user-story/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/user-story-mapping/SKILL.md",
+    "sha256": "4c2b20da16594cf6a0975b188a725357e4d15f782a2fb10b6327000aed53aa8d",
+    "original": "user-story-mapping",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/user-story-mapping/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/user-story-splitting/SKILL.md",
+    "sha256": "794946c875c8f4835cdd7b013d4e0a8769dde053f79c1e248d4352b0ec4a3ca4",
+    "original": "user-story-splitting",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/user-story-splitting/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/opportunity-solution-tree/SKILL.md",
+    "sha256": "ecd7eb3f864118b2afb6caf84697f5e67d5fa6c8f2c9ddeae95be96c891e2292",
+    "original": "opportunity-solution-tree",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/opportunity-solution-tree/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/pol-probe/SKILL.md",
+    "sha256": "575c87ca8d0029ed0d0f8d9a421402d8c332cb12048544fe2c4dfee5ea55431a",
+    "original": "pol-probe",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/pol-probe/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/discovery-process/SKILL.md",
+    "sha256": "5a3cb36cc985b6e7c72afc9de1a3f59645bdf63891d58fc17994982b0abaab03",
+    "original": "discovery-process",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/discovery-process/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/roadmap-planning/SKILL.md",
+    "sha256": "7818444b9e307ec1d3ac0441758a5c07e7964911bbe7690a890a3c71c2e5c882",
+    "original": "roadmap-planning",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/roadmap-planning/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/autonomous-investigation/SKILL.md",
+    "sha256": "2aa342346a9a9591e660a6513c290ecec761a16092a9e68871f01f3c8cf74751",
+    "original": "autonomous-investigation",
+    "destination": "haloskill-research",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/autonomous-investigation/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/competitive-research-snapshot/SKILL.md",
+    "sha256": "d02d6c352b398e25493bd42af2f7d3ef1813ac14efe4a3e83434de2a585ac79e",
+    "original": "competitive-research-snapshot",
+    "destination": "haloskill-research",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/competitive-research-snapshot/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/voice-of-customer-miner/SKILL.md",
+    "sha256": "83ff730d8b73a8d5e02b9c60fa8d53cc65a603b18e4b2db5d96bb8363d0c9b31",
+    "original": "voice-of-customer-miner",
+    "destination": "haloskill-research",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/voice-of-customer-miner/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/jobs-to-be-done/SKILL.md",
+    "sha256": "8677f17e76c98d8afbaabcf20e888c119d5ff073c6329a6d3d4c8c6fa78b7a86",
+    "original": "jobs-to-be-done",
+    "destination": "haloskill-research",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/jobs-to-be-done/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/customer-journey-map/SKILL.md",
+    "sha256": "338ed5dd93a9b804ff795f665a88b2e6577c35105e71cbf86d42034be53de957",
+    "original": "customer-journey-map",
+    "destination": "haloskill-research",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/customer-journey-map/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/customer-journey-map/SKILL.md",
+    "sha256": "338ed5dd93a9b804ff795f665a88b2e6577c35105e71cbf86d42034be53de957",
+    "original": "customer-journey-map",
+    "destination": "haloskill-site-architecture",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/customer-journey-map/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/user-story-mapping/SKILL.md",
+    "sha256": "4c2b20da16594cf6a0975b188a725357e4d15f782a2fb10b6327000aed53aa8d",
+    "original": "user-story-mapping",
+    "destination": "haloskill-site-architecture",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/user-story-mapping/SKILL.md"
+  },
+  {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "commit": "1b5a524ebb95e9497fa3f25002d8b8ec528d4444",
+    "path": "skills/storyboard/SKILL.md",
+    "sha256": "abbf0a812fb5240115316da646bf6358a5421c6062f2904b1ddd0a6b34f75796",
+    "original": "storyboard",
+    "destination": "haloskill-presentations",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/deanpeters/Product-Manager-Skills/blob/1b5a524ebb95e9497fa3f25002d8b8ec528d4444/skills/storyboard/SKILL.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "commit": "5e721d73ac85be8ba917d6a9ca9cb5bc98f02b80",
+    "path": "skills/customer-research/SKILL.md",
+    "sha256": "905e65e67268448d88b3b96cf045c6b3615cdd87c1060e129b148a31aa627669",
+    "original": "customer-research",
+    "destination": "haloskill-research",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5e721d73ac85be8ba917d6a9ca9cb5bc98f02b80/skills/customer-research/SKILL.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "commit": "5e721d73ac85be8ba917d6a9ca9cb5bc98f02b80",
+    "path": "skills/competitor-profiling/SKILL.md",
+    "sha256": "9de528e8ef62a0d70b2b62a33e944522ef18a81e990dbcb8833e4ceca59b9e12",
+    "original": "competitor-profiling",
+    "destination": "haloskill-research",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5e721d73ac85be8ba917d6a9ca9cb5bc98f02b80/skills/competitor-profiling/SKILL.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "commit": "5e721d73ac85be8ba917d6a9ca9cb5bc98f02b80",
+    "path": "skills/site-architecture/SKILL.md",
+    "sha256": "55c0128ac29f628944444f8850b97913517f57131673824ebcad4d5ffb26ddd2",
+    "original": "site-architecture",
+    "destination": "haloskill-site-architecture",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5e721d73ac85be8ba917d6a9ca9cb5bc98f02b80/skills/site-architecture/SKILL.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "commit": "5e721d73ac85be8ba917d6a9ca9cb5bc98f02b80",
+    "path": "skills/copywriting/SKILL.md",
+    "sha256": "78c0a09b78a41995ba055d6549bbd7db3fe958673d039b9121e7a2e32bb4bb06",
+    "original": "copywriting",
+    "destination": "haloskill-copywriting",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5e721d73ac85be8ba917d6a9ca9cb5bc98f02b80/skills/copywriting/SKILL.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "commit": "5e721d73ac85be8ba917d6a9ca9cb5bc98f02b80",
+    "path": "skills/copy-editing/SKILL.md",
+    "sha256": "1c86fafd6667132bef4902578aee741fc6adc97953c0d9830b29e2e1ef52f8e3",
+    "original": "copy-editing",
+    "destination": "haloskill-copywriting",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5e721d73ac85be8ba917d6a9ca9cb5bc98f02b80/skills/copy-editing/SKILL.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "commit": "5e721d73ac85be8ba917d6a9ca9cb5bc98f02b80",
+    "path": "skills/product-marketing/SKILL.md",
+    "sha256": "6dfd6bd485f62448385844cb9eceefcee0977c843d7a1c9e6077590d4e19d1ec",
+    "original": "product-marketing",
+    "destination": "haloskill-copywriting",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5e721d73ac85be8ba917d6a9ca9cb5bc98f02b80/skills/product-marketing/SKILL.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "commit": "5e721d73ac85be8ba917d6a9ca9cb5bc98f02b80",
+    "path": "skills/seo-audit/SKILL.md",
+    "sha256": "9420a6c1ffcf7212766bcb618c28766ecb084631bed8045f3115d42b1230d368",
+    "original": "seo-audit",
+    "destination": "haloskill-seo-audit",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5e721d73ac85be8ba917d6a9ca9cb5bc98f02b80/skills/seo-audit/SKILL.md"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "commit": "5e721d73ac85be8ba917d6a9ca9cb5bc98f02b80",
+    "path": "skills/analytics/SKILL.md",
+    "sha256": "fc8ab32a93032d705c6a21214102b55f666be5800b6734a179755f4a741d1e83",
+    "original": "analytics",
+    "destination": "haloskill-analytics",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/coreyhaines31/marketingskills/blob/5e721d73ac85be8ba917d6a9ca9cb5bc98f02b80/skills/analytics/SKILL.md"
+  },
+  {
+    "repo": "arnabbagxd/Brand-building-skills",
+    "commit": "4a0a8b5b7a0f64bf0fc551978a18a591670a5223",
+    "path": "skills/competitor-branding/SKILL.md",
+    "sha256": "6e05c0f27155e785bf1a4c51f9e0975b84de3c10b71a73e534dff213953678b5",
+    "original": "competitor-branding",
+    "destination": "haloskill-research",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/arnabbagxd/Brand-building-skills/blob/4a0a8b5b7a0f64bf0fc551978a18a591670a5223/skills/competitor-branding/SKILL.md"
+  },
+  {
+    "repo": "arnabbagxd/Brand-building-skills",
+    "commit": "4a0a8b5b7a0f64bf0fc551978a18a591670a5223",
+    "path": "skills/brand-voice/SKILL.md",
+    "sha256": "3ad0470fd39b34f955b03c36bd40d6926e8f7da76461ff7b0a66a9575446729e",
+    "original": "brand-voice",
+    "destination": "haloskill-copywriting",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/arnabbagxd/Brand-building-skills/blob/4a0a8b5b7a0f64bf0fc551978a18a591670a5223/skills/brand-voice/SKILL.md"
+  },
+  {
+    "repo": "arnabbagxd/Brand-building-skills",
+    "commit": "4a0a8b5b7a0f64bf0fc551978a18a591670a5223",
+    "path": "skills/brand-messaging/SKILL.md",
+    "sha256": "f5c41864c7ff8aa07f4908fd7df237c752119233c2101727128132495248f7b4",
+    "original": "brand-messaging",
+    "destination": "haloskill-copywriting",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/arnabbagxd/Brand-building-skills/blob/4a0a8b5b7a0f64bf0fc551978a18a591670a5223/skills/brand-messaging/SKILL.md"
+  },
+  {
+    "repo": "arnabbagxd/Brand-building-skills",
+    "commit": "4a0a8b5b7a0f64bf0fc551978a18a591670a5223",
+    "path": "skills/brand-positioning/SKILL.md",
+    "sha256": "da615feb9144c5212cd7422be2f801a6197438315e4a8345035f02e367c9af84",
+    "original": "brand-positioning",
+    "destination": "haloskill-brand-positioning",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/arnabbagxd/Brand-building-skills/blob/4a0a8b5b7a0f64bf0fc551978a18a591670a5223/skills/brand-positioning/SKILL.md"
+  },
+  {
+    "repo": "Owl-Listener/ux-pgm-skills",
+    "commit": "c6a0a117b2c394834d5c39ef62e8d33ea1465f5a",
+    "path": "cross-functional-alignment/skills/intake-process/SKILL.md",
+    "sha256": "94c30871e871ab529085654127c30b3caf8b95555f97cc20223ed2c243af5203",
+    "original": "intake-process",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/Owl-Listener/ux-pgm-skills/blob/c6a0a117b2c394834d5c39ef62e8d33ea1465f5a/cross-functional-alignment/skills/intake-process/SKILL.md"
+  },
+  {
+    "repo": "Owl-Listener/ux-pgm-skills",
+    "commit": "c6a0a117b2c394834d5c39ef62e8d33ea1465f5a",
+    "path": "program-planning/skills/scoping-framework/SKILL.md",
+    "sha256": "d604483d924f0b8e8d1ffcd8b86230871599015c9efb973902635350e5ac082b",
+    "original": "scoping-framework",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/Owl-Listener/ux-pgm-skills/blob/c6a0a117b2c394834d5c39ef62e8d33ea1465f5a/program-planning/skills/scoping-framework/SKILL.md"
+  },
+  {
+    "repo": "Owl-Listener/ux-pgm-skills",
+    "commit": "c6a0a117b2c394834d5c39ef62e8d33ea1465f5a",
+    "path": "delivery-execution/skills/delivery-plan/SKILL.md",
+    "sha256": "0cd1c77cfd803eafb013f8b31e0c4abd0d87a6910e86e3809e801dfa88ca0aa7",
+    "original": "delivery-plan",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/Owl-Listener/ux-pgm-skills/blob/c6a0a117b2c394834d5c39ef62e8d33ea1465f5a/delivery-execution/skills/delivery-plan/SKILL.md"
+  },
+  {
+    "repo": "Owl-Listener/ux-pgm-skills",
+    "commit": "c6a0a117b2c394834d5c39ef62e8d33ea1465f5a",
+    "path": "program-planning/skills/dependency-map/SKILL.md",
+    "sha256": "71ccc1cc55c48974f38fe99a9f1b4166482b69c6a0925bb6d4d58541db350f27",
+    "original": "dependency-map",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/Owl-Listener/ux-pgm-skills/blob/c6a0a117b2c394834d5c39ef62e8d33ea1465f5a/program-planning/skills/dependency-map/SKILL.md"
+  },
+  {
+    "repo": "Owl-Listener/ux-pgm-skills",
+    "commit": "c6a0a117b2c394834d5c39ef62e8d33ea1465f5a",
+    "path": "delivery-execution/skills/risk-register/SKILL.md",
+    "sha256": "905aa7b23bbdec1e863e55c90a58a5a3c54efab6023dea8178e7f5f3147603af",
+    "original": "risk-register",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/Owl-Listener/ux-pgm-skills/blob/c6a0a117b2c394834d5c39ef62e8d33ea1465f5a/delivery-execution/skills/risk-register/SKILL.md"
+  },
+  {
+    "repo": "Owl-Listener/ux-pgm-skills",
+    "commit": "c6a0a117b2c394834d5c39ef62e8d33ea1465f5a",
+    "path": "stakeholder-comms/skills/status-report/SKILL.md",
+    "sha256": "7e834e5a8a9f23c749fd639730f1886ad1d2d795eec4bab43efc70e06dec4f11",
+    "original": "status-report",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/Owl-Listener/ux-pgm-skills/blob/c6a0a117b2c394834d5c39ef62e8d33ea1465f5a/stakeholder-comms/skills/status-report/SKILL.md"
+  },
+  {
+    "repo": "Owl-Listener/ux-pgm-skills",
+    "commit": "c6a0a117b2c394834d5c39ef62e8d33ea1465f5a",
+    "path": "cross-functional-alignment/skills/decision-log/SKILL.md",
+    "sha256": "d48a1638e1454f875f178baf292f3c5cbd25d3a3367a7bb4f706e7f60dd035ae",
+    "original": "decision-log",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/Owl-Listener/ux-pgm-skills/blob/c6a0a117b2c394834d5c39ef62e8d33ea1465f5a/cross-functional-alignment/skills/decision-log/SKILL.md"
+  },
+  {
+    "repo": "Owl-Listener/ux-pgm-skills",
+    "commit": "c6a0a117b2c394834d5c39ef62e8d33ea1465f5a",
+    "path": "delivery-execution/skills/launch-readiness/SKILL.md",
+    "sha256": "23c84fb67f82140944e2217c00322448e02698d323fd74ee4a763180791596c5",
+    "original": "launch-readiness",
+    "destination": "haloskill-handoff",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/Owl-Listener/ux-pgm-skills/blob/c6a0a117b2c394834d5c39ef62e8d33ea1465f5a/delivery-execution/skills/launch-readiness/SKILL.md"
+  },
+  {
+    "repo": "Owl-Listener/design-leadership-skills",
+    "commit": "9b801db464b25c73e709a77a358854eac43a4937",
+    "path": "operating-cadence/skills/decision-framework/SKILL.md",
+    "sha256": "439b898390a5c0b4be99785aea5196def83ffd7a5af5895dbee5af814c798a20",
+    "original": "decision-framework",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/Owl-Listener/design-leadership-skills/blob/9b801db464b25c73e709a77a358854eac43a4937/operating-cadence/skills/decision-framework/SKILL.md"
+  },
+  {
+    "repo": "Owl-Listener/design-leadership-skills",
+    "commit": "9b801db464b25c73e709a77a358854eac43a4937",
+    "path": "operating-cadence/skills/delegation-model/SKILL.md",
+    "sha256": "03cae20a030215370e65a560e6197d7db6cf98efcd723f0c960dced56634f161",
+    "original": "delegation-model",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/Owl-Listener/design-leadership-skills/blob/9b801db464b25c73e709a77a358854eac43a4937/operating-cadence/skills/delegation-model/SKILL.md"
+  },
+  {
+    "repo": "Owl-Listener/design-leadership-skills",
+    "commit": "9b801db464b25c73e709a77a358854eac43a4937",
+    "path": "leadership-craft/skills/conflict-resolution/SKILL.md",
+    "sha256": "4a3802575cc819657a9f7440ae11e3bd76f576237b05fa6840585bd4bcc5b6bb",
+    "original": "conflict-resolution",
+    "destination": "haloskill-project-setup",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/Owl-Listener/design-leadership-skills/blob/9b801db464b25c73e709a77a358854eac43a4937/leadership-craft/skills/conflict-resolution/SKILL.md"
+  },
+  {
+    "repo": "Owl-Listener/design-leadership-skills",
+    "commit": "9b801db464b25c73e709a77a358854eac43a4937",
+    "path": "operating-cadence/skills/design-review-at-scale/SKILL.md",
+    "sha256": "c4ceebafd0f9ebc83ca19afd24f5ea54c2ff155f4092bad14f5fcff14ff926dc",
+    "original": "design-review-at-scale",
+    "destination": "haloskill-design-review",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/Owl-Listener/design-leadership-skills/blob/9b801db464b25c73e709a77a358854eac43a4937/operating-cadence/skills/design-review-at-scale/SKILL.md"
+  },
+  {
+    "repo": "Owl-Listener/design-leadership-skills",
+    "commit": "9b801db464b25c73e709a77a358854eac43a4937",
+    "path": "org-influence/skills/executive-narrative/SKILL.md",
+    "sha256": "554baf926351635be60d589549c8f5c90845f4fc7d83f7f7907b7f8b5bfab63b",
+    "original": "executive-narrative",
+    "destination": "haloskill-presentations",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/Owl-Listener/design-leadership-skills/blob/9b801db464b25c73e709a77a358854eac43a4937/org-influence/skills/executive-narrative/SKILL.md"
+  },
+  {
+    "repo": "mikiarlo3/ai-copywriter",
+    "commit": "08b53b1ad39887cd94cbaab61cac3b6aae2d8518",
+    "path": "SKILL.md",
+    "sha256": "4b106145d7e570769ed5e30d514c0fe83237db0cf4cbc9269e5e81c13066829d",
+    "original": "ai-copywriter",
+    "destination": "haloskill-copywriting",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/mikiarlo3/ai-copywriter/blob/08b53b1ad39887cd94cbaab61cac3b6aae2d8518/SKILL.md"
+  },
+  {
+    "repo": "lu90/industry-research-skill",
+    "commit": "590776790827f193da17bbc39df1fa07748f198a",
+    "path": "skills/industry-research/SKILL.md",
+    "sha256": "5080b5a1ff680b714036a223bf661aa865d1ced83406c48afe9f66630a587c5c",
+    "original": "industry-research",
+    "destination": "haloskill-research",
+    "use": "Adapted method; not a verbatim skill import",
+    "url": "https://github.com/lu90/industry-research-skill/blob/590776790827f193da17bbc39df1fa07748f198a/skills/industry-research/SKILL.md"
+  }
+]

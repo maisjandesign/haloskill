@@ -2,6 +2,7 @@
 """Install the family without overwriting existing skills. Standard library only."""
 import argparse
 import hashlib
+import json
 import shutil
 import sys
 import tempfile
@@ -14,8 +15,15 @@ def snapshot(folder):
     return {str(p.relative_to(folder)): hashlib.sha256(p.read_bytes()).hexdigest()
             for p in sorted(folder.rglob('*')) if p.is_file() and p.name != '.DS_Store'}
 
-def install(destination, dry_run=False):
-    skills = sorted(p for p in SOURCE.iterdir() if p.is_dir())
+def install(destination, dry_run=False, profile='core', names=None):
+    catalog = json.loads((ROOT / 'catalog.json').read_text())['skills']
+    known = {r['name']: r for r in catalog}
+    if profile not in ('core', 'optional', 'all'):
+        raise ValueError('Unknown profile: ' + profile)
+    if names and set(names) - set(known):
+        raise ValueError('Unknown skills: ' + ', '.join(sorted(set(names) - set(known))))
+    selected = set(names) if names else {n for n, r in known.items() if profile == 'all' or r['profile'] == profile}
+    skills = [SOURCE / name for name in sorted(selected)]
     planned, unchanged, conflicts = [], [], []
     for src in skills:
         dst = destination / src.name
@@ -56,6 +64,8 @@ def main():
     mode.add_argument('--project', type=Path, help='Existing project root; installs into .agents/skills')
     mode.add_argument('--user', action='store_true', help='Install into ~/.agents/skills')
     parser.add_argument('--dry-run', action='store_true')
+    parser.add_argument('--profile', choices=['core', 'optional', 'all'], default='core')
+    parser.add_argument('--skill', action='append', dest='names', help='Exact skill name; repeat to select several. Overrides profile.')
     args = parser.parse_args()
     if args.project:
         project = args.project.expanduser().resolve()
@@ -64,7 +74,10 @@ def main():
         destination = project / '.agents/skills'
     else:
         destination = Path.home() / '.agents/skills'
-    return install(destination, args.dry_run)
+    try:
+        return install(destination, args.dry_run, args.profile, args.names)
+    except ValueError as error:
+        parser.error(str(error))
 
 if __name__ == '__main__':
     raise SystemExit(main())

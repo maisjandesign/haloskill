@@ -1,4 +1,0 @@
-interface:
-  display_name: "HaloSkill — Colors"
-  short_description: "HaloSkill: Colors для работы студии"
-  default_prompt: "Используй $haloskill-colors для этой задачи, учитывая материалы и решения проекта."

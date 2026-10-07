@@ -1,0 +1,14 @@
+{
+  "source_version": "example-estimate-v1",
+  "start": "2026-10-12",
+  "mode": "serial",
+  "hours_per_day": 8,
+  "holidays": [],
+  "expected_work_hours": {"min": 40, "max": 64},
+  "items": [
+    {"id": "concept", "phase": "Design", "label": "Visual concept", "owner": "Designer", "min": 16, "max": 24, "unit": "hours"},
+    {"id": "review", "phase": "Review", "label": "Client review window", "owner": "Client", "kind": "review", "min": 2, "max": 2, "unit": "days", "depends_on": ["concept"]},
+    {"id": "homepage", "phase": "Build", "label": "Homepage and shared components", "owner": "Developer", "min": 24, "max": 40, "unit": "hours", "depends_on": ["review"]},
+    {"id": "demo", "phase": "Review", "label": "Homepage demo", "kind": "milestone", "min": 0, "max": 0, "unit": "hours", "depends_on": ["homepage"]}
+  ]
+}

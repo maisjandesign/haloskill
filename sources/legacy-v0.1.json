@@ -1,0 +1,802 @@
+{
+  "snapshot_date": "2026-10-07",
+  "records": [
+    {
+      "original": "team-workflow",
+      "name": "haloskill-project-setup",
+      "stage": "1",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "4abd1f2d4fe047dc57c1887387125720351b2f83fbb871ce14bef7a959ad425c"
+        }
+      ]
+    },
+    {
+      "original": "decision-framework",
+      "name": "haloskill-decisions",
+      "stage": "0",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "439b898390a5c0b4be99785aea5196def83ffd7a5af5895dbee5af814c798a20"
+        }
+      ]
+    },
+    {
+      "original": "design-review-process",
+      "name": "haloskill-design-review",
+      "stage": "0",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "f66bf227b107f1d435b8afbea7fd42d8974682b798147ba8daeb0d039ac14d26"
+        }
+      ]
+    },
+    {
+      "original": "synthesize-research",
+      "name": "haloskill-research",
+      "stage": "2",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "ae98c11102545c911a1ea5d8527be0e08a3db8e53327f2865f0db19bbb2d7e9c"
+        }
+      ]
+    },
+    {
+      "original": "design-taste-frontend",
+      "name": "haloskill-concepts",
+      "stage": "4",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "aa194351b246b8b4799099d4ed7b033d29eab6e6e3d58d8d2172978be7b3ec89"
+        }
+      ]
+    },
+    {
+      "original": "interface-design",
+      "name": "haloskill-interface-design",
+      "stage": "4,6,7",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "3bf34291021ae72628ce5cd5f006f09143cb163b27f5004429586833b8197a31"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "752d0810d593b5cc88b34ea8e0c101b50d0ec1c4c8091be369544f73f3a2ea2e"
+        },
+        {
+          "path": "references/critique.md",
+          "sha256": "48903ec19affbb4bf544f51beedd31aef03469730c8802711c0f6637465c8142"
+        },
+        {
+          "path": "references/example.md",
+          "sha256": "6914c93b92bea70792db7dd062a8677eccd67e83cb55da493611f8ea5bdff5bf"
+        },
+        {
+          "path": "references/imagegen.md",
+          "sha256": "99b668a163e400d015b9be3837e6f071d1c23ce2aad25c2dc9f20418da203001"
+        },
+        {
+          "path": "references/principles.md",
+          "sha256": "1ee5305f8a2c94831303a4b77128e2319c67e14cc194245606b0143e261ac410"
+        },
+        {
+          "path": "references/validation.md",
+          "sha256": "2fa4730b8d82f3cc227c1e807fd2b31ed464445ffcd09c145dd2cc7d3e90f150"
+        }
+      ]
+    },
+    {
+      "original": "better-layout",
+      "name": "haloskill-layout",
+      "stage": "4,6,7,8",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "413d7ec94c19b518330724c7003e5aa72b4a48c3676fc603fad452df4a8ccd89"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "d51a2ca663c9331f8f23b7a550e5f848f83e81361e21f2280cc384e99cc0ae15"
+        },
+        {
+          "path": "grouping-and-alignment.md",
+          "sha256": "9e619838e3175cafb7837a52ca83a9a9fbe91a88001fde606a73adba6f0fee90"
+        },
+        {
+          "path": "spacing-and-adaptivity.md",
+          "sha256": "3204ff8756b452989c6d713964e91f7f9293394ffc82ba4b920db599bf10b6e5"
+        }
+      ]
+    },
+    {
+      "original": "better-typography",
+      "name": "haloskill-typography",
+      "stage": "4,6,7,8",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "e22f30804f1dfaab5581000c17af5b25aa2e0e7d8186da4f192ff7c95ebbf2e8"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "6760b6d92ff84272ef37b524816e26626dd43bd07fe2f53cbff8f85cfbff457e"
+        },
+        {
+          "path": "choosing-fonts.md",
+          "sha256": "90a7c4f93e5d82a1f59aef20bfaec8f9297a63018b4ab8523e4eb8bfbda6dd8c"
+        },
+        {
+          "path": "css-cheat-sheet.md",
+          "sha256": "45c77f0d1954e12e76c3903361f52703cb4f4287d54c651710f60926247165fb"
+        },
+        {
+          "path": "details-and-accessibility.md",
+          "sha256": "b8a3beb706d974d5cba962edaf954b2417b1d2b2ffb05c948a8eb8640249522b"
+        },
+        {
+          "path": "spacing-and-sizing.md",
+          "sha256": "df78e8fcf74953e5762340d7f793dcc9823b614f0e2ef7e67234ffb9ad3a5aba"
+        },
+        {
+          "path": "variable-fonts-and-opentype.md",
+          "sha256": "5aa349721fa1f667ce4a9515199e866d83b9fd8eb1d815e6265f092201a44dfe"
+        },
+        {
+          "path": "wrapping-and-punctuation.md",
+          "sha256": "8717deaab5b71c9531f936b9f6ea53de2df776f52f188e5cabff1b78f724f745"
+        }
+      ]
+    },
+    {
+      "original": "better-colors",
+      "name": "haloskill-colors",
+      "stage": "4,6,7,8",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "ed532c387bb93c94df4f48a8f035d8627df9b6c3a26d09c16f305248b51d307a"
+        },
+        {
+          "path": "accessibility-contrast.md",
+          "sha256": "4dce9edf6afc4fddfe06d7d63382503423a1b65a86f4ec5fe00074215fa6005d"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "cda9853d8173026d956fb0ca2829f9f9035345f3c885df0e52537f318b1a39d5"
+        },
+        {
+          "path": "color-conversion.md",
+          "sha256": "cca032df7f66828df596d9dc4ad94cb8e0aa0887654aaec099e76a966a6c2687"
+        },
+        {
+          "path": "color-usage.md",
+          "sha256": "1eefac184ad33b64aa054ecbef6263357fd80788fab027115a952e65bf183294"
+        },
+        {
+          "path": "gamut-and-tailwind.md",
+          "sha256": "18e410dd1dfd985fa43c1ae1cba9a843641f13baf211c25ca95c2f3d247c158e"
+        },
+        {
+          "path": "palette-generation.md",
+          "sha256": "3ad02b3cc7c2abbd7d643de9d6275f15e49dac2afd0dc2093261189f9571cff1"
+        }
+      ]
+    },
+    {
+      "original": "better-ui",
+      "name": "haloskill-ui-polish",
+      "stage": "4,6,7,8",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "d0ad037f2f5bdf510ad78c501745cfb96804951925339da5a834684a0f2d1b19"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "799e0b58bded32edf5c217f97e08c364660ec24234978b2e3f7dee1868bea871"
+        },
+        {
+          "path": "animations.md",
+          "sha256": "08a3476fde72d7399539d6885e6ad8b018962fe16764303cf835173aebba93b7"
+        },
+        {
+          "path": "icons.md",
+          "sha256": "e401bdabd358825ca51b20d10635a7b42d655f13819a1d6fbfa0ddae1686245a"
+        },
+        {
+          "path": "performance.md",
+          "sha256": "8450bd42fa61ee425a07de94abba0815119e7ee481eba53ef4ff42e70ca81de5"
+        },
+        {
+          "path": "surfaces.md",
+          "sha256": "b0276679502ab5cf3de64a65c5bc196c92b362bde04ded74c4304e711fdaecfd"
+        }
+      ]
+    },
+    {
+      "original": "better-accessibility",
+      "name": "haloskill-accessibility",
+      "stage": "6,7,8",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "a240b853d5fcb82f70d560484100b59291fdb1eb47bfeab0cb53d586c4778c2b"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "98699206d4fb00b72bcaf69bb446f541644cc0cc3d23967e266731e100a55563"
+        },
+        {
+          "path": "focus-and-keyboard.md",
+          "sha256": "c3a06d4f3002760a459da608fd74832a1445476c7fd76c848499ebe2ad031019"
+        },
+        {
+          "path": "forms.md",
+          "sha256": "01a23db15fa32e4110198f2fd99a3ae85383f5feae57715f959184f6efe79a27"
+        },
+        {
+          "path": "hit-areas.md",
+          "sha256": "dbe5a28eec3fcce7f0d3278b22656637748dfe48f4e474abc8d79aacaf7215fa"
+        },
+        {
+          "path": "motion-and-zoom.md",
+          "sha256": "8bac5b6c45133abe77aaba93ddaa70a6ad811e27647f1dab54edc8bbb46bb7c9"
+        },
+        {
+          "path": "screen-readers.md",
+          "sha256": "4ee2ac09a35678406bd1af4220a72706f8a052d0d8d12067dd436e42633c6ee5"
+        },
+        {
+          "path": "semantics-and-aria.md",
+          "sha256": "3290a83e1795f148dc41727a0c5724b67397532873561ba39d7018f93bb1ace8"
+        }
+      ]
+    },
+    {
+      "original": "better-writing",
+      "name": "haloskill-ux-writing",
+      "stage": "4,6,7,8",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "23c459bfbb8c7e097eaf9b1ebd7c1b7677e52343f06437aaec5f4bb065661984"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "a5aec7e0cbc87930962f139eff4341dcf87e83fd19b9447e3f614db2bc71de67"
+        }
+      ]
+    },
+    {
+      "original": "halo-sales-presentation",
+      "name": "haloskill-sales-presentation",
+      "stage": "5",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "eb2d071b85d375e5488646779c032da8c419cbb26739d14ba389ca41e2c3a1ed"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "5cdbda79ce531ac2a933b8d296552c374904ec50ca59d16ba3d7739559c74534"
+        },
+        {
+          "path": "assets/halo-logo.svg",
+          "sha256": "326b9208c571a4774e02a846644792375f8be7966b1e22f381a5bf2bdfffb500"
+        },
+        {
+          "path": "references/connector-workflow.md",
+          "sha256": "736fed95403e0d39031ce2fdef8a8299eefeb5cd11c1b5e592819f4742040b45"
+        },
+        {
+          "path": "references/standard-branding.md",
+          "sha256": "b07a93f1a421c7e83eaff2d3d0e69ef408304adbcf7d5a0a709ab9aef644c0ca"
+        },
+        {
+          "path": "references/visual-system.md",
+          "sha256": "d6fcd83275147f7327d8c67c1a152a4fdce0159e48f5f9210a081acaf25dce43"
+        }
+      ]
+    },
+    {
+      "original": "halo-proposal-deck",
+      "name": "haloskill-proposal-deck",
+      "stage": "1,5",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "c865e05ff40dda23f33e383af482460beed85456bef7a8c62a285dfadb972644"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "2fc0fbadc8fb6eee6a1df04b2184432dd369eb2d7d625b056226a926a8bd5cc6"
+        },
+        {
+          "path": "assets/SOURCES.md",
+          "sha256": "4fc980fe97ed4de91676cfc47abfc2c9bd1c0a95d5b2afea4e34c737d54c166d"
+        },
+        {
+          "path": "assets/folder-tab-active.svg",
+          "sha256": "52a8658a13775dfc5938a7444e6fff2ffe158f98b6488ebeab8ccb504e590010"
+        },
+        {
+          "path": "assets/folder-tab-outline.svg",
+          "sha256": "c0cc9d40f20483be6da178ee4c9da2fdfcc2790f61ffe4b8e7ba4d7dda9cd7bd"
+        },
+        {
+          "path": "assets/halo-logo.svg",
+          "sha256": "fef0ef37ed78e8bd202cf523c91318a0aed3b4c86609d3f5ae819185f5160eba"
+        },
+        {
+          "path": "assets/icon-analytics.svg",
+          "sha256": "dcb12d68b13432ac15a3923e24e7604cc4ae0e9737716bc3402c2428875e5ef6"
+        },
+        {
+          "path": "assets/icon-check.svg",
+          "sha256": "5dd36c6511a54bff4d062eec984f6171327caf114d37a27cb9704f93392b7fa7"
+        },
+        {
+          "path": "assets/icon-email.svg",
+          "sha256": "d97cd3c171ca2c747046887ac84c7a313e22acc0e995c0dc869f025faba67c61"
+        },
+        {
+          "path": "assets/icon-image.svg",
+          "sha256": "10f97dca18f5443de9e34477b5a1789be952f11d2d019c1351d6efaed07fe331"
+        },
+        {
+          "path": "assets/icon-info.svg",
+          "sha256": "e9f035c1c6072c48a20c2bebfc5bce812c38471a6cbce43bea3c308a38670b02"
+        },
+        {
+          "path": "assets/icon-website.svg",
+          "sha256": "78296d33d313f6e66a0f9c834dcadbf8453f924c1b46f9fd6106e4458e28371d"
+        },
+        {
+          "path": "assets/reference-cover.webp",
+          "sha256": "4f43245ce57703f777a0e90f037334fa2f5a862586a51491faa1a213e6240fae"
+        },
+        {
+          "path": "assets/reference-step.webp",
+          "sha256": "b163b37845ed285a9c78548d8be64aeb58d374da098aefeef8a5f99e0847c233"
+        },
+        {
+          "path": "assets/reference-summary.jpg",
+          "sha256": "8632b6877aa2c6b0b3f5bc76a29c45648c7a0c9a89af4039f35c0c98f2e7866c"
+        },
+        {
+          "path": "references/brand-system.md",
+          "sha256": "126ace004589d542118540d21b29892c8ac1350f0ec8aa1623ab5d61caa416b2"
+        },
+        {
+          "path": "references/input-schema.md",
+          "sha256": "a9897980b552ba89cd33f22a02f9911d9581890ddbd244b3ad53c78622441938"
+        },
+        {
+          "path": "references/proposal-architecture.md",
+          "sha256": "7e75429c9022381fb49b9ac6c1f1e58497a606f323f210bd1deba8486b7c68db"
+        }
+      ]
+    },
+    {
+      "original": "figma-create-design-system-rules",
+      "name": "haloskill-design-system-rules",
+      "stage": "6",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "LICENSE.TXT",
+          "sha256": "36bdad8e8a43a282ba3a5af4ac022d8b117c5826b8b473fe6a32622e83856ae3"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "1f4d7e16ba5325a80da32e2e6bde0ea850ba9287f35f4675d51d55d2f0dc6e2a"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "f4afb7716319c2f4c529abb0c41cc007632d9b9d0effd43f5b33626cf57b1f22"
+        },
+        {
+          "path": "assets/figma-small.svg",
+          "sha256": "6a38267efbd872bbc215d0227a395eb0b0093bc6441c44a39a43f3210549e5e9"
+        },
+        {
+          "path": "assets/figma.png",
+          "sha256": "4d16e1b19ae7bdac7d601d0b3bf3c0ea4a018a8cb0e38d19e5b00971968ecada"
+        },
+        {
+          "path": "assets/icon.svg",
+          "sha256": "8936c5dcd619c41f5a27f7c08e8c50b22e428069c36217e4aa872099d6cc2cf7"
+        },
+        {
+          "path": "references/rule-template.md",
+          "sha256": "78947775e307e6f8021fce4fabd6fe0112bcbed755fdcb607cf00b9199cd3f33"
+        },
+        {
+          "path": "scripts/check_agents_md.sh",
+          "sha256": "daf9f09fc8f7f473259856c11e2df829912fc4194c9812a4e7ca4d51d49f1762"
+        }
+      ]
+    },
+    {
+      "original": "figma-implement-design",
+      "name": "haloskill-figma-to-code",
+      "stage": "6,7",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "36bdad8e8a43a282ba3a5af4ac022d8b117c5826b8b473fe6a32622e83856ae3"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "63f3d12d444547bbf68c10a12982b1f42e0f6e26fc074324564a13184d4b15ad"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "7765be0bb06c64610b4eae3bd2898d77aa2b03b799eb86c2f126103120080fea"
+        },
+        {
+          "path": "assets/figma-small.svg",
+          "sha256": "6a38267efbd872bbc215d0227a395eb0b0093bc6441c44a39a43f3210549e5e9"
+        },
+        {
+          "path": "assets/figma.png",
+          "sha256": "4d16e1b19ae7bdac7d601d0b3bf3c0ea4a018a8cb0e38d19e5b00971968ecada"
+        },
+        {
+          "path": "assets/icon.svg",
+          "sha256": "8936c5dcd619c41f5a27f7c08e8c50b22e428069c36217e4aa872099d6cc2cf7"
+        }
+      ]
+    },
+    {
+      "original": "figma-code-connect-components",
+      "name": "haloskill-figma-component-mapping",
+      "stage": "6",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "LICENSE.TXT",
+          "sha256": "36bdad8e8a43a282ba3a5af4ac022d8b117c5826b8b473fe6a32622e83856ae3"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "0f19edad8aed28063a3517c419fbcbef5421d024f189fd02a17fae25093ec69d"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "e28b69cac3696d4c65816f79446e38e66551b31a3555be74b30098966de896c7"
+        },
+        {
+          "path": "assets/figma-small.svg",
+          "sha256": "6a38267efbd872bbc215d0227a395eb0b0093bc6441c44a39a43f3210549e5e9"
+        },
+        {
+          "path": "assets/figma.png",
+          "sha256": "4d16e1b19ae7bdac7d601d0b3bf3c0ea4a018a8cb0e38d19e5b00971968ecada"
+        },
+        {
+          "path": "assets/icon.svg",
+          "sha256": "8936c5dcd619c41f5a27f7c08e8c50b22e428069c36217e4aa872099d6cc2cf7"
+        },
+        {
+          "path": "references/mapping-checklist.md",
+          "sha256": "81f85e1eb6c59a35cfb22f156c7a9f9d3d05098a8b51b52314dd6f4f8fbdb919"
+        },
+        {
+          "path": "scripts/normalize_node_id.py",
+          "sha256": "0dfb4f8275e5c6eae315f89e4a5e1a52cbd608995d1d388b81fa352732c780a3"
+        }
+      ]
+    },
+    {
+      "original": "design-qa-checklist",
+      "name": "haloskill-design-qa",
+      "stage": "8",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "85fc1fab7e88abe4328a4de5a3d2ab07ccf1039385c3cce0976f5ca7107d08b4"
+        }
+      ]
+    },
+    {
+      "original": "design-debt-audit",
+      "name": "haloskill-design-debt",
+      "stage": "6,7,8",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "b60f34ff9b88299fa7dee5a7c8df91bee08c31e414a75148cdfabcd0ad90ce6e"
+        }
+      ]
+    },
+    {
+      "original": "handoff-spec",
+      "name": "haloskill-handoff",
+      "stage": "6,8",
+      "mode": "adapted-with-local-source",
+      "source": "installed-local-skill",
+      "source_version": "snapshot-2026-10-07",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "d42d68a1c0ef083d2da659d0e95df6265b276382c81eb6e712ae911c0623fc42"
+        }
+      ]
+    },
+    {
+      "original": "figma:figma-generate-library",
+      "name": "haloskill-figma-library",
+      "stage": "6",
+      "mode": "adapted-with-local-source",
+      "source": "https://github.com/figma/mcp-server-guide",
+      "source_version": "2.2.120",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "b918e753724b3acf6a49ace5491510b63b04fe2830232888af9ad9c8cde889a4"
+        },
+        {
+          "path": "references/code-connect-setup.md",
+          "sha256": "6662c3f0d68e9b81bc2e8d766a40fc526a055b4c2acfaab36947a56c38f660fe"
+        },
+        {
+          "path": "references/component-creation.md",
+          "sha256": "360b07484c2415d41d441e8c5f99938004a2bbe1c0821ba86300566d9bdbb2ea"
+        },
+        {
+          "path": "references/discovery-phase.md",
+          "sha256": "2a83dcc62e7e8dc64a4c178b0b3b8849d655ab3431a63c2eb19dcf07821d557d"
+        },
+        {
+          "path": "references/documentation-creation.md",
+          "sha256": "16559b87b5922d249611087e3063f0e64c7b593e34d353f63979630f0bb5c932"
+        },
+        {
+          "path": "references/error-recovery.md",
+          "sha256": "2f034485158846db63fad0a63fe95c6fcd96b0492b13dce28241fa6c3c9ac107"
+        },
+        {
+          "path": "references/naming-conventions.md",
+          "sha256": "16810f87eab00ea93644035dca95e2d927b266b9fcbf5460c1712dab30638442"
+        },
+        {
+          "path": "references/token-creation.md",
+          "sha256": "123f2a95d6dffc6356eba036f188cf9034932e67a0ce7000abbf1d6ddb1bbb84"
+        },
+        {
+          "path": "scripts/bindVariablesToComponent.js",
+          "sha256": "f6492ad075b38bab0ae9a7a0dfb60c58e23a4258f67261f1b166098df58f115c"
+        },
+        {
+          "path": "scripts/cleanupOrphans.js",
+          "sha256": "525583dc4a560cfd7f725685140210e649dd1c73c7fd076a5ce03fe9e17fddaa"
+        },
+        {
+          "path": "scripts/createComponentWithVariants.js",
+          "sha256": "3a97251335e4bb5dd833acdd86c1a158d1e4ad2b6780587f1bc453d88aa53d31"
+        },
+        {
+          "path": "scripts/createDocumentationPage.js",
+          "sha256": "28cb9b86c2c26ed91b3fdb688d18e07928c7abc073e1b72dd6c0f0995225381d"
+        },
+        {
+          "path": "scripts/createSemanticTokens.js",
+          "sha256": "e390eb77e996cddcf62fb889eb146cb37f83407c4c83659297d4d1a34c26020f"
+        },
+        {
+          "path": "scripts/createVariableCollection.js",
+          "sha256": "7fed413cd2d09acdb80e9a92e20a9afd581aeba4d4754d605862926df8b146d0"
+        },
+        {
+          "path": "scripts/inspectFileStructure.js",
+          "sha256": "d4c73a074cfef2bfe6dc31998b3e9fb4861bfd4e0ae61bcda6165ab05c9f3118"
+        },
+        {
+          "path": "scripts/validateCreation.js",
+          "sha256": "dae970b4d80c4d0994f14c89ad01c04115604444b916a0b8fc342ed262fdfa97"
+        }
+      ]
+    },
+    {
+      "original": "figma:figma-code-connect",
+      "name": "haloskill-code-connect",
+      "stage": "6",
+      "mode": "adapted-with-local-source",
+      "source": "https://github.com/figma/mcp-server-guide",
+      "source_version": "2.2.120",
+      "license_status": "not-established-in-local-skill",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "87af3996edb167d6aa3c044cb1bbb6a0d8e2d631c731bb896b1e1e8669640415"
+        },
+        {
+          "path": "references/advanced-patterns.md",
+          "sha256": "ac2cb232aca4e43b75169f47f5550d6e7e48a8df0eb55aa1adbfb1a2ab0aa1b4"
+        },
+        {
+          "path": "references/api.md",
+          "sha256": "40c1dcae2db387fb93ffbf4eba8ae81362e204bdfa5be7018f743b8ac24d4252"
+        }
+      ]
+    },
+    {
+      "original": "imagegen",
+      "name": "haloskill-imagegen",
+      "stage": "4,5,7",
+      "mode": "adapter",
+      "dependency": "imagegen",
+      "license_status": "upstream-not-redistributed"
+    },
+    {
+      "original": "presentations:Presentations",
+      "name": "haloskill-presentations",
+      "stage": "5",
+      "mode": "adapter",
+      "dependency": "presentations",
+      "license_status": "upstream-not-redistributed"
+    },
+    {
+      "original": "sites:sites-building",
+      "name": "haloskill-site-build",
+      "stage": "4,7",
+      "mode": "adapter",
+      "dependency": "sites",
+      "license_status": "upstream-not-redistributed"
+    },
+    {
+      "original": "sites:sites-hosting",
+      "name": "haloskill-site-publish",
+      "stage": "8",
+      "mode": "adapter",
+      "dependency": "sites",
+      "license_status": "upstream-not-redistributed"
+    },
+    {
+      "original": "workshop-client-research",
+      "name": "haloskill-workshop-client-research",
+      "stage": "2,3",
+      "mode": "rename-only",
+      "source": "user-supplied-workshop-folder",
+      "license_status": "user-supplied-private",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "e7a1e4d27086dd92896d6b3ef40386c05524f5f4a3f5a1db9d24293a23c93a53"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "f4493889e1fa5e0f65fce017e846b9244903f99a3d9e55cb3887efb0e13c87a8"
+        },
+        {
+          "path": "references/handoff-pattern.md",
+          "sha256": "bd09e76310864c6756e7328a32634af006d7bd52e74a97a7fded88b14b0937ac"
+        }
+      ],
+      "changed_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ]
+    },
+    {
+      "original": "workshop-script-writer",
+      "name": "haloskill-workshop-script-writer",
+      "stage": "2,3",
+      "mode": "rename-only",
+      "source": "user-supplied-workshop-folder",
+      "license_status": "user-supplied-private",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "774ebc5a86629f3e8d4dd6d7e944aee43a22fef987ea717b0c3bb9ddb0b1ada1"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "67e13265ef9cc039faf7cdd3c3b6e0dcc1959281508605e5daa3862f22659d2a"
+        },
+        {
+          "path": "references/facilitator-voice.md",
+          "sha256": "890ac38781d4fc21833b6b44ed51af0efe546b4c8dafd667b5d8a64cf5b17dc1"
+        },
+        {
+          "path": "references/workshop-patterns.md",
+          "sha256": "35bc965b42cf60c9b8f5654258dc0c64309bab9b5e700611e7622fa278ecb6d0"
+        }
+      ],
+      "changed_files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ]
+    },
+    {
+      "original": null,
+      "name": "haloskill-start",
+      "stage": "all",
+      "mode": "new-router",
+      "license_status": "project-authored"
+    }
+  ]
+}

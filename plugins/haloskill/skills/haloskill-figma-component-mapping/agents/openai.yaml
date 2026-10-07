@@ -1,4 +1,0 @@
-interface:
-  display_name: "HaloSkill — Figma Component Mapping"
-  short_description: "HaloSkill: Figma Component Mapping для работы студии"
-  default_prompt: "Используй $haloskill-figma-component-mapping для этой задачи, учитывая материалы и решения проекта."

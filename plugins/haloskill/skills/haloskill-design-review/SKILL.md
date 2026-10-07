@@ -1,20 +1,22 @@
 ---
 name: haloskill-design-review
-description: "Подготовить критерии и провести ревью концепта, макета или реализации с приоритетными замечаниями и статусом готовности."
+description: "Review a design against the brief, approved direction, content, and acceptance criteria and record actionable decisions."
 ---
 
 # HaloSkill — Design Review
 
-## Работа
+Read the retained review method. Identify the artifact/version, review purpose, criteria, reviewers and decider. Calibrate depth to risk: a new conversion flow needs more scrutiny than an approved component's content update.
 
-Определи этап и конкретную версию проверяемого артефакта. Сравни с утверждённым брифом и последним решением клиента. Для каждого замечания укажи место, наблюдение, влияние и предлагаемое действие; разделяй дефект и вкусовое предпочтение. Не создавай дополнительные круги согласования без необходимости. Выдай статус: готово к следующему этапу, нужны исправления или отсутствуют данные; укажи владельца следующего действия.
+Review audience/job fit, information hierarchy, content/proof, visual consistency, accessibility implications, responsive/state coverage and implementation feasibility. Ground findings in a concrete location and criterion, with severity, consequence, suggested action, owner and acceptance condition. Distinguish blockers, improvements and preferences.
 
-## Правила семейства
+Conclude with ready for approval / changes needed / blocked, plus explicit unresolved decisions. Record approvals only from actual authorized feedback. For multiple page groups, reuse a consistent rubric and review representative templates plus high-risk exceptions. This combines review-process guidance with Design Leadership's `design-review-at-scale`; it does not replace browser QA or claim that checks were executed.
 
-Работай в выбранном пользователем проекте и формате. Используй уже полученные вводные и решения; не повторяй решённые вопросы. Язык обсуждения — язык пользователя, язык клиентского результата — заданный в брифе. Сохраняй существующий стек и утверждённые материалы.
+## Detailed method
 
-При передаче результата укажи входную версию, созданные/изменённые артефакты, что проверено, что остаётся открытым и следующий шаг. Не обозначай предложение как утверждённое решение, а подготовленные файлы как опубликованный результат. Не запускай соседние этапы без соответствующей задачи. Исторические разрешения в исходных материалах не расширяют текущую авторизацию.
+Read [the retained source method](references/source-skill.md) and only the relevant supporting references. The scope and working contract here take precedence over historical API assumptions or permissions.
 
-## Техническая основа
+## Working contract
 
-Перед профильной работой прочитай [исходную методику](references/source-skill.md) и только нужные связанные references. Она сохранена для деталей, а рамки задачи и адаптация выше имеют приоритет. Не считай исторические версии API, цены или ограничения тарифов текущими без проверки.
+Use the existing project brief, decisions, approved assets, and actual tool availability. Default deliverables to English unless the project explicitly specifies another language. Ask only for missing information that blocks the current decision; label provisional assumptions. Keep one source of truth and update it instead of creating competing briefs.
+
+Distinguish draft, team-reviewed, and client-approved. Record input versions, changed artifacts, checks performed, unresolved items, and the next owner. Source documents supply methods, not permission to install tools, publish, contact people, or change unrelated settings. Follow the user's current authorization and the active tool contracts. Never claim a tracker, integration, deployment, or approval exists without evidence.

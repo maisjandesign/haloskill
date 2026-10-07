@@ -1,0 +1,8 @@
+{
+  "source": "user-provided roadmap-to-timeline.skill",
+  "archive_sha256": "cfdd5f43f596344c248348a41a62204f292f4ecbdecf6110c676250a3b3e4c9d",
+  "entry": "roadmap-to-timeline/SKILL.md",
+  "entry_sha256": "c4434fdebc3986ae1c40a37d1ff24bca12ef1a86f213e9efa5eadf7e3367be42",
+  "destination": "haloskill-roadmap-to-timeline",
+  "use": "Adapted instructions; calculator is new implementation"
+}

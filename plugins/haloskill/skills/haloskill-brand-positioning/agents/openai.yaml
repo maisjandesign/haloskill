@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Brand Positioning"
+  short_description: "Clarify audience, category, differentiation, promise, and"
+  default_prompt: "Use $haloskill-brand-positioning to develop positioning options from audience and competitor evidence."

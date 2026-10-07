@@ -1,4 +1,4 @@
 interface:
   display_name: "HaloSkill — Start"
-  short_description: "HaloSkill: Start для работы студии"
-  default_prompt: "Используй $haloskill-start для этой задачи, учитывая материалы и решения проекта."
+  short_description: "Choose the next HaloSkill workflow from the brief, current"
+  default_prompt: "Use $haloskill-start to read this brief, identify the current stage, and route the next useful action."

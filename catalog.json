@@ -1,0 +1,203 @@
+{
+  "version": "0.2.0",
+  "skills": [
+    {
+      "name": "haloskill-start",
+      "title": "Start",
+      "profile": "core",
+      "stage": "1–8",
+      "description": "Choose the next HaloSkill workflow from the brief, current artifacts, and project stage.",
+      "output": "Project state and next action",
+      "command": "$haloskill-start read this brief, identify the current stage, and route the next useful action."
+    },
+    {
+      "name": "haloskill-project-setup",
+      "title": "Project Setup",
+      "profile": "core",
+      "stage": "1–8",
+      "description": "Turn a website brief into scope, owners, delivery tasks, decisions, risks, and ongoing project updates.",
+      "output": "Project brief, board, requirements and decision log",
+      "command": "$haloskill-project-setup turn this brief into a scoped delivery plan and maintain the project artifacts."
+    },
+    {
+      "name": "haloskill-roadmap-to-timeline",
+      "title": "Roadmap to Timeline",
+      "profile": "core",
+      "stage": "1, 3, 5–8",
+      "description": "Convert an approved estimate into a working-day timeline with explicit assumptions and review windows.",
+      "output": "Schedule JSON, timeline table, optional Notion views",
+      "command": "$haloskill-roadmap-to-timeline convert this estimate into a dated timeline with explicit capacity and review assumptions."
+    },
+    {
+      "name": "haloskill-workshop-client-research",
+      "title": "Workshop Client Research",
+      "profile": "core",
+      "stage": "2",
+      "description": "Prepare client and competitor research for the content strategy workshop.",
+      "output": "Workshop research packet",
+      "command": "$haloskill-workshop-client-research research this client and prepare evidence for the workshop."
+    },
+    {
+      "name": "haloskill-workshop-script-writer",
+      "title": "Workshop Script Writer",
+      "profile": "core",
+      "stage": "2–3",
+      "description": "Prepare the facilitator script, questions, exercises, and timing for a people-led workshop.",
+      "output": "Facilitator script",
+      "command": "$haloskill-workshop-script-writer prepare a workshop script from the brief and client research."
+    },
+    {
+      "name": "haloskill-research",
+      "title": "Research",
+      "profile": "core",
+      "stage": "2–3",
+      "description": "Synthesize evidence or investigate audience, competitors, and industry questions beyond workshop preparation.",
+      "output": "Evidence ledger, findings, implications and open questions",
+      "command": "$haloskill-research synthesize these sources into findings and design implications."
+    },
+    {
+      "name": "haloskill-site-architecture",
+      "title": "Site Architecture",
+      "profile": "core",
+      "stage": "3–4",
+      "description": "Define a website sitemap, navigation, URLs, content responsibilities, and key user flows before visual design.",
+      "output": "Sitemap, page inventory, navigation and flows",
+      "command": "$haloskill-site-architecture create the sitemap and primary user flows from the approved brief."
+    },
+    {
+      "name": "haloskill-concepts",
+      "title": "Concepts",
+      "profile": "core",
+      "stage": "4",
+      "description": "Create distinct visual directions and editable HTML concepts for a marketing website from an approved brief.",
+      "output": "Comparable visual directions and HTML concepts",
+      "command": "$haloskill-concepts create distinct website directions from the approved brief and sitemap."
+    },
+    {
+      "name": "haloskill-copywriting",
+      "title": "Copywriting",
+      "profile": "core",
+      "stage": "3–7",
+      "description": "Write and edit website copy using approved positioning, brand voice, audience evidence, and verified proof.",
+      "output": "Page copy, CTA variants, metadata and content gaps",
+      "command": "$haloskill-copywriting write website copy from the approved sitemap, research, and brand voice."
+    },
+    {
+      "name": "haloskill-presentations",
+      "title": "Presentations",
+      "profile": "core",
+      "stage": "1, 5–8",
+      "description": "Prepare Halo proposals, concept presentations, and project review decks with evidence and clear client decisions.",
+      "output": "Editable deck, speaker notes and feedback log",
+      "command": "$haloskill-presentations prepare a concept presentation with rationale, tradeoffs, and a clear client decision."
+    },
+    {
+      "name": "haloskill-web-build",
+      "title": "Web Build",
+      "profile": "core",
+      "stage": "6–8",
+      "description": "Implement approved website designs using the studio Next.js starter and its built-in component, motion, and QA workflows.",
+      "output": "Website implementation, Storybook and verification evidence",
+      "command": "$haloskill-web-build implement the approved design with the studio Next.js starter."
+    },
+    {
+      "name": "haloskill-design-review",
+      "title": "Design Review",
+      "profile": "core",
+      "stage": "4–8",
+      "description": "Review a design against the brief, approved direction, content, and acceptance criteria and record actionable decisions.",
+      "output": "Review findings and approval decisions",
+      "command": "$haloskill-design-review review this design against the brief and agreed acceptance criteria."
+    },
+    {
+      "name": "haloskill-handoff",
+      "title": "Handoff",
+      "profile": "core",
+      "stage": "8",
+      "description": "Prepare acceptance, launch readiness, and client handoff for a design-only or implemented website.",
+      "output": "Delivery package, acceptance matrix and ownership plan",
+      "command": "$haloskill-handoff prepare the final delivery package and acceptance checklist."
+    },
+    {
+      "name": "haloskill-interface-design",
+      "title": "Interface Design",
+      "profile": "optional",
+      "stage": "4–7",
+      "description": "Design product interfaces such as dashboards, admin tools, and account areas when the website includes application UI.",
+      "output": "Interface designs and interaction rules",
+      "command": "$haloskill-interface-design design the product interface using the approved context and workflows."
+    },
+    {
+      "name": "haloskill-figma-library",
+      "title": "Figma Library",
+      "profile": "optional",
+      "stage": "6–7",
+      "description": "Create or maintain editable Figma variables and components when a Figma design system is a deliverable.",
+      "output": "Figma variables, components and documentation",
+      "command": "$haloskill-figma-library build the Figma library from the approved tokens and components."
+    },
+    {
+      "name": "haloskill-code-connect",
+      "title": "Code Connect",
+      "profile": "optional",
+      "stage": "6–7",
+      "description": "Map existing Figma components to implementation components using the supported Code Connect integration.",
+      "output": "Validated mappings or template files",
+      "command": "$haloskill-code-connect connect these Figma components to their implementation."
+    },
+    {
+      "name": "haloskill-design-debt",
+      "title": "Design Debt",
+      "profile": "optional",
+      "stage": "6–8",
+      "description": "Inventory and prioritize accumulated design inconsistency in an existing website or product.",
+      "output": "Debt register with impact, effort and owners",
+      "command": "$haloskill-design-debt audit accumulated design inconsistencies and prioritize fixes."
+    },
+    {
+      "name": "haloskill-imagegen",
+      "title": "Image Generation",
+      "profile": "optional",
+      "stage": "4–7",
+      "description": "Generate or edit raster assets for a website through an available image generation provider.",
+      "output": "Generated assets and usage notes",
+      "command": "$haloskill-imagegen create the requested website image using the approved art direction."
+    },
+    {
+      "name": "haloskill-brand-positioning",
+      "title": "Brand Positioning",
+      "profile": "optional",
+      "stage": "2–3",
+      "description": "Clarify audience, category, differentiation, promise, and evidence when brand positioning is explicitly in scope.",
+      "output": "Positioning options and approved messaging foundation",
+      "command": "$haloskill-brand-positioning develop positioning options from audience and competitor evidence."
+    },
+    {
+      "name": "haloskill-seo-audit",
+      "title": "SEO Audit",
+      "profile": "optional",
+      "stage": "2, 8",
+      "description": "Audit an existing or pre-launch website for technical and on-page SEO issues with evidence and prioritized fixes.",
+      "output": "SEO findings and verification plan",
+      "command": "$haloskill-seo-audit audit this website for technical and on-page SEO issues."
+    },
+    {
+      "name": "haloskill-analytics",
+      "title": "Analytics",
+      "profile": "optional",
+      "stage": "3, 7–8",
+      "description": "Plan and verify website analytics events against business questions and actual implementation evidence.",
+      "output": "Measurement plan and event verification",
+      "command": "$haloskill-analytics define and verify analytics events for the primary website journeys."
+    },
+    {
+      "name": "haloskill-design-canvas",
+      "title": "Design Canvas",
+      "profile": "optional",
+      "stage": "4, 6–7",
+      "description": "Use Design Canvas to review captured implemented pages, flows, and visual alternatives when its runtime is integrated.",
+      "output": "Captured page canvas, flows and review feedback",
+      "command": "$haloskill-design-canvas prepare a Design Canvas review of these implemented pages and flows."
+    }
+  ]
+}

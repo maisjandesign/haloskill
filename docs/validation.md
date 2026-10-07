@@ -1,29 +1,20 @@
-# Проверка пакета и пилот
+# Validation
 
-## Автоматические проверки
+From the repository root, using Python 3.9+:
 
-```sh
+```bash
 python3 scripts/validate.py
 python3 scripts/test_install.py
+python3 scripts/test_timeline.py
+python3 plugins/haloskill/skills/haloskill-roadmap-to-timeline/scripts/schedule.py --input plugins/haloskill/skills/haloskill-roadmap-to-timeline/assets/example.json
 ```
 
-Валидатор проверяет имена, UI-команды, локальные Markdown-ссылки, состав manifest, путь plugin и неизменность содержания Workshop. Для Workshop он отменяет только разрешённые изменения имён и сравнивает SHA-256 с исходниками; reference-файлы сравниваются без преобразований.
+Package validation checks the catalog/manifest/folders, 13+9 profiles, names, descriptions, UI prompts, English-language Cyrillic guard, local Markdown links, author-machine path leakage, plugin path, and original Workshop content hashes after reversing naming changes. The language guard catches Cyrillic text; human review establishes English wording.
 
-Тест установщика проверяет dry-run без записи, полную установку, повторный запуск без изменений и отказ при конфликтующих файлах без потери пользовательских данных.
+Installer tests use temporary directories: core/optional/selected installs, non-writing dry run, idempotent repeat, unknown skill rejection, differing-file protection and symlink protection. Timeline tests cover weekends, holidays, review windows, zero-duration milestones, capacity/rounding, estimate-total reconciliation and invalid inputs. No test connects external services or changes the user's global skill installation.
 
-## Пилот поведения
+## Manual and integration checks
 
-Структурные проверки не доказывают качество работы на клиентском проекте. Перед установкой всей команде пройдите эти задания на обезличенных материалах:
+Review each entry point's triggers and scope, source traceability, old-name migration, actual retained template assets, and realistic handoffs. For a client project separately test the chosen provider, Next.js setup/build/browser behavior, Storybook, CMS/forms, Notion operations, Figma actions, Canvas captures and deployment. Structural validation cannot establish skill output quality or integration readiness.
 
-| Сценарий | Наблюдаемый результат |
-|---|---|
-| Неполный бриф без трекера | План и задачи с неизвестными; нет вымышленных карточек или сроков |
-| Исследование с противоречащими источниками | Противоречие и источники видны; гипотеза не названа фактом |
-| Подготовка content workshop | Выбраны два пользовательских Workshop skill; соблюдены исходные references |
-| HTML-концепт с готовым брендом | Бренд сохранён; есть проверяемый исходник и понятные различия направлений |
-| Figma недоступен | Не заявлены созданные узлы; готовые материалы сохранены |
-| Повторная запись в Figma / трекер | Сначала проверены существующие объекты; нет слепого дублирования |
-| QA без браузерного доступа | Отчёт различает выполненные и невыполненные проверки |
-| Запрос локального сайта без публикации | Сохранён локальный результат; публикации нет |
-
-Записывайте ожидаемый результат, фактический результат, ручные исправления и время. Меняйте skill по конкретному сбою; не превращайте единичный кейс в универсальное правило. Полный пилот клиентского workflow в этом релизе не выполнялся.
+The Skill Creator `quick_validate.py` can additionally validate every SKILL.md when that tool and PyYAML are available. It is not bundled as a new dependency here. See the release's [verification report](verification-report.md) for checks actually performed.

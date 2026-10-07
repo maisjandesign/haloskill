@@ -1,40 +1,33 @@
-# Установка
+# Installation
 
-## В конкретный проект — основной вариант
+Requires Python 3.9+, a private GitHub repository checkout, and an existing target project. Installation copies skill instructions/resources; it does not install Node dependencies, providers, browser tools, Notion or Figma connections.
 
-Требуется Python 3.9 или новее. Склонируйте приватный репозиторий в отдельную папку и выполните из неё:
-
-```sh
-python3 scripts/validate.py
-python3 scripts/install.py --project /absolute/path/to/project --dry-run
-python3 scripts/install.py --project /absolute/path/to/project
+```bash
+git clone https://github.com/maisjandesign/haloskill.git
+cd haloskill
+python3 scripts/install.py --project /path/to/project --dry-run
+python3 scripts/install.py --project /path/to/project
 ```
 
-Целевая папка — `.agents/skills` внутри выбранного проекта. Начните новый чат Codex в этом проекте, чтобы загрузить набор. Вызов: `$haloskill-start` или конкретное имя из каталога.
+## Profiles and selection
 
-## Для личного использования во всех проектах
+| Option | Result |
+|---|---|
+| Default / `--profile core` | 13 core skills |
+| `--profile optional` | 9 optional specialists only |
+| `--profile all` | All 22 skills |
+| `--skill haloskill-design-canvas` | Only that skill; repeat the option to select several |
+| `--user` instead of `--project …` | Install into `~/.agents/skills` |
+| `--dry-run` | Check conflicts and show the plan without writing |
 
-```sh
-python3 scripts/install.py --user --dry-run
-python3 scripts/install.py --user
-```
+Explicit `--skill` names override the profile. Unknown names fail before writing. Start a new Codex chat after installing. Optional skills do not automatically install their external runtimes or the core profile.
 
-Целевая папка — `~/.agents/skills`. Исходные навыки с другими именами не удаляются и не переименовываются. Не устанавливайте одновременно одинаковые HaloSkill через несколько способов: выберите project, user либо plugin.
+## Existing installations
 
-## Как единый плагин
+Identical skills are left unchanged. A differing file, directory or symlink at any selected destination blocks that installation before copying. Local edits are never silently overwritten. To upgrade v0.1, back up existing HaloSkill directories, review [the migration table](migration.md), and move only the old directories you intend to replace outside all skill discovery roots. Then install v0.2 and deliberately reapply any local customizations. Do not keep old and new active entry points with overlapping triggers.
 
-В репозитории есть `plugins/haloskill/plugin.json` и `.agents/plugins/marketplace.json`. В поддерживаемом локальном клиенте можно добавить этот репозиторий как local/repo marketplace и установить плагин HaloSkill из него. Конкретный интерфейс установки зависит от версии клиента; используйте [официальную инструкцию по упаковке и marketplace](https://developers.openai.com/plugins/build/plugins).
+The installer does not delete retired skills. Git history retains the previous package; the migration is intentional rather than an automatic destructive cleanup. User-wide and project-local copies can overlap, so choose one scope for this family.
 
-Marketplace-конфигурация подготовлена и структурно проверяется скриптом. Установка через интерфейс клиента не является проверенной частью этого релиза; копирование skills в проект протестировано автоматически.
+## Plugin packaging
 
-## Обновление
-
-Получите новую версию репозитория и запустите валидатор. Установщик пропускает полностью идентичные папки и отказывается перезаписывать отличающиеся. До обновления сохраните старые папки `haloskill-*` вне `.agents/skills`, проверьте diff и только затем установите новую версию. Это сохраняет локальные правки. Репозиторий-источник должен быть отдельным от целевой папки навыков.
-
-## Удаление
-
-Удалите только папки `haloskill-*`, установленные этим комплектом, предварительно сохранив локальные правки. Для plugin-установки используйте удаление плагина в клиенте. Удаление навыков не должно удалять проекты или клиентские результаты.
-
-## Подключения
-
-Figma, Sites, imagegen, Presentations и трекер доступны только через настроенные инструменты среды. Пакет не устанавливает коннекторы молча и не содержит токены. Перечень — [dependencies.md](dependencies.md).
+The repository retains its plugin manifest and local marketplace descriptor. The single HaloSkill plugin contains all 22 entry points; core/optional selection belongs to the Python installer. Use the actual plugin interface supported by your Codex version, or use the project-local installation above. Do not assume Claude-specific slash/plugin commands work in Codex. This release validates package metadata; marketplace installation was not exercised in a fresh Codex profile.

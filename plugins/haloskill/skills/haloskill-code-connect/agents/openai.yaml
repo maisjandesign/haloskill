@@ -1,4 +1,4 @@
 interface:
   display_name: "HaloSkill — Code Connect"
-  short_description: "HaloSkill: Code Connect для работы студии"
-  default_prompt: "Используй $haloskill-code-connect для этой задачи, учитывая материалы и решения проекта."
+  short_description: "Map existing Figma components to implementation components"
+  default_prompt: "Use $haloskill-code-connect to connect these Figma components to their implementation."

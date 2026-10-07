@@ -1,12 +1,18 @@
-# Проверка версии 0.1.0
+# Verification report — v0.2.0
 
-Дата: 7 октября 2026 года.
+Verified locally on 2026-10-07 with Python 3.9.
 
-- 29 SKILL.md прошли официальный quick_validate из установленного skill-creator.
-- Имена папок, frontmatter, UI-метаданные и команды вызова согласованы.
-- Локальные Markdown-ссылки и пути plugin/marketplace разрешаются.
-- Workshop: после обратного переименования SHA-256 основных файлов совпадает с исходниками. References совпадают побайтово.
-- Установщик проверен в изолированной временной папке: dry-run, полная установка, повторный запуск, конфликт изменённого skill и конфликт с обычным файлом.
-- В комплект не включены токены, файлы авторизации или окружения; исходные пользовательские каталоги не изменялись.
+| Check | Result | Scope |
+|---|---|---|
+| Package validator | PASS | 22 skill folders, 13 core / 9 optional, names, metadata, catalog, links, language guard and plugin paths |
+| Workshop preservation | PASS | Original file hashes after reversing naming-only changes; both current trees unchanged from v0.1 |
+| Official Skill Creator validator | PASS | All 22 SKILL.md files |
+| Installer tests | PASS | Profiles, explicit selection, dry-run, repeat, invalid names, differing-file and symlink protection |
+| Timeline tests | PASS | 6 tests, including invalid-input subcases and CLI source-preservation checks |
+| Source map hashes | PASS | 47 mappings match audited source files |
+| Retained presentation resources | PASS | All 22 proposal/sales assets and references preserved byte for byte |
+| Git whitespace check | PASS | No whitespace errors in the release diff |
 
-Полный клиентский workflow, подключение провайдеров и установка плагина через UI не проверялись. Эти действия требуют проекта и подключений; см. [validation.md](validation.md).
+The timeline example is synthetic. The schedule uses maximum estimates, working-day rounding and one serial lane; it does not optimize staffing or infer holidays. The official format validator checks structure, not output quality.
+
+External integrations were not exercised by this packaging release: fresh Codex plugin discovery, Next.js project setup/build/browser checks, Storybook, Figma actions, Notion writes, Design Canvas runtime/captures, CMS, analytics providers and deployment require a real target project. No client project or external service was created by this release.

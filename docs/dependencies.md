@@ -1,16 +1,27 @@
-# Зависимости
+# Dependencies and integration boundaries
 
-| Capability | Кому нужен | Если недоступен |
-|---|---|---|
-| Web search / browser | Research, ссылки и проверка HTML | Отметить непроверенные источники; не выдумывать результаты |
-| Репозиторий и browser preview | Concepts, Interface, QA | Выдать исходник, не заявлять визуальную проверку |
-| Figma plugin / MCP с нужными операциями | Library, Figma to Code, Slides, Code Connect | Проверить инструменты и сообщить конкретную недоступную операцию |
-| imagegen | Image Generation | Подготовить prompt, не выдавать его за изображение |
-| Presentations и runtime | Presentations, Proposal Deck | Сохранить материал и доступные исходники; явно обозначить отсутствующий экспорт |
-| Sites | Site Build, Site Publish | Не менять выбранную платформу молча |
-| Трекер проекта | Project Setup при создании карточек | Подготовить список задач; реальных карточек нет |
-| Storybook, CMS, CI, hosting выбранного проекта | Этапы 6–8 | Требуется конфигурация проекта; она не включена в этот пакет |
+| Workflow | Dependency | Included here | Still required in a project |
+|---|---|---|---|
+| Core planning/research/copy | Brief, evidence, optional web access | Methods and templates | Actual sources and relevant tool access |
+| Timeline | Python 3.9+ | Local calculator and example | Real estimate, calendar and PM review |
+| Notion timeline | Current Notion connection | Publishing schema/method | Connection and supported database/view operations |
+| Web Build | Studio Next.js starter | Adapter and verified source reference | Clone/setup, assets, node packages, project checks |
+| Design Canvas | Upstream runtime, Next/React, Tailwind, Playwright, lucide | Optional adapter | Compatibility work, runtime setup, capture and production-exclusion tests |
+| Figma Library / Code Connect | Current Figma tooling and permissions | Methods, retained helper resources | Real files/components and tool-specific prerequisites |
+| Presentations | Figma Slides, presentation provider, or HTML tooling | Halo assets, templates and mode guides | Available provider and requested output validation |
+| Image Generation | Image generation provider | Workflow adapter | Connected generation tool |
+| CMS / integrations / deploy | Project-specific services | Scope and handoff guidance | Implementation, access, verification and release setup |
 
-При Figma-операциях соблюдайте обязательные prerequisites установленного Figma skill, включая figma-use / figma-design-to-code там, где они требуются текущим инструментом. Проверьте доступность продукта и тарифа в момент работы. Аккаунты и коннекторы подключаются каждым сотрудником отдельно; ключи не входят в Git.
+## Studio starter
 
-Skill задаёт процедуру, но не заменяет API, установленную библиотеку, доступ к файлу или автоматизацию. Встроенные инструменты не получают разрешений только из-за установки HaloSkill.
+[Source](https://github.com/maisjandesign/codex-nextjs-site-starter), audited commit `e5303a57601dc1734ccd461491f3de63a644fff6`. Its bundled interface/motion/QA skills and local workflows replace duplicate Halo wrappers. Read [the adapter contract](../plugins/haloskill/skills/haloskill-web-build/references/starter.md). The baseline contains 21 bundled skills plus project-local workflow instructions; these are not counted among HaloSkill's 22.
+
+The package provides setup/check, build, Storybook and separate audit setup commands. Read the current checkout before execution. Routine static checks, design-rule checks, browser inspection and the final exploratory audit are different forms of evidence. None automatically proves every accessibility requirement or third-party integration.
+
+## Design Canvas
+
+[Source](https://github.com/volomydyr/design-canvas), audited commit `e5c39c84b2b39b03b8ae429c613780ac37e1d377`. It reviews captured pages/states and their flows. The starter lacks some of its dependencies. Keep the tool runtime isolated, preserve its immutable core, handle animation capture state deliberately, and verify that tool routes are unavailable in production. See [the integration contract](../plugins/haloskill/skills/haloskill-design-canvas/references/integration.md). Packaging an adapter is not a completed integration.
+
+## External services
+
+Use current available APIs and active skills, not historical connector names or permissions copied from upstream documents. Missing service access should produce an explicit limitation and useful local artifacts, not a fictional completed operation. No credentials, client data or provider runtimes are bundled.

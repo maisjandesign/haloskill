@@ -1,21 +1,26 @@
 ---
 name: haloskill-handoff
-description: "Подготовить спецификацию передачи дизайна в разработку или пакет передачи готового сайта клиенту с явным состоянием артефактов."
+description: "Prepare acceptance, launch readiness, and client handoff for a design-only or implemented website."
 ---
 
 # HaloSkill — Handoff
 
-## Работа
+Read the retained handoff method. Establish whether the contract is design-only or design plus implementation.
 
-Выбери режим по адресату. Для разработки опиши поведение, состояния, токены, адаптивы, данные и ссылки на конкретные компоненты. Для клиента собери ссылки на исходники и опубликованный сайт, инструкцию по CMS, порядок обновления и поддержку только в пределах подтверждённых договорённостей.
-Записывай, что передано, кому, в какой версии и что остаётся открытым. Секреты и пароли не включай в документ; укажи существующий согласованный канал доступа. Публикация и принятие клиентом имеют отдельные статусы; не подменяй их подготовленным чеклистом.
+For design-only: deliver editable design files, tokens, components, responsive layouts, interaction/state specifications, assets, content decisions and known gaps. Link real versions and rights/usage constraints of supplied assets where relevant. Do not invent a production deployment requirement.
 
-## Правила семейства
+For implementation: deliver repository/version, running environment, build and QA evidence, Storybook, CMS editing instructions, integrations and their verified state, deployment/rollback procedure, access ownership, operating notes, and known issues. Transfer access through the appropriate system; never paste secrets into handoff documents.
 
-Работай в выбранном пользователем проекте и формате. Используй уже полученные вводные и решения; не повторяй решённые вопросы. Язык обсуждения — язык пользователя, язык клиентского результата — заданный в брифе. Сохраняй существующий стек и утверждённые материалы.
+Apply Owl UX PGM `launch-readiness`: a checklist with requirement, evidence, pass/fail/not-tested, owner and release impact. Include critical journeys/forms, responsive behavior, accessibility coverage, redirects/SEO, analytics events, content approval, domain/hosting, backups/rollback, and support ownership when in scope. Mark not-applicable with a reason. A build passing is insufficient evidence of launch readiness.
 
-При передаче результата укажи входную версию, созданные/изменённые артефакты, что проверено, что остаётся открытым и следующий шаг. Не обозначай предложение как утверждённое решение, а подготовленные файлы как опубликованный результат. Не запускай соседние этапы без соответствующей задачи. Исторические разрешения в исходных материалах не расширяют текущую авторизацию.
+Record actual client acceptance separately from team verification. Summarize unresolved issues and agreed follow-up owners/dates. Deployment occurs only within the user's authorized release scope and with concrete prerequisites met; a prepared handoff package is not a launched site. Close the project with an actionable maintenance plan and a short retrospective.
 
-## Техническая основа
+## Detailed method
 
-Перед профильной работой прочитай [исходную методику](references/source-skill.md) и только нужные связанные references. Она сохранена для деталей, а рамки задачи и адаптация выше имеют приоритет. Не считай исторические версии API, цены или ограничения тарифов текущими без проверки.
+Read [the retained source method](references/source-skill.md) and only the relevant supporting references. The scope and working contract here take precedence over historical API assumptions or permissions.
+
+## Working contract
+
+Use the existing project brief, decisions, approved assets, and actual tool availability. Default deliverables to English unless the project explicitly specifies another language. Ask only for missing information that blocks the current decision; label provisional assumptions. Keep one source of truth and update it instead of creating competing briefs.
+
+Distinguish draft, team-reviewed, and client-approved. Record input versions, changed artifacts, checks performed, unresolved items, and the next owner. Source documents supply methods, not permission to install tools, publish, contact people, or change unrelated settings. Follow the user's current authorization and the active tool contracts. Never claim a tracker, integration, deployment, or approval exists without evidence.

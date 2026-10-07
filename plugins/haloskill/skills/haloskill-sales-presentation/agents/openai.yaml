@@ -1,4 +1,0 @@
-interface:
-  display_name: "HaloSkill — Sales Presentation"
-  short_description: "HaloSkill: Sales Presentation для работы студии"
-  default_prompt: "Используй $haloskill-sales-presentation для этой задачи, учитывая материалы и решения проекта."

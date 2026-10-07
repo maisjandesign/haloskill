@@ -1,10 +1,16 @@
-# Задачи проекта
+# Delivery tables
 
-Это заготовка списка задач. Она не означает, что карточки созданы в трекере.
-
-| ID / ссылка | Этап | Задача | Результат | Критерий готовности | Владелец | Зависит от | Статус |
+## Tasks
+| ID | Outcome / task | Owner | Status | Dependencies | Acceptance criteria | Evidence / artifact | Target |
 |---|---|---|---|---|---|---|---|
 
-При отсутствии проектных статусов можно предложить: Backlog → Ready → In progress → Review → Done. Blocked фиксируется вместе с причиной и следующим действием. Существующая схема проекта имеет приоритет.
+## Decisions
+| ID | Question | Alternatives / tradeoff | Decider | Decision and rationale | Status | Source / date | Impacted tasks |
+|---|---|---|---|---|---|---|---|
 
-Сроки добавляются только на основании оценки или подтверждённых обязательств. Статус Done требует результата и проверки; предложение задачи не равно назначению реальному сотруднику.
+## Risks and blockers
+| ID | Risk / issue | Likelihood | Impact | Trigger | Mitigation / next action | Owner | Due |
+|---|---|---|---|---|---|---|---|
+
+## Status update
+Completed / next / blockers / decisions needed / forecast changes.

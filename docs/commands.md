@@ -1,0 +1,40 @@
+# Command examples
+
+Use these prompts inside Codex after installation. Replace “this” with attached material or concrete project paths. The commands do not authorize unrelated installs, messages or publication.
+
+| Skill | Example command |
+|---|---|
+| Start | `$haloskill-start read this brief, identify the current stage, and route the next useful action.` |
+| Project Setup | `$haloskill-project-setup turn this brief into a scoped delivery plan and maintain the project artifacts.` |
+| Roadmap to Timeline | `$haloskill-roadmap-to-timeline convert this estimate into a dated timeline with explicit capacity and review assumptions.` |
+| Workshop Client Research | `$haloskill-workshop-client-research research this client and prepare evidence for the workshop.` |
+| Workshop Script Writer | `$haloskill-workshop-script-writer prepare a workshop script from the brief and client research.` |
+| Research | `$haloskill-research synthesize these sources into findings and design implications.` |
+| Site Architecture | `$haloskill-site-architecture create the sitemap and primary user flows from the approved brief.` |
+| Concepts | `$haloskill-concepts create distinct website directions from the approved brief and sitemap.` |
+| Copywriting | `$haloskill-copywriting write website copy from the approved sitemap, research, and brand voice.` |
+| Presentations | `$haloskill-presentations prepare a concept presentation with rationale, tradeoffs, and a clear client decision.` |
+| Web Build | `$haloskill-web-build implement the approved design with the studio Next.js starter.` |
+| Design Review | `$haloskill-design-review review this design against the brief and agreed acceptance criteria.` |
+| Handoff | `$haloskill-handoff prepare the final delivery package and acceptance checklist.` |
+| Interface Design | `$haloskill-interface-design design the product interface using the approved context and workflows.` |
+| Figma Library | `$haloskill-figma-library build the Figma library from the approved tokens and components.` |
+| Code Connect | `$haloskill-code-connect connect these Figma components to their implementation.` |
+| Design Debt | `$haloskill-design-debt audit accumulated design inconsistencies and prioritize fixes.` |
+| Image Generation | `$haloskill-imagegen create the requested website image using the approved art direction.` |
+| Brand Positioning | `$haloskill-brand-positioning develop positioning options from audience and competitor evidence.` |
+| SEO Audit | `$haloskill-seo-audit audit this website for technical and on-page SEO issues.` |
+| Analytics | `$haloskill-analytics define and verify analytics events for the primary website journeys.` |
+| Design Canvas | `$haloskill-design-canvas prepare a Design Canvas review of these implemented pages and flows.` |
+
+## Useful continuations
+
+```text
+$haloskill-project-setup Reconcile these workshop notes with our existing brief, decision log and task board. Separate confirmed decisions from requests and open questions.
+
+$haloskill-presentations Use proposal mode. Build the deck from the attached scope and estimate; preserve the Halo template and mark missing commercial inputs.
+
+$haloskill-web-build Run the project's routine verification, fix confirmed defects within scope, and report evidence. Do not claim integrations are verified without an actual check.
+
+$haloskill-handoff This is a design-only engagement. Prepare the editable design package, component/state specifications, known gaps and acceptance checklist.
+```

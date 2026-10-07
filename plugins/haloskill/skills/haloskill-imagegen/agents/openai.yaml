@@ -1,4 +1,4 @@
 interface:
   display_name: "HaloSkill — Image Generation"
-  short_description: "HaloSkill: Image Generation для работы студии"
-  default_prompt: "Используй $haloskill-imagegen для этой задачи, учитывая материалы и решения проекта."
+  short_description: "Generate or edit raster assets for a website through an"
+  default_prompt: "Use $haloskill-imagegen to create the requested website image using the approved art direction."

@@ -1,4 +1,4 @@
 interface:
   display_name: "HaloSkill — Figma Library"
-  short_description: "HaloSkill: Figma Library для работы студии"
-  default_prompt: "Используй $haloskill-figma-library для этой задачи, учитывая материалы и решения проекта."
+  short_description: "Create or maintain editable Figma variables and components"
+  default_prompt: "Use $haloskill-figma-library to build the Figma library from the approved tokens and components."

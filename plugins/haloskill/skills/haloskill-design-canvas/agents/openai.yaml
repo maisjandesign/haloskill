@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Design Canvas"
+  short_description: "Use Design Canvas to review captured implemented pages,"
+  default_prompt: "Use $haloskill-design-canvas to prepare a Design Canvas review of these implemented pages and flows."

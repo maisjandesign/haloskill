@@ -1,4 +1,4 @@
 interface:
   display_name: "HaloSkill — Presentations"
-  short_description: "HaloSkill: Presentations для работы студии"
-  default_prompt: "Используй $haloskill-presentations для этой задачи, учитывая материалы и решения проекта."
+  short_description: "Prepare Halo proposals, concept presentations, and project"
+  default_prompt: "Use $haloskill-presentations to prepare a concept presentation with rationale, tradeoffs, and a clear client decision."

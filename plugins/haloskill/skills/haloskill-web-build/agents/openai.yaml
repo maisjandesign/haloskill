@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Web Build"
+  short_description: "Implement approved website designs using the studio Next.js"
+  default_prompt: "Use $haloskill-web-build to implement the approved design with the studio Next.js starter."

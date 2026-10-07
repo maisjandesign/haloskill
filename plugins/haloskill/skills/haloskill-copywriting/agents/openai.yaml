@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Copywriting"
+  short_description: "Write and edit website copy using approved positioning,"
+  default_prompt: "Use $haloskill-copywriting to write website copy from the approved sitemap, research, and brand voice."

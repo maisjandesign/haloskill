@@ -1,4 +1,0 @@
-interface:
-  display_name: "HaloSkill — Layout"
-  short_description: "HaloSkill: Layout для работы студии"
-  default_prompt: "Используй $haloskill-layout для этой задачи, учитывая материалы и решения проекта."

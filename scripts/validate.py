@@ -14,6 +14,18 @@ def validate():
     errors = []
     manifest = json.loads((ROOT / 'sources/manifest.json').read_text())
     records = {r['name']: r for r in manifest['records']}
+    catalog = json.loads((ROOT / 'catalog.json').read_text())['skills']
+    if len(catalog) != len({r['name'] for r in catalog}) or {r['name'] for r in catalog} != set(records):
+        errors.append('Catalog and manifest differ or contain duplicates')
+    if sum(r['profile'] == 'core' for r in catalog) != 13 or sum(r['profile'] == 'optional' for r in catalog) != 9:
+        errors.append('Expected 13 core and 9 optional skills')
+    for row in catalog:
+        if row['command'].split()[0] != '$' + row['name']:
+            errors.append('Invalid command for ' + row['name'])
+    for p in ROOT.rglob('*'):
+        if p.is_file() and '.git' not in p.parts and p.suffix in ('.md', '.yaml', '.json', '.py'):
+            if re.search(r'[\u0400-\u04ff]', p.read_text()):
+                errors.append(str(p.relative_to(ROOT)) + ': non-English Cyrillic text')
     folders = {p.name: p for p in SKILLS.iterdir() if p.is_dir()}
     if set(records) != set(folders):
         errors.append('Manifest and skill directories differ')

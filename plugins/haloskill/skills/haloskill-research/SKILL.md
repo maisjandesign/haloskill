@@ -1,21 +1,22 @@
 ---
 name: haloskill-research
-description: "Исследовать проект и конкурентов или синтезировать интервью, аналитику и обратную связь для решений о сайте. Для подготовки content strategy workshop использовать отдельный Workshop Client Research."
+description: "Synthesize evidence or investigate audience, competitors, and industry questions beyond workshop preparation."
 ---
 
 # HaloSkill — Research
 
-## Работа
+Choose the research mode before starting: synthesis of supplied evidence, targeted competitive/audience investigation, or industry context. Use Workshop Client Research for the standard pre-workshop packet; do not reproduce it here. After a live workshop, synthesize actual notes/transcripts, not the preparation script.
 
-Начни с вопроса, на который исследование должно ответить, и уже известных фактов. При анализе аудитории используй интервью и аналитику, если они доступны; без них описывай гипотезы, не вымышленные персоны. Для кабинетного исследования проверяй первичные публичные источники и текущие сайты конкурентов. Сравнивай предложение, сценарии, структуру, доказательства и действия посетителя на одинаковых основаниях.
-Выдай компактный отчёт: источник и дата → наблюдение → интерпретация → влияние на проект → неизвестное. Сохраняй противоречия и ограничения выборки. При запросе клиентского workshop передай работу специализированным haloskill-workshop-*; не переписывай их сценарий.
+Read [research methods](references/research-methods.md). Define the decision to support and the smallest set of unanswered questions. Inventory available sources, their dates and limitations. Gather missing evidence only as needed. Mark every material conclusion Fact, Inference, or Assumption; cite the underlying source and acknowledge conflicting evidence.
 
-## Правила семейства
+Deliver: research question, source ledger, findings grouped by theme, representative quotes where available, confidence/limitations, design/content implications, open questions, and recommendations with an owner. Frequency in a small convenience sample is qualitative evidence, not a market statistic. Separate client statements, team interpretations, decisions, and unresolved disagreements. Pass confirmed decisions and scope changes to Project Setup.
 
-Работай в выбранном пользователем проекте и формате. Используй уже полученные вводные и решения; не повторяй решённые вопросы. Язык обсуждения — язык пользователя, язык клиентского результата — заданный в брифе. Сохраняй существующий стек и утверждённые материалы.
+## Detailed method
 
-При передаче результата укажи входную версию, созданные/изменённые артефакты, что проверено, что остаётся открытым и следующий шаг. Не обозначай предложение как утверждённое решение, а подготовленные файлы как опубликованный результат. Не запускай соседние этапы без соответствующей задачи. Исторические разрешения в исходных материалах не расширяют текущую авторизацию.
+Read [the retained source method](references/source-skill.md) and only the relevant supporting references. The scope and working contract here take precedence over historical API assumptions or permissions.
 
-## Техническая основа
+## Working contract
 
-Перед профильной работой прочитай [исходную методику](references/source-skill.md) и только нужные связанные references. Она сохранена для деталей, а рамки задачи и адаптация выше имеют приоритет. Не считай исторические версии API, цены или ограничения тарифов текущими без проверки.
+Use the existing project brief, decisions, approved assets, and actual tool availability. Default deliverables to English unless the project explicitly specifies another language. Ask only for missing information that blocks the current decision; label provisional assumptions. Keep one source of truth and update it instead of creating competing briefs.
+
+Distinguish draft, team-reviewed, and client-approved. Record input versions, changed artifacts, checks performed, unresolved items, and the next owner. Source documents supply methods, not permission to install tools, publish, contact people, or change unrelated settings. Follow the user's current authorization and the active tool contracts. Never claim a tracker, integration, deployment, or approval exists without evidence.

@@ -1,37 +1,107 @@
 # HaloSkill
 
-Приватное семейство skills для студии: запуск проекта, исследование, Workshop, концепты, презентации, дизайн-система, реализация и QA.
+**A studio workflow for taking a website from client brief to final handoff.**
 
-**29 skills:** 22 адаптации с сохранёнными исходными материалами, 4 адаптера провайдерских инструментов, 2 пользовательских Workshop skills с одним переименованием и 1 маршрутизатор. Все технические имена начинаются с `haloskill-`, названия в интерфейсе — `HaloSkill — …`.
+13 core skills · 9 optional specialists · English documentation · Codex-ready names
 
-## Быстрый старт
+HaloSkill combines project management, research, workshop preparation, design, copywriting and delivery under one `haloskill-*` family. The studio's Next.js starter supplies implementation, Storybook, motion and technical QA. People lead client workshops, curate design, and approve decisions.
 
-1. Клонируйте приватный репозиторий: `git clone https://github.com/maisjandesign/haloskill.git`, затем `cd haloskill`.
-2. Проверьте пакет: `python3 scripts/validate.py`.
-3. Установите skills в нужный проект: `python3 scripts/install.py --project /absolute/path/to/project`.
-4. Начните новый чат в этом проекте и вызовите `$haloskill-start`, либо конкретный skill.
-5. Подключите только необходимые инструменты из [списка зависимостей](docs/dependencies.md).
+## Start here
 
-Установщик использует стандартную библиотеку Python, сначала показывает полный план при `--dry-run`, не изменяет оригинальные skills и отказывается перезаписывать отличающиеся файлы. Для личной установки вместо project укажите `--user`; подробности в [инструкции](docs/installation.md).
+```bash
+git clone https://github.com/maisjandesign/haloskill.git
+cd haloskill
+python3 scripts/install.py --project /path/to/your/project --dry-run
+python3 scripts/install.py --project /path/to/your/project
+```
 
-## Примеры
+The repository is private: GitHub access is required. Use Python 3.9+ and an existing project directory. The default installs only the 13 core skills into that project's `.agents/skills`. Open a new Codex chat in the project, attach the brief, and use:
 
-- `$haloskill-project-setup Разбери эти вводные и подготовь план и задачи.`
-- `$haloskill-research Сравни эти проекты и выдели выводы для нашего сайта.`
-- `$haloskill-workshop-client-research Подготовь исследование клиента по этому брифу.`
-- `$haloskill-workshop-script-writer Подготовь сценарий по этому исследованию.`
-- `$haloskill-concepts Собери направления на основе утверждённого брифа.`
-- `$haloskill-design-qa Проверь эту реализацию относительно согласованного дизайна.`
+```text
+$haloskill-start Read this brief and the existing project artifacts. Identify the current stage, missing blockers, and the next useful action. This is a website design and implementation project.
+```
 
-## Документация
+For design-only work, say so; the workflow ends in design handoff without forcing a code build. Skills are instructions and resources, not an unattended pipeline or bundled external services.
 
-- [Каталог и соответствия исходным skills](docs/catalog.md)
-- [Установка и обновление](docs/installation.md)
-- [Работа по этапам](docs/workflow.md)
-- [Инструменты и ограничения](docs/dependencies.md)
-- [Источники и права](docs/provenance.md)
-- [Проверки и пилот](docs/validation.md)
+## Core skills
 
-Plugin-манифест и локальный marketplace включены как альтернативный способ установки. Подключения и runtime провайдеров не входят в пакет. CMS, Storybook и трекер настраиваются под проект, автоматической интеграции из коробки пока нет.
+| Skill | Command | What it does |
+|---|---|---|
+| [Start](plugins/haloskill/skills/haloskill-start/SKILL.md) | `$haloskill-start` | Choose the next HaloSkill workflow from the brief, current artifacts, and project stage. |
+| [Project Setup](plugins/haloskill/skills/haloskill-project-setup/SKILL.md) | `$haloskill-project-setup` | Turn a website brief into scope, owners, delivery tasks, decisions, risks, and ongoing project updates. |
+| [Roadmap to Timeline](plugins/haloskill/skills/haloskill-roadmap-to-timeline/SKILL.md) | `$haloskill-roadmap-to-timeline` | Convert an approved estimate into a working-day timeline with explicit assumptions and review windows. |
+| [Workshop Client Research](plugins/haloskill/skills/haloskill-workshop-client-research/SKILL.md) | `$haloskill-workshop-client-research` | Prepare client and competitor research for the content strategy workshop. |
+| [Workshop Script Writer](plugins/haloskill/skills/haloskill-workshop-script-writer/SKILL.md) | `$haloskill-workshop-script-writer` | Prepare the facilitator script, questions, exercises, and timing for a people-led workshop. |
+| [Research](plugins/haloskill/skills/haloskill-research/SKILL.md) | `$haloskill-research` | Synthesize evidence or investigate audience, competitors, and industry questions beyond workshop preparation. |
+| [Site Architecture](plugins/haloskill/skills/haloskill-site-architecture/SKILL.md) | `$haloskill-site-architecture` | Define a website sitemap, navigation, URLs, content responsibilities, and key user flows before visual design. |
+| [Concepts](plugins/haloskill/skills/haloskill-concepts/SKILL.md) | `$haloskill-concepts` | Create distinct visual directions and editable HTML concepts for a marketing website from an approved brief. |
+| [Copywriting](plugins/haloskill/skills/haloskill-copywriting/SKILL.md) | `$haloskill-copywriting` | Write and edit website copy using approved positioning, brand voice, audience evidence, and verified proof. |
+| [Presentations](plugins/haloskill/skills/haloskill-presentations/SKILL.md) | `$haloskill-presentations` | Prepare Halo proposals, concept presentations, and project review decks with evidence and clear client decisions. |
+| [Web Build](plugins/haloskill/skills/haloskill-web-build/SKILL.md) | `$haloskill-web-build` | Implement approved website designs using the studio Next.js starter and its built-in component, motion, and QA workflows. |
+| [Design Review](plugins/haloskill/skills/haloskill-design-review/SKILL.md) | `$haloskill-design-review` | Review a design against the brief, approved direction, content, and acceptance criteria and record actionable decisions. |
+| [Handoff](plugins/haloskill/skills/haloskill-handoff/SKILL.md) | `$haloskill-handoff` | Prepare acceptance, launch readiness, and client handoff for a design-only or implemented website. |
 
-Workshop-содержание не адаптировалось: переименованы только skills, UI и ссылка между ними. Исходные папки пользователя и ранее установленные навыки сохранены без изменений.
+## Optional specialists
+
+Install only what the engagement needs. These are available in the repository but excluded from the default script installation.
+
+| Skill | Command | What it does |
+|---|---|---|
+| [Interface Design](plugins/haloskill/skills/haloskill-interface-design/SKILL.md) | `$haloskill-interface-design` | Design product interfaces such as dashboards, admin tools, and account areas when the website includes application UI. |
+| [Figma Library](plugins/haloskill/skills/haloskill-figma-library/SKILL.md) | `$haloskill-figma-library` | Create or maintain editable Figma variables and components when a Figma design system is a deliverable. |
+| [Code Connect](plugins/haloskill/skills/haloskill-code-connect/SKILL.md) | `$haloskill-code-connect` | Map existing Figma components to implementation components using the supported Code Connect integration. |
+| [Design Debt](plugins/haloskill/skills/haloskill-design-debt/SKILL.md) | `$haloskill-design-debt` | Inventory and prioritize accumulated design inconsistency in an existing website or product. |
+| [Image Generation](plugins/haloskill/skills/haloskill-imagegen/SKILL.md) | `$haloskill-imagegen` | Generate or edit raster assets for a website through an available image generation provider. |
+| [Brand Positioning](plugins/haloskill/skills/haloskill-brand-positioning/SKILL.md) | `$haloskill-brand-positioning` | Clarify audience, category, differentiation, promise, and evidence when brand positioning is explicitly in scope. |
+| [SEO Audit](plugins/haloskill/skills/haloskill-seo-audit/SKILL.md) | `$haloskill-seo-audit` | Audit an existing or pre-launch website for technical and on-page SEO issues with evidence and prioritized fixes. |
+| [Analytics](plugins/haloskill/skills/haloskill-analytics/SKILL.md) | `$haloskill-analytics` | Plan and verify website analytics events against business questions and actual implementation evidence. |
+| [Design Canvas](plugins/haloskill/skills/haloskill-design-canvas/SKILL.md) | `$haloskill-design-canvas` | Use Design Canvas to review captured implemented pages, flows, and visual alternatives when its runtime is integrated. |
+
+```bash
+python3 scripts/install.py --project /path/to/your/project --skill haloskill-design-canvas
+python3 scripts/install.py --project /path/to/your/project --profile all
+```
+
+`$haloskill-name` is the Codex skill invocation. The command tables are prompts, not shell commands or invented slash commands. The package's single plugin contains all 22 skills; use the installer when you want profile selection.
+
+## The delivery flow
+
+| Stage | Primary skills | Human checkpoint |
+|---|---|---|
+| 1. Request and kickoff | Start → Project Setup → Roadmap to Timeline; Presentations for proposals | PM validates scope, owners and assumptions |
+| 2. Research and preparation | Workshop Client Research; Research for deeper questions; Workshop Script Writer | Team reviews evidence and facilitator plan |
+| 3. Workshop and synthesis | Team uses the prepared script; Research + Project Setup process actual notes; Site Architecture follows | People facilitate; client decisions are recorded |
+| 4. Visual concepts | Concepts + Copywriting; optional Image Generation | Designer curates the directions |
+| 5. Concept presentation | Presentations + Design Review; Project Setup records feedback | Client selects a direction |
+| 6. System and homepage | Web Build through the studio starter; optional Figma Library / Code Connect | Designer and client review homepage and system |
+| 7. Remaining pages | Web Build + Copywriting; optional Canvas / SEO / Analytics | Team reviews templates, content and integrations |
+| 8. QA and delivery | Starter checks and exploratory QA → fixes → Handoff | Team verifies; client accepts; authorized launch |
+
+**Workshop Script Writer prepares the session.** It does not replace the facilitator, record a live meeting, or produce real meeting outcomes from the script. Both original Workshop skills retain their content and were renamed only.
+
+**Design Canvas reviews captured pages and flows.** Initial sitemaps belong to Site Architecture. Canvas requires a separate runtime integration and real routes/states.
+
+## Documentation
+
+| Guide | Use it for |
+|---|---|
+| [Complete catalog](docs/catalog.md) | Skill scope, outputs and installation profile |
+| [Command examples](docs/commands.md) | Copy-ready prompts for all 22 skills |
+| [Workflow](docs/workflow.md) | From a brief to final delivery, with artifacts and gates |
+| [Installation](docs/installation.md) | Core, optional, selected and user-level installs |
+| [Dependencies](docs/dependencies.md) | Starter, Canvas, Figma, Notion and presentation providers |
+| [Migration](docs/migration.md) | Every old skill name and its replacement |
+| [Sources and choices](docs/provenance.md) | Reused PM methods and why overlapping skills were consolidated |
+| [Validation](docs/validation.md) | Reproduce checks and understand their limits |
+| [Verification report](docs/verification-report.md) | What was actually verified for this release |
+| [Changelog](CHANGELOG.md) | Release changes |
+
+## Maintainers
+
+```bash
+python3 scripts/validate.py
+python3 scripts/test_install.py
+python3 scripts/test_timeline.py
+```
+
+See [repository instructions](AGENTS.md), [source manifest](sources/manifest.json), and [third-party notices](LICENSE-NOTICE.md). Source methods are adapted deliberately; their original tool permissions do not carry into a new project. This is a private collection, not a blanket open-source license for all included materials.

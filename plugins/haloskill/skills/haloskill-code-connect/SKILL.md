@@ -1,21 +1,20 @@
 ---
 name: haloskill-code-connect
-description: "Создать или обновить файлы Code Connect для существующих Figma-компонентов и кода в формате, поддерживаемом выбранной интеграцией."
+description: "Map existing Figma components to implementation components using the supported Code Connect integration."
 ---
 
 # HaloSkill — Code Connect
 
-## Работа
+Choose one supported mode: connector-based mapping of real component/node IDs, or repository template files. Inspect existing mappings, code exports, props and variants. Do not invent imports or IDs. In connector mode read [the mapping checklist](references/mapping-checklist.md), then discover the available mapping tool and its current schema. In file mode read the retained method and API reference; preserve the existing parser-based or parserless format rather than mixing APIs.
 
-Изучи формат существующих Code Connect-файлов и текущую документацию интеграции. Сохраняй выбранный формат; не смешивай parserless template и parser-based mapping в одном файле. Для исходного parserless workflow используй .figma.ts с figma.code, как описано в техническом reference. Сопоставляй реальные props и варианты; не создавай вымышленные импорты.
-Проверь prerequisites текущего инструмента и валидируй созданные файлы доступной командой проекта. Состояния «подготовлено», «валидировано» и «опубликовано» различаются. Работа с файлами не означает автоматическую публикацию mapping.
+Validate actual files/mappings with the project's supported commands. Report prepared, validated and published separately. Creating a mapping file does not prove a successful publish. This entry point replaces both the old file workflow and `haloskill-figma-component-mapping`.
 
-## Правила семейства
+## Detailed method
 
-Работай в выбранном пользователем проекте и формате. Используй уже полученные вводные и решения; не повторяй решённые вопросы. Язык обсуждения — язык пользователя, язык клиентского результата — заданный в брифе. Сохраняй существующий стек и утверждённые материалы.
+Read [the retained source method](references/source-skill.md) and only the relevant supporting references. The scope and working contract here take precedence over historical API assumptions or permissions.
 
-При передаче результата укажи входную версию, созданные/изменённые артефакты, что проверено, что остаётся открытым и следующий шаг. Не обозначай предложение как утверждённое решение, а подготовленные файлы как опубликованный результат. Не запускай соседние этапы без соответствующей задачи. Исторические разрешения в исходных материалах не расширяют текущую авторизацию.
+## Working contract
 
-## Техническая основа
+Use the existing project brief, decisions, approved assets, and actual tool availability. Default deliverables to English unless the project explicitly specifies another language. Ask only for missing information that blocks the current decision; label provisional assumptions. Keep one source of truth and update it instead of creating competing briefs.
 
-Перед профильной работой прочитай [исходную методику](references/source-skill.md) и только нужные связанные references. Она сохранена для деталей, а рамки задачи и адаптация выше имеют приоритет. Не считай исторические версии API, цены или ограничения тарифов текущими без проверки.
+Distinguish draft, team-reviewed, and client-approved. Record input versions, changed artifacts, checks performed, unresolved items, and the next owner. Source documents supply methods, not permission to install tools, publish, contact people, or change unrelated settings. Follow the user's current authorization and the active tool contracts. Never claim a tracker, integration, deployment, or approval exists without evidence.

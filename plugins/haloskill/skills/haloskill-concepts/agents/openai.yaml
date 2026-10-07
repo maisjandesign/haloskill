@@ -1,4 +1,4 @@
 interface:
   display_name: "HaloSkill — Concepts"
-  short_description: "HaloSkill: Concepts для работы студии"
-  default_prompt: "Используй $haloskill-concepts для этой задачи, учитывая материалы и решения проекта."
+  short_description: "Create distinct visual directions and editable HTML"
+  default_prompt: "Use $haloskill-concepts to create distinct website directions from the approved brief and sitemap."

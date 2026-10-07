@@ -1,4 +1,0 @@
-interface:
-  display_name: "HaloSkill — Figma to Code"
-  short_description: "HaloSkill: Figma to Code для работы студии"
-  default_prompt: "Используй $haloskill-figma-to-code для этой задачи, учитывая материалы и решения проекта."

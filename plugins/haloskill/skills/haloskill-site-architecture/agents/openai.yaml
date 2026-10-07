@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Site Architecture"
+  short_description: "Define a website sitemap, navigation, URLs, content"
+  default_prompt: "Use $haloskill-site-architecture to create the sitemap and primary user flows from the approved brief."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — SEO Audit"
+  short_description: "Audit an existing or pre-launch website for technical and"
+  default_prompt: "Use $haloskill-seo-audit to audit this website for technical and on-page SEO issues."

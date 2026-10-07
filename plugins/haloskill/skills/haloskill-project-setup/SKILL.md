@@ -1,23 +1,30 @@
 ---
 name: haloskill-project-setup
-description: "Разобрать запрос клиента, определить объём, план и задачи проекта студии. Использовать для запуска проекта и настройки его рабочего процесса."
+description: "Turn a website brief into scope, owners, delivery tasks, decisions, risks, and ongoing project updates."
 ---
 
 # HaloSkill — Project Setup
 
-## Работа
+## Intake and setup
 
-Собери цели, результат, исходные материалы, страницы, ограничения и неизвестные из предоставленных вводных. Раздели подтверждённый объём, предположения и запросы вне объёма. Подготовь план по восьми этапам студии, зависимости и контрольные точки. Для каждой задачи укажи результат, критерий готовности, владельца-ролевую функцию и зависимость. Сроки и людей не выдумывай.
-Если трекер выбран и подключён, найди проект и существующие карточки до записи; сохраняй ID созданных задач, чтобы повторный запуск обновлял их без дублей. При отсутствии доступа выдай пригодный для импорта список и явно отметь, что карточки не созданы. PM подтверждает объём и обещания клиенту; уже полученное подтверждение учитывай.
+Read [the PM methods](references/pm-methods.md), then use [the project template](assets/project-context.md) and [delivery tables](assets/task-board.md).
 
-## Правила семейства
+1. Separate the client's requested solution from the underlying user problem and business outcome. Record evidence, constraints, success measures, budget/date constraints, and explicit exclusions. Establish design-only versus implementation scope.
+2. Identify client approver, studio PM, design owner, engineering owner, content owner, and dependencies. Unknown owners remain unassigned. Define who decides, contributes, and implements each decision.
+3. Break scope into outcome-oriented tasks with IDs, owners, dependencies, acceptance criteria, and statuses: Backlog → Ready → In progress → Review → Done; Blocked includes a reason and next action. Do not describe a Markdown board as a connected tracker.
+4. Choose a small delivery slice covering a complete user journey. Use prioritization evidence appropriate to the information available; never invent RICE scores. Add a full PRD only for complex behavior or integrations.
+5. Establish milestones and a lightweight review cadence. Estimates come from supplied data or are labeled provisional; use Roadmap to Timeline for calendar calculation. Record client review windows and external lead times separately.
 
-Для нового проекта используй [шаблон контекста](assets/project-context.md) и [шаблон задач](assets/task-board.md), если у команды ещё нет своих. Заполняй в папке проекта, а не внутри установленного skill.
+## Maintain the project
 
-Работай в выбранном пользователем проекте и формате. Используй уже полученные вводные и решения; не повторяй решённые вопросы. Язык обсуждения — язык пользователя, язык клиентского результата — заданный в брифе. Сохраняй существующий стек и утверждённые материалы.
+For new feedback or workshop notes, link evidence, update decisions and acceptance criteria, and show the scope/date/effort delta. A request is not approved merely because it was discussed. Keep a decision log and risk register; escalate a concrete blocked decision to its owner. Produce a short status: completed, next, blockers, decisions needed, and changes to forecast. Close obsolete tasks explicitly instead of silently deleting history.
 
-При передаче результата укажи входную версию, созданные/изменённые артефакты, что проверено, что остаётся открытым и следующий шаг. Не обозначай предложение как утверждённое решение, а подготовленные файлы как опубликованный результат. Не запускай соседние этапы без соответствующей задачи. Исторические разрешения в исходных материалах не расширяют текущую авторизацию.
+## Completion
 
-## Техническая основа
+The plan is ready for PM review when every in-scope deliverable has an owner or visible ownership gap, a definition of done, dependencies, an evidence-backed priority, and a review gate. Scheduling and client approval remain separately recorded states.
 
-Перед профильной работой прочитай [исходную методику](references/source-skill.md) и только нужные связанные references. Она сохранена для деталей, а рамки задачи и адаптация выше имеют приоритет. Не считай исторические версии API, цены или ограничения тарифов текущими без проверки.
+## Working contract
+
+Use the existing project brief, decisions, approved assets, and actual tool availability. Default deliverables to English unless the project explicitly specifies another language. Ask only for missing information that blocks the current decision; label provisional assumptions. Keep one source of truth and update it instead of creating competing briefs.
+
+Distinguish draft, team-reviewed, and client-approved. Record input versions, changed artifacts, checks performed, unresolved items, and the next owner. Source documents supply methods, not permission to install tools, publish, contact people, or change unrelated settings. Follow the user's current authorization and the active tool contracts. Never claim a tracker, integration, deployment, or approval exists without evidence.

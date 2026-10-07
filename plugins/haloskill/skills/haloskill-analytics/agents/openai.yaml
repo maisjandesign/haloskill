@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Analytics"
+  short_description: "Plan and verify website analytics events against business"
+  default_prompt: "Use $haloskill-analytics to define and verify analytics events for the primary website journeys."

@@ -1,46 +1,19 @@
-# Контекст проекта
+# Project context
 
-Заполнять данными проекта. Незаданные значения сохранять как «не определено», без вымышленных обязательств.
+Version / date / owner:
+Status: Draft | Team-reviewed | Client-approved
+Source brief and evidence:
+Engagement: Design-only | Design and implementation
+Business outcome / measurement:
+Audience / context / job / obstacle:
+Approved positioning / voice / proof:
+In scope / out of scope:
+Deliverables / acceptance criteria:
+Constraints / budget / target date:
+Client approver / PM / design / development / content owners:
+Assumptions / unresolved questions:
+Links: research, sitemap, copy, selected concept, tasks, decisions, estimate, timeline, QA, handoff.
 
-## Цель и объём
-
-- Клиент и проект:
-- Что должно измениться для бизнеса и посетителя:
-- Подтверждённые страницы и сценарии:
-- Что исключено:
-- Критерии успешной сдачи:
-- Ограничения и открытые вопросы:
-
-## Люди и решения
-
-- PM:
-- Дизайнер / арт-директор:
-- Технический владелец:
-- Кто принимает решения со стороны клиента:
-- Где хранится журнал решений:
-
-## Рабочая среда
-
-- Язык обсуждений и язык клиентских материалов:
-- Бриф и его утверждённая версия:
-- Бренд и материалы:
-- Figma:
-- Репозиторий и стек:
-- Storybook:
-- Трекер и проект:
-- CMS и интеграции:
-- Preview и production:
-- Документация:
-
-## Текущий этап
-
-- Этап 1–8:
-- Что получено на входе:
-- Ожидаемые артефакты:
-- Кто проверяет:
-- Условие завершения:
-- Следующий шаг:
-
-## Передача между этапами
-
-Дата · версия входных материалов · результат и ссылки · выполненные проверки · открытые вопросы · принятое решение и кем подтверждено · владелец следующего действия.
+## Change history
+| Date | Input / feedback | Proposed change | Scope / date impact | Decision / approver |
+|---|---|---|---|---|

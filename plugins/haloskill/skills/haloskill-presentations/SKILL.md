@@ -1,18 +1,24 @@
 ---
 name: haloskill-presentations
-description: "Создать или отредактировать презентацию в PPTX или поддерживаемом формате, сохранив редактируемость и проверив рендер."
+description: "Prepare Halo proposals, concept presentations, and project review decks with evidence and clear client decisions."
 ---
 
 # HaloSkill — Presentations
 
-## Работа
+Choose one mode and read its guide:
 
-Выясни адресата, решение и формат. Используй установленный presentations skill и предоставляемый средой runtime: пути к библиотекам не закрепляй на машине автора. Разработай сюжет и редактируемые слайды, отрендери и проверь каждый. Передай исходный файл и запрошенные экспорты. Для фирменного предложения Halo используй haloskill-proposal-deck, для Figma Slides — haloskill-sales-presentation. При недоступном экспорте не обещай готовый PDF.
+- [Proposal](modes/proposal/guide.md): scope, estimate, process, assumptions and commercial next step.
+- [Concepts](modes/concepts.md): comparable directions, design rationale, tradeoffs and a client selection.
+- [Review / handoff](modes/review.md): progress, results, open issues and acceptance decisions.
 
-## Правила семейства
+Read the relevant retained Halo visual/template references, not every source file. Choose the requested output format and available provider: Figma Slides, presentation tooling, or editable HTML. A skill does not install or connect those providers. Keep content editable; check overflow, contrast, slide sequence and exported output where applicable.
 
-Работай в выбранном пользователем проекте и формате. Используй уже полученные вводные и решения; не повторяй решённые вопросы. Язык обсуждения — язык пользователя, язык клиентского результата — заданный в брифе. Сохраняй существующий стек и утверждённые материалы.
+Use the actual brief, estimate, approved facts and design artifacts. Frame the narrative around client goal → problem/evidence → proposed response → proof/tradeoff → requested decision. Six-frame storyboards can explain a user scenario, but do not fabricate research, metrics or results. Put unresolved items in an explicit decisions-needed section.
 
-При передаче результата укажи входную версию, созданные/изменённые артефакты, что проверено, что остаётся открытым и следующий шаг. Не обозначай предложение как утверждённое решение, а подготовленные файлы как опубликованный результат. Не запускай соседние этапы без соответствующей задачи. Исторические разрешения в исходных материалах не расширяют текущую авторизацию.
+After a presentation, summarize supplied feedback as observations, requests, decisions and unresolved questions; record who approved what. A prepared deck does not establish that the meeting happened.
 
-Зависимость описана в [dependency.md](references/dependency.md).
+## Working contract
+
+Use the existing project brief, decisions, approved assets, and actual tool availability. Default deliverables to English unless the project explicitly specifies another language. Ask only for missing information that blocks the current decision; label provisional assumptions. Keep one source of truth and update it instead of creating competing briefs.
+
+Distinguish draft, team-reviewed, and client-approved. Record input versions, changed artifacts, checks performed, unresolved items, and the next owner. Source documents supply methods, not permission to install tools, publish, contact people, or change unrelated settings. Follow the user's current authorization and the active tool contracts. Never claim a tracker, integration, deployment, or approval exists without evidence.

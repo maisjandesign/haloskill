@@ -1,21 +1,22 @@
 ---
 name: haloskill-concepts
-description: "Создать различающиеся визуальные направления и HTML-концепты маркетингового сайта, лендинга или портфолио по брифу. Не использовать как основной skill для продуктовых кабинетов."
+description: "Create distinct visual directions and editable HTML concepts for a marketing website from an approved brief."
 ---
 
 # HaloSkill — Concepts
 
-## Работа
+Use the approved brief, sitemap, content, brand assets and references. Read the retained design method before designing. Choose the number/depth requested; if absent, propose a small comparable set. Define each direction through composition, type, color, imagery and interaction rationale.
 
-Прочитай бриф, аудиторию, утверждённые бренд-материалы и контент. Сформулируй идею каждого направления через конкретную композицию, типографику, цвет и изображения. Количество и глубину возьми из запроса; при отсутствии числа предложи небольшой набор, например 2–3 направления. Для честного сравнения используй одинаковые ключевые секции и сопоставимый контент.
-Собери редактируемый HTML, проверь в браузере основной и узкий viewport. Приложи аргументацию, различия и ограничения. Арт-директор выбирает направление; не выдавай генерацию за согласование. После выбора передай систему и решения в реализацию, не продолжай произвольные эксперименты на остальных страницах.
+Use comparable content and key sections across directions so a client can judge meaningful design differences. Build editable HTML concepts and inspect wide/narrow viewports. State placeholders and untested interactions. Package rationale, audience/business fit, tradeoffs, asset needs and implementation implications. The designer curates the set; the client chooses through a recorded decision. An attractive generated concept is not an approval or production build.
 
-## Правила семейства
+After selection, capture design decisions and reusable tokens/components for Web Build. Do not reopen the direction on every remaining page.
 
-Работай в выбранном пользователем проекте и формате. Используй уже полученные вводные и решения; не повторяй решённые вопросы. Язык обсуждения — язык пользователя, язык клиентского результата — заданный в брифе. Сохраняй существующий стек и утверждённые материалы.
+## Detailed method
 
-При передаче результата укажи входную версию, созданные/изменённые артефакты, что проверено, что остаётся открытым и следующий шаг. Не обозначай предложение как утверждённое решение, а подготовленные файлы как опубликованный результат. Не запускай соседние этапы без соответствующей задачи. Исторические разрешения в исходных материалах не расширяют текущую авторизацию.
+Read [the retained source method](references/source-skill.md) and only the relevant supporting references. The scope and working contract here take precedence over historical API assumptions or permissions.
 
-## Техническая основа
+## Working contract
 
-Перед профильной работой прочитай [исходную методику](references/source-skill.md) и только нужные связанные references. Она сохранена для деталей, а рамки задачи и адаптация выше имеют приоритет. Не считай исторические версии API, цены или ограничения тарифов текущими без проверки.
+Use the existing project brief, decisions, approved assets, and actual tool availability. Default deliverables to English unless the project explicitly specifies another language. Ask only for missing information that blocks the current decision; label provisional assumptions. Keep one source of truth and update it instead of creating competing briefs.
+
+Distinguish draft, team-reviewed, and client-approved. Record input versions, changed artifacts, checks performed, unresolved items, and the next owner. Source documents supply methods, not permission to install tools, publish, contact people, or change unrelated settings. Follow the user's current authorization and the active tool contracts. Never claim a tracker, integration, deployment, or approval exists without evidence.

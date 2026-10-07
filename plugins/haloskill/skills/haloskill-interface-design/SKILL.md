@@ -1,20 +1,18 @@
 ---
 name: haloskill-interface-design
-description: "Проектировать и улучшать кабинеты, дашборды, SaaS и другие продуктовые интерфейсы с учётом задач пользователя, состояний и существующей системы."
+description: "Design product interfaces such as dashboards, admin tools, and account areas when the website includes application UI."
 ---
 
 # HaloSkill — Interface Design
 
-## Работа
+Read the retained interface method and relevant references. Use this for dense application UI, not as a duplicate marketing-concept workflow. Define user tasks, information hierarchy, data density, interaction states and component consistency. Build on the project's approved tokens and implementation stack. Review realistic data, empty/loading/error states, keyboard behavior and narrow layouts; explain deliberate tradeoffs.
 
-Зафиксируй задачу пользователя, контекст и основной сценарий до визуальных решений. Учитывай плотность информации, навигацию и существующие паттерны продукта. Покажи состояния загрузки, отсутствия данных, ошибки и ограниченного доступа только там, где они реально возможны. При развитии утверждённого проекта сначала переиспользуй токены и компоненты, затем обосновывай расширение. Проверь полный основной путь, а не только статичный экран.
+## Detailed method
 
-## Правила семейства
+Read [the retained source method](references/source-skill.md) and only the relevant supporting references. The scope and working contract here take precedence over historical API assumptions or permissions.
 
-Работай в выбранном пользователем проекте и формате. Используй уже полученные вводные и решения; не повторяй решённые вопросы. Язык обсуждения — язык пользователя, язык клиентского результата — заданный в брифе. Сохраняй существующий стек и утверждённые материалы.
+## Working contract
 
-При передаче результата укажи входную версию, созданные/изменённые артефакты, что проверено, что остаётся открытым и следующий шаг. Не обозначай предложение как утверждённое решение, а подготовленные файлы как опубликованный результат. Не запускай соседние этапы без соответствующей задачи. Исторические разрешения в исходных материалах не расширяют текущую авторизацию.
+Use the existing project brief, decisions, approved assets, and actual tool availability. Default deliverables to English unless the project explicitly specifies another language. Ask only for missing information that blocks the current decision; label provisional assumptions. Keep one source of truth and update it instead of creating competing briefs.
 
-## Техническая основа
-
-Перед профильной работой прочитай [исходную методику](references/source-skill.md) и только нужные связанные references. Она сохранена для деталей, а рамки задачи и адаптация выше имеют приоритет. Не считай исторические версии API, цены или ограничения тарифов текущими без проверки.
+Distinguish draft, team-reviewed, and client-approved. Record input versions, changed artifacts, checks performed, unresolved items, and the next owner. Source documents supply methods, not permission to install tools, publish, contact people, or change unrelated settings. Follow the user's current authorization and the active tool contracts. Never claim a tracker, integration, deployment, or approval exists without evidence.

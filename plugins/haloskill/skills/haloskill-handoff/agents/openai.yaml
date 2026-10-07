@@ -1,4 +1,4 @@
 interface:
   display_name: "HaloSkill — Handoff"
-  short_description: "HaloSkill: Handoff для работы студии"
-  default_prompt: "Используй $haloskill-handoff для этой задачи, учитывая материалы и решения проекта."
+  short_description: "Prepare acceptance, launch readiness, and client handoff"
+  default_prompt: "Use $haloskill-handoff to prepare the final delivery package and acceptance checklist."

@@ -1,4 +1,4 @@
 interface:
   display_name: "HaloSkill — Interface Design"
-  short_description: "HaloSkill: Interface Design для работы студии"
-  default_prompt: "Используй $haloskill-interface-design для этой задачи, учитывая материалы и решения проекта."
+  short_description: "Design product interfaces such as dashboards, admin tools,"
+  default_prompt: "Use $haloskill-interface-design to design the product interface using the approved context and workflows."

@@ -1,4 +1,4 @@
 interface:
   display_name: "HaloSkill — Research"
-  short_description: "HaloSkill: Research для работы студии"
-  default_prompt: "Используй $haloskill-research для этой задачи, учитывая материалы и решения проекта."
+  short_description: "Synthesize evidence or investigate audience, competitors,"
+  default_prompt: "Use $haloskill-research to synthesize these sources into findings and design implications."

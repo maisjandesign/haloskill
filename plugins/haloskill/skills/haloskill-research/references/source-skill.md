@@ -1,7 +1,7 @@
 
 # Synthesize Research
 
-> If you see unfamiliar placeholders or need to check which tools are connected, see CONNECTORS.md (внешняя ссылка исходной методики: `../../CONNECTORS.md`).
+> If you see unfamiliar placeholders or need to check which tools are connected, see CONNECTORS.md (external reference in the original method: `../../CONNECTORS.md`).
 
 Synthesize user research from multiple sources into structured insights and recommendations.
 

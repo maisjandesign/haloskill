@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Design QA"
+  short_description: "HaloSkill: Design QA для работы студии"
+  default_prompt: "Используй $haloskill-design-qa для этой задачи, учитывая материалы и решения проекта."

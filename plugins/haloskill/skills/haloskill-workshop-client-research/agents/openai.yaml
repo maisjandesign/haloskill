@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Workshop Client Research"
+  short_description: "Research clients for content strategy workshops"
+  default_prompt: "Use $haloskill-workshop-client-research to research this client and prepare a concise source-backed workshop brief."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Design System Rules"
+  short_description: "HaloSkill: Design System Rules для работы студии"
+  default_prompt: "Используй $haloskill-design-system-rules для этой задачи, учитывая материалы и решения проекта."

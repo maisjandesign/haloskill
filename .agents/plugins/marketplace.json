@@ -1,0 +1,20 @@
+{
+  "name": "haloskill-private",
+  "interface": {
+    "displayName": "HaloSkill Private"
+  },
+  "plugins": [
+    {
+      "name": "haloskill",
+      "source": {
+        "source": "local",
+        "path": "./plugins/haloskill"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

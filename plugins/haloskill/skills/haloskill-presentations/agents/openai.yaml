@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Presentations"
+  short_description: "HaloSkill: Presentations для работы студии"
+  default_prompt: "Используй $haloskill-presentations для этой задачи, учитывая материалы и решения проекта."

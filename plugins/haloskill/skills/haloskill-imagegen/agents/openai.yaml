@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Image Generation"
+  short_description: "HaloSkill: Image Generation для работы студии"
+  default_prompt: "Используй $haloskill-imagegen для этой задачи, учитывая материалы и решения проекта."

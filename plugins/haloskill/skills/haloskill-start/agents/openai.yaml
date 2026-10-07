@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Start"
+  short_description: "HaloSkill: Start для работы студии"
+  default_prompt: "Используй $haloskill-start для этой задачи, учитывая материалы и решения проекта."

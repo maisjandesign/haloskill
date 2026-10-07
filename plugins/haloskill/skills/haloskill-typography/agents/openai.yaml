@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Typography"
+  short_description: "HaloSkill: Typography для работы студии"
+  default_prompt: "Используй $haloskill-typography для этой задачи, учитывая материалы и решения проекта."

@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "haloskill",
+  "version": "0.1.0",
+  "description": "HaloSkill: a private studio skill family for project delivery, research, design and handoff."
+}

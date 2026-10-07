@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Research"
+  short_description: "HaloSkill: Research для работы студии"
+  default_prompt: "Используй $haloskill-research для этой задачи, учитывая материалы и решения проекта."

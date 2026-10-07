@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Site Build"
+  short_description: "HaloSkill: Site Build для работы студии"
+  default_prompt: "Используй $haloskill-site-build для этой задачи, учитывая материалы и решения проекта."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Project Setup"
+  short_description: "HaloSkill: Project Setup для работы студии"
+  default_prompt: "Используй $haloskill-project-setup для этой задачи, учитывая материалы и решения проекта."

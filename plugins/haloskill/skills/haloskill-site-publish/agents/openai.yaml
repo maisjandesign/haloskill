@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Site Publish"
+  short_description: "HaloSkill: Site Publish для работы студии"
+  default_prompt: "Используй $haloskill-site-publish для этой задачи, учитывая материалы и решения проекта."

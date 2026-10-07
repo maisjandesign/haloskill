@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Proposal Deck"
+  short_description: "HaloSkill: Proposal Deck для работы студии"
+  default_prompt: "Используй $haloskill-proposal-deck для этой задачи, учитывая материалы и решения проекта."

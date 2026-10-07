@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Accessibility"
+  short_description: "HaloSkill: Accessibility для работы студии"
+  default_prompt: "Используй $haloskill-accessibility для этой задачи, учитывая материалы и решения проекта."

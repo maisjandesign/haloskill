@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — UX Writing"
+  short_description: "HaloSkill: UX Writing для работы студии"
+  default_prompt: "Используй $haloskill-ux-writing для этой задачи, учитывая материалы и решения проекта."

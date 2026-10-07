@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Handoff"
+  short_description: "HaloSkill: Handoff для работы студии"
+  default_prompt: "Используй $haloskill-handoff для этой задачи, учитывая материалы и решения проекта."

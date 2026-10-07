@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Design Review"
+  short_description: "HaloSkill: Design Review для работы студии"
+  default_prompt: "Используй $haloskill-design-review для этой задачи, учитывая материалы и решения проекта."

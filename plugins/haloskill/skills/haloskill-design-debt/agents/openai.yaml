@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Design Debt"
+  short_description: "HaloSkill: Design Debt для работы студии"
+  default_prompt: "Используй $haloskill-design-debt для этой задачи, учитывая материалы и решения проекта."

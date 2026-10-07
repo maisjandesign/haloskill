@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Workshop Script Writer"
+  short_description: "Turn client research into a prepared call script"
+  default_prompt: "Use $haloskill-workshop-script-writer to turn this client brief and research into an English content strategy workshop script."

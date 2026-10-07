@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — UI Polish"
+  short_description: "HaloSkill: UI Polish для работы студии"
+  default_prompt: "Используй $haloskill-ui-polish для этой задачи, учитывая материалы и решения проекта."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "HaloSkill — Decisions"
+  short_description: "HaloSkill: Decisions для работы студии"
+  default_prompt: "Используй $haloskill-decisions для этой задачи, учитывая материалы и решения проекта."

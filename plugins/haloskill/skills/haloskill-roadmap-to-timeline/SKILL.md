@@ -15,7 +15,9 @@ Command from this installed skill directory:
 python3 scripts/schedule.py --input assets/example.json --output timeline.json
 ```
 
-Return the dated schedule, original estimate range, assumptions, excluded work, critical external dependencies, and PM review items. If the client supplies a hard deadline, show the gap rather than compressing effort silently. Publish to Notion only when requested and the connection is available; otherwise deliver the schedule files and a ready-to-create database schema.
+Separate duration-bearing work and review items from zero-duration milestone events. When publishing to Notion, follow the milestone schema and visible-result checks in the workflow reference; an empty Timeline view is not a delivered calendar. If no estimate exists, offer a clearly labeled provisional schedule and obtain the user’s agreement before supplying planning durations.
+
+Return the dated schedule, original estimate range (or explicitly unsupplied), assumptions, excluded work, critical external dependencies, and PM review items. If the client supplies a hard deadline, show the gap rather than compressing effort silently. Publish to Notion only when requested and the connection is available; otherwise deliver the schedule files and a ready-to-create database schema.
 
 ## Working contract
 

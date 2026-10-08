@@ -13,6 +13,20 @@ Discover the current connector and supported database/view operations. Target a 
 
 Prepare a summary plus two databases if the workflow needs both: phase-level Timeline and item-level Gantt. Properties: stable ID, phase, item, start/end, min/max effort, unit, owner/role, dependency, status, source/version, assumptions. Table, timeline and board-by-phase are useful views; a phase board is not a task status kanban. If the API cannot create a view, document the exact manual step rather than claiming it exists. Review windows and demo milestones are explicit schedule items, not hidden buffers.
 
+### Milestones and visible calendar completion
+
+A phase names work performed over a date range. A milestone names an observable event or review gate (for example, “Website concept approved”), has zero working days, and uses a single date or identical start/end dates. Preparation does not mean that approval has happened: keep forecast date and actual approval status separate.
+
+Use a native Select property `Type` with Work, Review, Milestone and Optional when combining items. Each milestone needs an outcome, acceptance criterion, responsible role or explicit assignment gap, dependency and forecast date. Preserve stable row IDs and existing relations when fixing an existing database. Do not merely rename a phase database “Milestones”.
+
+Use native Date properties, not date-looking text. Configure Timeline against the populated date range, or separate Start/End Date properties. Offer a filtered Milestones view (`Type = Milestone`) alongside Gantt and Table when items share a database. Use visible `◆` milestone labels if the interface has no distinct milestone marker; do not claim a native diamond rendering unless verified. Keep a short dated milestone register readable outside the chart.
+
+Before reporting a calendar as complete, inspect the actual Notion view: all scheduled items have valid dates, every milestone is visible in the relevant date window, Type and labels distinguish events from work, and dependencies still connect the intended rows. Choose a zoom/window that covers the forecast and check the No date list. Empty undated rows are a planning register, not a populated Gantt. If dates are unavailable, disclose that limitation and request the missing inputs instead of describing the timeline as finished.
+
+### Provisional planning without an estimate
+
+A brief alone is not an effort estimate. Ask once for the estimate and start date, offering a provisional forecast if appropriate. After the user authorizes it, label every duration and calculated date as a planning assumption; do not attribute them to the brief or call the totals a supplied estimate. State capacity/sequencing, review windows, holidays and exclusions. Use explicit assumptions as calculator input, keep phase work and review time distinct, and record which assumption must be replaced by the delivery team. Do not put client data or forecasts into the reusable skill repository.
+
 ## Calculator input contract
 
 The example is synthetic, not a client estimate. `start` is an ISO date; `hours_per_day` is productive daily capacity for a single serial lane; `holidays` contains explicit ISO dates. Each item has a unique `id`, `min` and `max`, and `unit` (`hours` or `days`). Include both range values for actual work; if omitted, `min` defaults to zero and must not be presented as a supplied estimate. `kind` is `work` (default), `review` (working days), or `milestone` (zero effort). `depends_on` may name only earlier items because list order defines the serial schedule. Missing and forward dependencies are rejected rather than silently rescheduled.

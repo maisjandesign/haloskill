@@ -13,7 +13,7 @@ Read [the PM methods](references/pm-methods.md), then use [the project template]
 2. Identify client approver, studio PM, design owner, engineering owner, content owner, and dependencies. Unknown owners remain unassigned. Define who decides, contributes, and implements each decision.
 3. Break scope into outcome-oriented tasks with IDs, owners, dependencies, acceptance criteria, and statuses: Backlog → Ready → In progress → Review → Done; Blocked includes a reason and next action. Do not describe a Markdown board as a connected tracker.
 4. Choose a small delivery slice covering a complete user journey. Use prioritization evidence appropriate to the information available; never invent RICE scores. Add a full PRD only for complex behavior or integrations.
-5. Establish milestones and a lightweight review cadence. Estimates come from supplied data or are labeled provisional; use Roadmap to Timeline for calendar calculation. Record client review windows and external lead times separately.
+5. Establish outcome-based milestone events and a lightweight review cadence. Keep work phases and zero-duration approval/release gates distinct; an undated milestone register is not a calendar timeline. Estimates come from supplied data or are labeled provisional; use Roadmap to Timeline for calendar calculation. Record client review windows and external lead times separately.
 
 ## Maintain the project
 

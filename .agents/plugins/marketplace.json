@@ -1,7 +1,7 @@
 {
   "name": "haloskill-private",
   "interface": {
-    "displayName": "HaloSkill Private"
+    "displayName": "HaloSkill"
   },
   "plugins": [
     {

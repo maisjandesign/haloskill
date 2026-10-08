@@ -15,7 +15,7 @@ python3 scripts/install.py --project /path/to/your/project --dry-run
 python3 scripts/install.py --project /path/to/your/project
 ```
 
-The repository is private: GitHub access is required. Use Python 3.9+ and an existing project directory. The default installs only the 13 core skills into that project's `.agents/skills`. Open a new Codex chat in the project, attach the brief, and use:
+The repository is public; no invitation is needed to download it. Use Python 3.9+ and an existing project directory. The default installs only the 13 core skills into that project's `.agents/skills`. Open a new Codex chat in the project, attach the brief, and use:
 
 ```text
 $haloskill-start Read this brief and the existing project records. Prepare Project Overview with readiness, missing evidence and next actions, then develop the needed kickoff documents. This is a website design and implementation project.
@@ -77,7 +77,7 @@ python3 scripts/install.py --project /path/to/your/project --profile all
 | 7. Remaining pages | Web Build + Copywriting; optional Canvas / SEO / Analytics | Team reviews templates, content and integrations |
 | 8. QA and delivery | Starter checks and exploratory QA → fixes → Handoff | Team verifies; client accepts; authorized launch |
 
-**Workshop Script Writer prepares the session.** It does not replace the facilitator, record a live meeting, or produce real meeting outcomes from the script. Both original Workshop skills retain their content and were renamed only.
+**Workshop Script Writer prepares the session.** It does not replace the facilitator, record a live meeting, or produce real meeting outcomes from the script.
 
 **Design Canvas reviews captured pages and flows.** Initial sitemaps belong to Site Architecture. Canvas requires a separate runtime integration and real routes/states.
 
@@ -91,7 +91,7 @@ python3 scripts/install.py --project /path/to/your/project --profile all
 | [Installation](docs/installation.md) | Core, optional, selected and user-level installs |
 | [Dependencies](docs/dependencies.md) | Starter, Canvas, Figma, Notion and presentation providers |
 | [Migration](docs/migration.md) | Every old skill name and its replacement |
-| [Sources and choices](docs/provenance.md) | Reused PM methods and why overlapping skills were consolidated |
+| [License](LICENSE.md) | Project-use permissions and distribution restrictions for original materials |
 | [Validation](docs/validation.md) | Reproduce checks and understand their limits |
 | [Verification report](docs/verification-report.md) | What was actually verified for this release |
 | [Changelog](CHANGELOG.md) | Release changes |
@@ -104,4 +104,10 @@ python3 scripts/test_install.py
 python3 scripts/test_timeline.py
 ```
 
-See [repository instructions](AGENTS.md), [source manifest](sources/manifest.json), and [third-party notices](LICENSE-NOTICE.md). Source methods are adapted deliberately; their original tool permissions do not carry into a new project. This is a private collection, not a blanket open-source license for all included materials.
+See [repository instructions](AGENTS.md) for maintenance rules.
+
+## License
+
+Original materials owned by maisjandesign are available under the [HaloSkill Project Use License](LICENSE.md): personal and commercial project use and internal modification are permitted; redistribution or resale of those materials requires separate permission. Client deliverables may be shared and sold under the terms described there.
+
+Included third-party materials retain their own terms, which can differ from these permissions. See [third-party notices](LICENSE-NOTICE.md) for the applicable licenses. Public repository access does not mean the entire collection has one unrestricted license.

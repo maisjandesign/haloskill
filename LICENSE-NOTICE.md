@@ -1,6 +1,6 @@
-# Private collection and third-party materials
+# Third-party materials and notices
 
-This private studio collection is not a blanket open-source license. Third-party texts and assets retain their respective rights; renaming does not transfer ownership. Halo Lab assets and trademarks are retained as supplied studio materials.
+The [HaloSkill Project Use License](LICENSE.md) covers only original materials owned by maisjandesign. Third-party texts and assets retain their respective rights; renaming or adaptation does not transfer ownership. Its distribution restrictions do not apply to rights independently granted by third-party licenses. Halo Lab assets and trademarks are retained as supplied studio materials, with no ownership or trademark grant asserted here.
 
 The audited repositories identify the following source terms: Corey Haines marketing skills, Brand-building skills, Owl Listener design-leadership and UX PGM skills, and Miki Arlo ai-copywriter use MIT; Dean Peters Product Manager Skills uses CC BY-NC-SA 4.0; lu90's industry-research skill uses Apache-2.0 for the skill while its separate reports have different terms. No industry reports are bundled. Refer to the pinned upstream files for the exact current-at-snapshot terms and notices. User-provided Workshop/timeline and previously installed skill materials remain subject to their original terms; no additional rights are asserted here.
 

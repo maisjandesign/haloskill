@@ -15,7 +15,7 @@ python3 scripts/install.py --project /path/to/your/project --dry-run
 python3 scripts/install.py --project /path/to/your/project
 ```
 
-The repository is public; no invitation is needed to download it. Use Python 3.9+ and an existing project directory. The default installs only the 13 core skills into that project's `.agents/skills`. Open a new Codex chat in the project, attach the brief, and use:
+The repository is publicly visible, but use of its original materials requires written authorization from maisjandesign for internal Company work. Public access is not a general permission to use or redistribute those materials; see the [license](LICENSE.md). Authorized employees and contractors need Python 3.9+ and an existing project directory. The default installs only the 13 core skills into that project's `.agents/skills`. Open a new Codex chat in the project, attach the brief, and use:
 
 ```text
 $haloskill-start Read this brief and the existing project records. Prepare Project Overview with readiness, missing evidence and next actions, then develop the needed kickoff documents. This is a website design and implementation project.
@@ -91,7 +91,7 @@ python3 scripts/install.py --project /path/to/your/project --profile all
 | [Installation](docs/installation.md) | Core, optional, selected and user-level installs |
 | [Dependencies](docs/dependencies.md) | Starter, Canvas, Figma, Notion and presentation providers |
 | [Migration](docs/migration.md) | Every old skill name and its replacement |
-| [License](LICENSE.md) | Project-use permissions and distribution restrictions for original materials |
+| [License](LICENSE.md) | Authorized internal use and distribution restrictions for original materials |
 | [Validation](docs/validation.md) | Reproduce checks and understand their limits |
 | [Verification report](docs/verification-report.md) | What was actually verified for this release |
 | [Changelog](CHANGELOG.md) | Release changes |
@@ -108,6 +108,6 @@ See [repository instructions](AGENTS.md) for maintenance rules.
 
 ## License
 
-Original materials owned by maisjandesign are available under the [HaloSkill Project Use License](LICENSE.md): personal and commercial project use and internal modification are permitted; redistribution or resale of those materials requires separate permission. Client deliverables may be shared and sold under the terms described there.
+Original materials owned by maisjandesign are provided under the [HaloSkill Internal Use License](LICENSE.md). Only employees and contractors authorized by maisjandesign may use and internally modify them for the designated Company's work, including client projects. Personal use, outside freelance work, publication, external distribution, and resale require separate permission. Client deliverables may be shared and sold under the terms described there.
 
-Included third-party materials retain their own terms, which can differ from these permissions. See [third-party notices](LICENSE-NOTICE.md) for the applicable licenses. Public repository access does not mean the entire collection has one unrestricted license.
+Included third-party materials retain their own terms, which can differ from these permissions. See [third-party notices](LICENSE-NOTICE.md) for the applicable licenses. Neither internal access nor this license grants unrestricted rights to the entire collection.

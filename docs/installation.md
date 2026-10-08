@@ -1,6 +1,6 @@
 # Installation
 
-Requires Python 3.9+, a checkout of this public repository, and an existing target project. No GitHub invitation is required. Installation copies skill instructions/resources; it does not install Node dependencies, providers, browser tools, Notion or Figma connections. Keep the repository's [license](../LICENSE.md) and [third-party notices](../LICENSE-NOTICE.md), including the linked license files, with your internal working copies.
+Requires Python 3.9+, a repository checkout, and an existing target project. The repository is publicly visible; employees and contractors still need written authorization from maisjandesign to use its original materials for Company projects. Public access does not grant that authorization. Installation copies skill instructions/resources; it does not install Node dependencies, providers, browser tools, Notion or Figma connections. Keep the repository's [license](../LICENSE.md) and [third-party notices](../LICENSE-NOTICE.md), including the linked license files, with your internal working copies.
 
 ```bash
 git clone https://github.com/maisjandesign/haloskill.git

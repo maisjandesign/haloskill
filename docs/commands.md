@@ -4,9 +4,9 @@ Use these prompts inside Codex after installation. Replace “this” with attac
 
 | Skill | Example command |
 |---|---|
-| Start | `$haloskill-start read this brief, identify the current stage, and route the next useful action.` |
-| Project Setup | `$haloskill-project-setup turn this brief into a scoped delivery plan and maintain the project artifacts.` |
-| Roadmap to Timeline | `$haloskill-roadmap-to-timeline convert this estimate into a dated timeline with explicit capacity and review assumptions.` |
+| Start | `$haloskill-start read this brief and existing records, update Project Overview with readiness and next actions, and continue the needed workflow.` |
+| Project Setup | `$haloskill-project-setup prepare the project overview, internal sales handoff, scope and tracker from this brief and actual agreements.` |
+| Roadmap to Timeline | `$haloskill-roadmap-to-timeline build the delivery plan from this estimate, separating work, client reviews and milestone approval gates.` |
 | Workshop Client Research | `$haloskill-workshop-client-research research this client and prepare evidence for the workshop.` |
 | Workshop Script Writer | `$haloskill-workshop-script-writer prepare a workshop script from the brief and client research.` |
 | Research | `$haloskill-research synthesize these sources into findings and design implications.` |

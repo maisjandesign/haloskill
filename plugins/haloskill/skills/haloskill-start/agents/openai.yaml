@@ -1,4 +1,4 @@
 interface:
   display_name: "HaloSkill — Start"
-  short_description: "Choose the next HaloSkill workflow from the brief, current"
-  default_prompt: "Use $haloskill-start to read this brief, identify the current stage, and route the next useful action."
+  short_description: "Assess project readiness and the next useful action"
+  default_prompt: "Use $haloskill-start read this brief and existing records, update Project Overview with readiness and next actions, and continue the needed workflow."

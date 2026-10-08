@@ -6,27 +6,27 @@
       "title": "Start",
       "profile": "core",
       "stage": "1–8",
-      "description": "Choose the next HaloSkill workflow from the brief, current artifacts, and project stage.",
-      "output": "Project state and next action",
-      "command": "$haloskill-start read this brief, identify the current stage, and route the next useful action."
+      "description": "Assess project readiness from a brief and existing artifacts, summarize the next actions, and select the needed delivery workflow.",
+      "output": "Project Overview with readiness, evidence gaps and next actions",
+      "command": "$haloskill-start read this brief and existing records, update Project Overview with readiness and next actions, and continue the needed workflow."
     },
     {
       "name": "haloskill-project-setup",
       "title": "Project Setup",
       "profile": "core",
       "stage": "1–8",
-      "description": "Turn a website brief into scope, owners, delivery tasks, decisions, risks, and ongoing project updates.",
-      "output": "Project brief, board, requirements and decision log",
-      "command": "$haloskill-project-setup turn this brief into a scoped delivery plan and maintain the project artifacts."
+      "description": "Create or maintain a website project's overview, sales handoff, scope, acceptance criteria, tasks, decisions and risks from its actual evidence.",
+      "output": "Project overview, internal sales handoff, scope and project tracker",
+      "command": "$haloskill-project-setup prepare the project overview, internal sales handoff, scope and tracker from this brief and actual agreements."
     },
     {
       "name": "haloskill-roadmap-to-timeline",
       "title": "Roadmap to Timeline",
       "profile": "core",
       "stage": "1, 3, 5–8",
-      "description": "Convert an approved estimate into a working-day timeline with explicit assumptions and review windows.",
-      "output": "Schedule JSON, timeline table, optional Notion views",
-      "command": "$haloskill-roadmap-to-timeline convert this estimate into a dated timeline with explicit capacity and review assumptions."
+      "description": "Build or revise a delivery calendar from estimates or authorized provisional assumptions, with review windows, dependencies and milestone gates.",
+      "output": "Delivery Plan, milestone gates, forecast and optional native calendar",
+      "command": "$haloskill-roadmap-to-timeline build the delivery plan from this estimate, separating work, client reviews and milestone approval gates."
     },
     {
       "name": "haloskill-workshop-client-research",

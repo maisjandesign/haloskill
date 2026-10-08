@@ -1,4 +1,4 @@
 interface:
   display_name: "HaloSkill — Project Setup"
-  short_description: "Turn a website brief into scope, owners, delivery tasks,"
-  default_prompt: "Use $haloskill-project-setup to turn this brief into a scoped delivery plan and maintain the project artifacts."
+  short_description: "Prepare the project handoff, scope and delivery records"
+  default_prompt: "Use $haloskill-project-setup prepare the project overview, internal sales handoff, scope and tracker from this brief and actual agreements."

@@ -1,4 +1,4 @@
 interface:
   display_name: "HaloSkill — Roadmap to Timeline"
-  short_description: "Convert an approved estimate into a working-day timeline"
-  default_prompt: "Use $haloskill-roadmap-to-timeline to convert this estimate into a dated timeline with explicit capacity and review assumptions."
+  short_description: "Plan delivery dates, client reviews and milestone gates"
+  default_prompt: "Use $haloskill-roadmap-to-timeline build the delivery plan from this estimate, separating work, client reviews and milestone approval gates."

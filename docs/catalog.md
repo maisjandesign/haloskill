@@ -4,9 +4,9 @@ The canonical machine-readable catalog is [catalog.json](../catalog.json). Core 
 
 | Skill | Profile | Stage | Output |
 |---|---|---|---|
-| [haloskill-start](../plugins/haloskill/skills/haloskill-start/SKILL.md) | core | 1–8 | Project state and next action |
-| [haloskill-project-setup](../plugins/haloskill/skills/haloskill-project-setup/SKILL.md) | core | 1–8 | Project brief, board, requirements and decision log |
-| [haloskill-roadmap-to-timeline](../plugins/haloskill/skills/haloskill-roadmap-to-timeline/SKILL.md) | core | 1, 3, 5–8 | Schedule JSON, timeline table, optional Notion views |
+| [haloskill-start](../plugins/haloskill/skills/haloskill-start/SKILL.md) | core | 1–8 | Project Overview with readiness, evidence gaps and next actions |
+| [haloskill-project-setup](../plugins/haloskill/skills/haloskill-project-setup/SKILL.md) | core | 1–8 | Project overview, internal sales handoff, scope and project tracker |
+| [haloskill-roadmap-to-timeline](../plugins/haloskill/skills/haloskill-roadmap-to-timeline/SKILL.md) | core | 1, 3, 5–8 | Delivery Plan, milestone gates, forecast and optional native calendar |
 | [haloskill-workshop-client-research](../plugins/haloskill/skills/haloskill-workshop-client-research/SKILL.md) | core | 2 | Workshop research packet |
 | [haloskill-workshop-script-writer](../plugins/haloskill/skills/haloskill-workshop-script-writer/SKILL.md) | core | 2–3 | Facilitator script |
 | [haloskill-research](../plugins/haloskill/skills/haloskill-research/SKILL.md) | core | 2–3 | Evidence ledger, findings, implications and open questions |

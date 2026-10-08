@@ -2,9 +2,13 @@
 
 ## 1. A client brings a brief
 
-Start with `$haloskill-start`, then `$haloskill-project-setup`. Supply the brief, existing site/assets, known constraints and contract scope. Capture desired outcomes, audience, in/out of scope, deliverables, client approver, team owners, content responsibilities and unresolved questions. Build tasks with acceptance criteria and dependencies. Use Presentations in proposal mode if commercial scope needs presentation.
+Start with `$haloskill-start`, then `$haloskill-project-setup`. Supply the brief, accepted proposal/estimate when available, existing assets and recorded agreements. Start updates a concise Project Overview: source basis, current stage, readiness, ownership gaps and next actions. Keep internal routing out of project documents. Missing commercial inputs can block production commitment without blocking research preparation.
 
-Use Roadmap to Timeline after effort estimates exist. The calculator produces a conservative serial schedule; client review windows and external dependencies must be explicit. A target date is not an estimate. **Exit:** PM-reviewed scope and a disclosed provisional/approved timeline.
+Project Setup maintains one parent overview and supporting sections: internal Sales to Delivery Handoff, Scope & Deliverables, Delivery Plan and Project Tracker. Distinguish requested services from purchased scope, quantities from assumptions, proposed acceptance rules from agreed terms, and proposed roles from assigned people. Capture final approval authority, consolidated feedback, review windows, revision allowances and the process for changes after approval. Use Presentations in proposal mode if commercial scope needs presentation.
+
+Use Roadmap to Timeline with supplied estimates, or with provisional durations already authorized by the user. A target date is not an effort estimate; assumed phase days are not person-hours. Keep work, client reviews and zero-duration milestone gates distinct. Each gate has completion evidence, an approver, an owner or gap, dependencies and the work it unlocks. Preserve approved baseline, current forecast and actual completion separately.
+
+When a native workspace is requested, update existing pages and linked databases instead of duplicating records. Verify navigation, table readability, board state and the populated timeline window. A Markdown package or static table must not be described as a connected system. **Exit:** PM-reviewable kickoff package with explicit commercial gaps, preparation/production readiness, scope dispositions and a disclosed planning status. Client approval is recorded only from evidence.
 
 ## 2. Prepare research and the workshop
 

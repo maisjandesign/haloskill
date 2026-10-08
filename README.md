@@ -18,7 +18,7 @@ python3 scripts/install.py --project /path/to/your/project
 The repository is private: GitHub access is required. Use Python 3.9+ and an existing project directory. The default installs only the 13 core skills into that project's `.agents/skills`. Open a new Codex chat in the project, attach the brief, and use:
 
 ```text
-$haloskill-start Read this brief and the existing project artifacts. Identify the current stage, missing blockers, and the next useful action. This is a website design and implementation project.
+$haloskill-start Read this brief and the existing project records. Prepare Project Overview with readiness, missing evidence and next actions, then develop the needed kickoff documents. This is a website design and implementation project.
 ```
 
 For design-only work, say so; the workflow ends in design handoff without forcing a code build. Skills are instructions and resources, not an unattended pipeline or bundled external services.
@@ -27,9 +27,9 @@ For design-only work, say so; the workflow ends in design handoff without forcin
 
 | Skill | Command | What it does |
 |---|---|---|
-| [Start](plugins/haloskill/skills/haloskill-start/SKILL.md) | `$haloskill-start` | Choose the next HaloSkill workflow from the brief, current artifacts, and project stage. |
-| [Project Setup](plugins/haloskill/skills/haloskill-project-setup/SKILL.md) | `$haloskill-project-setup` | Turn a website brief into scope, owners, delivery tasks, decisions, risks, and ongoing project updates. |
-| [Roadmap to Timeline](plugins/haloskill/skills/haloskill-roadmap-to-timeline/SKILL.md) | `$haloskill-roadmap-to-timeline` | Convert an approved estimate into a working-day timeline with explicit assumptions and review windows. |
+| [Start](plugins/haloskill/skills/haloskill-start/SKILL.md) | `$haloskill-start` | Assess project readiness from a brief and existing artifacts, summarize the next actions, and select the needed delivery workflow. |
+| [Project Setup](plugins/haloskill/skills/haloskill-project-setup/SKILL.md) | `$haloskill-project-setup` | Create or maintain a website project's overview, sales handoff, scope, acceptance criteria, tasks, decisions and risks from its actual evidence. |
+| [Roadmap to Timeline](plugins/haloskill/skills/haloskill-roadmap-to-timeline/SKILL.md) | `$haloskill-roadmap-to-timeline` | Build or revise a delivery calendar from estimates or authorized provisional assumptions, with review windows, dependencies and milestone gates. |
 | [Workshop Client Research](plugins/haloskill/skills/haloskill-workshop-client-research/SKILL.md) | `$haloskill-workshop-client-research` | Prepare client and competitor research for the content strategy workshop. |
 | [Workshop Script Writer](plugins/haloskill/skills/haloskill-workshop-script-writer/SKILL.md) | `$haloskill-workshop-script-writer` | Prepare the facilitator script, questions, exercises, and timing for a people-led workshop. |
 | [Research](plugins/haloskill/skills/haloskill-research/SKILL.md) | `$haloskill-research` | Synthesize evidence or investigate audience, competitors, and industry questions beyond workshop preparation. |

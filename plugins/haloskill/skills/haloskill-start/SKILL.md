@@ -1,14 +1,21 @@
 ---
 name: haloskill-start
-description: "Choose the next HaloSkill workflow from the brief, current artifacts, and project stage."
+description: "Assess project readiness from a brief and existing artifacts, summarize the next actions, and select the needed delivery workflow."
 ---
 
 # HaloSkill — Start
 
-1. Read the brief and existing project artifacts. Identify whether this is a new website, redesign, or design-only engagement; capture the requested deliverable and approval state.
-2. Report a compact state table: available inputs, missing blockers, current stage, next artifact, responsible person. Do not restart finished stages.
-3. Route only the work needed now using the table below. Check that the selected skill is installed before invoking it; if unavailable, name the dependency and prepare useful inputs without claiming execution.
-4. For a new brief, use Project Setup first. Workshop preparation follows research. Live facilitation stays with the team. Reconcile actual workshop notes through Research and Project Setup.
+## Intake and readiness
+
+1. Read the brief, available proposal/estimate, recorded decisions and existing project artifacts. Identify the engagement, current stage and source versions. Respect the user's chosen source of truth; a public site is not automatically the current baseline. Do not restart completed stages.
+2. Create or update the opening **Project Overview**, readable in about a minute: purpose and audience, source basis, current stage, confirmed facts, missing inputs, client contact/approver, studio owner, planning status and next actions. Unknown people remain unassigned; distinguish a proposed role from a named assignment.
+3. Assess readiness by activity. State what preparation can proceed now, what production commitment is blocked, and the evidence needed to clear each blocker. Missing budget or approvals need not block useful research preparation. Distinguish a requested service, an agreed scope item, an assumption and a completed approval.
+4. Give each immediate action an owner or visible assignment gap and a completion condition. Ask only for inputs that block the current decision; record later questions for Project Setup.
+5. For a new brief, use Project Setup to develop the same overview and its supporting documents. Keep one maintained project record rather than producing a second kickoff report. Workshop preparation follows research; the team conducts the workshop. Reconcile real notes through Research and Project Setup afterward.
+
+## Internal routing
+
+Use the table below internally. Check the selected skill is available before invoking it; disclose a missing dependency in the conversation without claiming execution. Project documents contain the work result, not skill names, commands, routing tables, AI references or generation commentary. User-provided product facts remain accurate even when they describe AI functionality.
 
 | Need | Entry point |
 |---|---|

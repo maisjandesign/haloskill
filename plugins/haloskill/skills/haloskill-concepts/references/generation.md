@@ -2,7 +2,7 @@
 
 ## Input readiness
 
-Apply the intake check in [SKILL.md](../SKILL.md) before any generation call. Missing references mean requesting materials and waiting, unless the user has explicitly chosen no-reference work or delegated reference selection. A default variant count, an inferred aesthetic or tool availability does not make missing inputs ready. Supplied or agent-selected references also require an explicit user role assignment or an answer confirming a proposed mapping. If that answer is missing or ambiguous, ask and wait; do not use attachment order as a default. For a focused edit, reuse the chosen generated image and confirmed roles instead of reopening intake. New references or changed roles need the user's explicit assignment or confirmation before use.
+Apply the intake sequence in [SKILL.md](../SKILL.md) before any generation call: known brief → request composition/style references → inspect and label sources → interactive Questions → submitted role answer. Existing client facts alone never bypass the reference request. For a new reference set, role captions or an inferred mapping do not replace the Questions answer. Explicit no-reference work is the only case with no source roles to confirm. While Questions is unavailable, unanswered or materially ambiguous, generation stays pending. A default variant count, preselected option or elapsed time does not make inputs ready. Reuse the completed Questions mapping for an unchanged set during revisions; new sources or role changes require another Questions answer. Once answered, proceed directly with the confirmed structure and style; no extra generation permission is needed.
 
 ## Execute with actual tools
 

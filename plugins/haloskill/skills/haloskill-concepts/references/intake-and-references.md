@@ -1,36 +1,53 @@
 # Intake and reference roles
 
-## Ask in small rounds
+## Reuse the brief, request visual inputs
 
-Reuse the brief and attachments. Extract known answers before asking one to three related questions. Collect only what changes the next design decision:
+Read the supplied brief and current project facts before asking about the client. Establish business/product, audience, goal and design scope without inventing missing facts. Existing client knowledge does not replace visual references.
 
-1. Business name, offering, audience, intended impression and goal. For a website identify page scope and main action; for branding identify relevant applications.
-2. Existing identity, required copy, images and inspiration. Distinguish approved brand assets from references. Establish what must remain and what to avoid.
-3. Language, crop/canvas and variant count when material. Infer reasonable defaults and disclose them; optional preferences should not block progress.
+If no current reference set is supplied, ask in the user's language for two references:
 
-Example: "What is the business, who is it for, and what should the design communicate? If you already have a brief, share it and I will use it."
+- **Composition:** layout, grid, proportions, hierarchy, whitespace and placement of elements.
+- **Style:** typography, palette, photography/illustration, textures and visual treatment.
 
-Reference request: "Share images, links or a folder. Two references are a useful start: one for composition, one for visual character. One image or a larger collection also works. Tell me which details matter to you."
+Invite additional references and required logos/photos. Request image uploads in ordinary chat and wait; the Questions tool accepts text, not attachments. Reuse a set already attached for this concept. If the user will send references later, wait. Only an explicit user instruction authorizes original work without references; do not offer an automatic no-reference fallback just because files are missing.
 
-If no relevant references or source images are available, ask for them and wait. A bare concept request is not a no-reference choice. Ask also for any existing logo, brand assets or photos that must be used; do not require assets the user says do not exist. Only after the user explicitly chooses to proceed without references may you propose and generate an original direction from a sufficient brief. If the user asks you to choose references, inspect the selected sources first. Reuse explicit choices and materials already present in the current project. Use a catalog only when its images are accessible. This skill does not include the Desaign Builder R2 collection. If a URL cannot be inspected, explain the gap and request a screenshot or another source. Never analyze unseen pixels as evidence.
+## Inspect and identify sources
 
-## Inspect, ask and wait for role assignments
+Inspect each selected image, then label R1, R2, etc. in attachment order. Record filename/path or URL, inspected status and a short identifying description. A folder is a candidate collection: inspect selected originals and identify the proposed subset in Questions. Do not assume a catalog is accessible; this skill does not include the Desaign Builder R2 collection. If a link cannot be inspected, request an accessible image rather than describing unseen pixels. Agent-selected sources still require the same Questions confirmation.
 
-Record each source's identifier/path or URL, inspected status, role, useful qualities and exclusions. A folder is a candidate collection, not a command to attach every image. Group similar examples, use contact sheets if helpful, then inspect selected originals. Propose a small coherent set per concept, honor pinned sources, and ask the user to assign or confirm roles before using the pairing. Do not change it for later variation without an explicit user assignment or confirmation.
+## Required Questions interaction
 
-Label the inspected references R1, R2, etc. Ask what to take from each (composition, style or specific details) and what to avoid, then wait for the answer before generation. This also applies to a single reference and agent-selected catalog sources. An existing explicit user assignment is already an answer; preserve it without asking again. Partial or ambiguous assignments require a focused follow-up. Extra inputs need explicit roles such as approved logo or photography. If tool input limits prevent using required sources, explain and resolve the selection instead of silently dropping them. Preserve actual attachment order in the prompt.
+For each new reference set, confirm roles through an actual interactive Questions tool, even when upload captions suggest a mapping. Do not ask the role question as ordinary chat. Prefer `request_user_input_async` when available; respect the host's actual tool schema and invocation limits. If no usable Questions tool exists, report the limitation and keep generation pending.
 
-The following are possible mappings to discuss, never automatic defaults. Use only the mapping the user explicitly supplied or confirmed; do not infer roles from file order.
+For two images, translate this illustrative payload to the user's language and substitute identifying descriptions:
 
-| Mode | Possible composition role | Possible style or identity role |
-| --- | --- | --- |
-| Website | A designated web reference: grid, proportions, hierarchy, whitespace | A designated style reference: typography, palette, surfaces and imagery |
-| Branding | A designated board: panel count/bounds, text capacity and type scale | A designated reference: colors, graphics and treatment |
-| Upload + catalog | Catalog structure, if confirmed by the user | Uploaded qualities specified by the user |
-| Website from branding | Web layout reference, if confirmed by the user | Selected branding identity, as requested by the user |
-| One reference | Only the structural qualities the user chooses | Only the visual qualities the user chooses |
-| Explicit no-reference work | Original composition within the brief | Original direction; no role question needed |
+```json
+{
+  "questions": [{
+    "title": "Which reference controls composition and which controls style? R1 = first image [description]; R2 = second image [description]. Choose a mapping, or use the custom answer to assign different roles, extra references or specific details.",
+    "options": [
+      "First image (R1): composition; second image (R2): style",
+      "Second image (R2): composition; first image (R1): style"
+    ]
+  }]
+}
+```
 
-Ask, for example: "For R1 and R2, which should guide composition, which should guide style, and are there specific details to use or avoid?" A proposed mapping must end with a confirmation question and a wait for the answer. Record the exact answer and source identifiers. For upload + catalog, always establish the desired uploaded qualities unless the user already specified them. Never silently borrow unassigned colors, subjects or details. Do not use a branding board's grid as website structure; if an assignment conflicts with the requested output or required identity, explain the conflict, ask for a resolution and wait.
+The UI supplies the third route as a custom/free-text answer. Do not add an "Other" option when the host provides it automatically. A preselected first option is not a submitted answer. Wait for the response; an empty result, timeout or elapsed time never selects a mapping. Do not generate a concept, sample or HTML while the question is unresolved.
 
-Requested weights guide visual treatment, not literal canvas percentages or permission to change structure. Do not invent numerical weights as measured evidence. The business brief controls meaning and factual copy; approved identity controls what must remain; designated sources control structure and style. Surface a conflict when a requested change contradicts a required identity constraint. Borrow principles rather than logos, exact artwork, people or recognizable signature constructions.
+For more than two images, identify every image in the question. Keep the two pair choices when meaningful and explicitly state that those choices leave additional images unused; the custom answer can assign R3/R4/etc. to details, style or composition. Never silently use the remaining images. For one reference, omit binary options and use a free-text Questions prompt asking which aspects it should control and how to handle the other role. Do not automatically use the same image for both roles.
+
+If a custom answer is incomplete, ambiguous, conflicts with required identity or exceeds tool input limits, resolve only the missing decision through Questions and wait. A completed Questions answer for the unchanged set carries forward through revisions. New references or changes to the mapping require a new Questions answer; no repeated upload or confirmation is needed for unchanged inputs.
+
+## Follow the answer exactly
+
+Record the submitted answer with stable source IDs, roles, selected qualities and exclusions. Attachment order identifies images; it never determines their roles by itself.
+
+- Composition sources control the confirmed grid, proportions, hierarchy, whitespace and placement. For a branding board, preserve the assigned panel boundaries and text capacity.
+- Style sources control only the confirmed typography, color, imagery, texture or treatment. Their layout must not replace the composition source.
+- Detail references affect only their assigned elements. Logos and photographs used as actual assets remain distinct from inspiration.
+- For website-from-branding work, propose the selected branding as identity and a web reference as structure in Questions. Do not silently use a branding board grid as website structure.
+
+Requested weights guide treatment, not literal canvas percentages or permission to change structure. The brief controls meaning and factual copy; required identity controls what must remain. Resolve conflicts through Questions. Borrow principles rather than logos, exact artwork, people or recognizable signature constructions.
+
+After a complete Questions answer, restate the mapping briefly, then generate using the appropriate mode and structural rules. Do not add another generation-approval step. Verify the result against the confirmed roles and correct drift rather than reinterpret the user's answer.

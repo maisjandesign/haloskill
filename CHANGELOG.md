@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Made Concepts request composition/style references from a known brief, then confirm image roles exclusively through interactive Questions with pair-order choices and native custom answers; generation waits for the submitted response.
+
 - Required explicit user reference-role assignments before Concepts generation, including single references and agent-selected sources; removed attachment-order defaults and preserved confirmed roles through revisions.
 
 - Fixed Concepts starting generation on a bare request: collect the missing brief, visual references and required source images first; wait for inputs or an explicit no-reference/delegated-selection choice. Reuse existing project context for continuations.

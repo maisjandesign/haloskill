@@ -1,32 +1,34 @@
 ---
 name: haloskill-concepts
-description: "Collect the brief and visual references before generating website or branding concept images; after approval, build editable HTML with direct Figma clipboard transfer, without a Figma plugin."
+description: "Collect a brief and composition/style references, confirm their roles through Questions, then generate website or branding concepts; after approval, build editable HTML with direct Figma copy."
 ---
 
 # HaloSkill — Concepts
 
-Create website concepts, branding concepts, or a website derived from a selected branding concept. Default workflow: **brief and references → user-defined reference roles → concept images → revisions → explicit approval → editable HTML preview → user copies and pastes directly onto the Figma canvas**. Reuse existing project context; a complete research package or sitemap is not required for exploration.
+Create website concepts, branding concepts, or a website derived from a selected branding concept. Default workflow: **brief → reference request → Questions role confirmation → concept images → revisions → explicit approval → editable HTML preview → user copies and pastes directly onto the Figma canvas**. Reuse existing project context; a complete research package or sitemap is not required for exploration.
 
 For a new environment, first read [setup and requirements](references/setup-and-requirements.md). Discover actual capabilities before promising generation or transfer.
 
-## 1. Collect inputs before generation
+## 1. Brief, reference request and Questions
 
-A bare request such as "Create a design concept using HaloSkill Concepts" starts intake, not image generation. Before calling an image-generation tool or handing off to an image-generation skill, establish both:
+Reuse the supplied brief or known client data from the current project. Ask only for missing essentials: business/product, audience, goal and design scope. A complete research package or sitemap is not required. Knowing the client does not authorize generation without references.
 
-- **Brief:** the actual business/product, intended audience, goal and requested design scope, from the current project or the user. Ask for missing essentials instead of inventing a project.
-- **Visual basis:** relevant references and source images already supplied or explicitly selected for this project, inspected and assigned roles explicitly by the user or confirmed in response to a role question; or an explicit user instruction to proceed without references or to choose them on the user's behalf.
+**Request references first.** If the current concept has no reference set, ask in the user's language: "Please send two references: one for composition (layout, grid, proportions, hierarchy and spacing), and one for style (typography, colors, imagery and visual treatment). You may attach more images and specify any details to use or avoid." Ask for required brand assets/photos too when relevant. Request attachments in ordinary chat, since Questions accepts text answers rather than file uploads. Wait for the images; do not generate a sample, concept or HTML in the meantime. Reuse an already supplied current set instead of requesting duplicate uploads. One reference or a larger collection is supported through the custom mapping below. Work without references only if the user explicitly requests that exception.
 
-If the visual basis is missing, ask for reference images, links or a folder, plus any existing logo, brand assets or photos that must be used. If the brief is missing too, bundle those requests into one short intake message in the user's language. Explain that one reference is enough to start and that the user may explicitly choose to proceed without references. Then wait for the response. Do not generate a sample, placeholder concept or HTML while waiting. A general "create a concept", missing attachments, silence or elapsed time is not permission to skip references. If the user says materials will arrive later, wait for them.
+**Confirm roles only through Questions.** Inspect the received images and label them R1, R2, etc. in attachment order, with filenames or short descriptions so the user can identify each. For every new reference set, use the available interactive Questions tool (`request_user_input_async` in this environment) to ask which image supplies composition and which supplies style. Even captions suggesting roles should be presented for confirmation in this Questions step. Do not substitute a plain-text role question or infer the mapping yourself.
 
-Reuse materials and explicit choices already present in the current project; do not ask the user to resend them or reconfirm a no-reference choice. If the user delegated reference selection, choose and inspect relevant sources, then ask the role question below. Permission to select references does not confirm their roles.
+For two images, offer these two choices in the user's language:
 
-**Required role question:** For supplied or selected references whose roles are not already explicit, label them R1, R2, etc. and ask: "What should we take from each reference: composition, style (typography, colors, imagery), or specific details? What should we avoid?" For one reference, ask which aspects to use; do not automatically use it for both composition and style. You may propose a mapping, but ask the user to confirm it and wait for the answer. Do not call generation tools, generate samples or begin HTML until the roles are answered. Attachment order, silence, elapsed time or apparent visual suitability cannot substitute for an answer. If the user already specified the roles, that satisfies the question; do not ask again. Explicit no-reference work has no reference roles to confirm.
+1. First image (R1): composition; second image (R2): style.
+2. Second image (R2): composition; first image (R1): style.
 
-Record and follow the answered mapping exactly in the generation prompt and output review. Do not swap sources, blend unassigned qualities, change the pairing or broaden a reference's role yourself. If the answer leaves a material role unclear, conflicts with required identity, or cannot be followed with available tools, ask a focused follow-up and wait. New references or changed roles require an explicit assignment or confirmation before use; unchanged roles carry forward through revisions.
+The third route is the Questions UI's built-in custom/free-text answer. Explain in the question that it can assign other roles, extra images or specific details. Do not add a fake third "Other" choice when the tool already provides free text. Neither numbered choice is an aesthetic recommendation; the first merely follows attachment order and is not confirmed until submitted. For more images, list all their IDs in the question and let the custom answer map them; do not silently apply unassigned images. For one image, use a free-text Questions prompt asking which aspects it controls and how to handle the other role.
 
-Read [intake and reference roles](references/intake-and-references.md). Extract known answers before asking for missing information. Speak the user's language; default visible deliverable copy to English unless the project specifies another language. Ask short questions in stages. Two references are a useful pairing, not a minimum count; this does not waive the visual-basis check above. Inspect supplied images, links or folders. Do not assume the application's catalog or saved settings are accessible.
+**Wait for the submitted answer.** While Questions is pending, do not invoke an image-generation skill/tool, generate samples or start HTML. Preselection, no answer, a timeout, silence or elapsed time is not confirmation. If Questions is unavailable, report the limitation and retain the prepared context; do not silently replace the requested interface or proceed. Resolve materially incomplete/custom answers through Questions too. An existing completed Questions answer for the same unchanged set is reusable during revisions; new references or changed mappings need a new Questions answer.
 
-Select website, branding or website-from-branding mode from context. Clarify only when it materially affects the result. After the user has answered the role question, briefly restate the design interpretation and confirmed source roles, then proceed without another approval request.
+Record the confirmed source IDs, roles, selected qualities and exclusions. Follow them exactly in the generation prompt and output review: composition controls structure; style controls visual treatment without replacing the chosen structure; details apply only where assigned. Do not swap roles, broaden them or blend unassigned qualities. If a mapping conflicts with required identity or cannot be followed with available tools, resolve it through Questions before generation.
+
+Read [intake and reference roles](references/intake-and-references.md) for the question payload and source handling. After receiving a complete answer, briefly restate the mapping and proceed directly to image generation with the relevant [generation rules](references/generation.md); do not ask another "shall I generate?" question. Speak the user's language; default visible design copy to English unless the project specifies another language.
 
 ## 2. Generate and refine images
 

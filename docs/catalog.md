@@ -11,7 +11,7 @@ The canonical machine-readable catalog is [catalog.json](../catalog.json). Core 
 | [haloskill-workshop-script-writer](../plugins/haloskill/skills/haloskill-workshop-script-writer/SKILL.md) | core | 2–3 | Facilitator script |
 | [haloskill-research](../plugins/haloskill/skills/haloskill-research/SKILL.md) | core | 2–3 | Evidence ledger, findings, implications and open questions |
 | [haloskill-site-architecture](../plugins/haloskill/skills/haloskill-site-architecture/SKILL.md) | core | 3–4 | Sitemap, page inventory, navigation and flows |
-| [haloskill-concepts](../plugins/haloskill/skills/haloskill-concepts/SKILL.md) | core | 4 | Comparable visual directions and HTML concepts |
+| [haloskill-concepts](../plugins/haloskill/skills/haloskill-concepts/SKILL.md) | core | 4 | Versioned concept images; after approval, editable HTML and direct Figma copy |
 | [haloskill-copywriting](../plugins/haloskill/skills/haloskill-copywriting/SKILL.md) | core | 3–7 | Page copy, CTA variants, metadata and content gaps |
 | [haloskill-presentations](../plugins/haloskill/skills/haloskill-presentations/SKILL.md) | core | 1, 5–8 | Editable deck, speaker notes and feedback log |
 | [haloskill-web-build](../plugins/haloskill/skills/haloskill-web-build/SKILL.md) | core | 6–8 | Website implementation, Storybook and verification evidence |
@@ -32,7 +32,7 @@ The canonical machine-readable catalog is [catalog.json](../catalog.json). Core 
 - Project Setup owns scope, tasks, decisions, risks and updates. Roadmap to Timeline computes dates from actual estimates.
 - Workshop Client Research prepares the workshop packet. Research synthesizes supplied evidence or investigates deeper questions. Workshop Script Writer prepares the facilitator's script.
 - Site Architecture owns the initial sitemap and flows. Design Canvas inspects captured implemented states.
-- Concepts supplies visual directions. Design Review evaluates decisions. The starter handles implementation verification and technical QA.
+- Concepts generates and revises website or branding images, then reconstructs an explicitly approved version as editable HTML with direct Figma clipboard capture. The user pastes into Figma; layer and Auto Layout verification is a separate check. Design Review evaluates decisions. The starter handles production implementation and technical QA.
 - Copywriting owns page messaging and voice. The starter's writing guidance covers local UI copy during implementation.
 - Presentations has proposal, concepts, and review/handoff modes. Existing Halo assets and template references are retained.
 - Storybook and Figma Library are separate deliverables. Code Connect links real design and code components.

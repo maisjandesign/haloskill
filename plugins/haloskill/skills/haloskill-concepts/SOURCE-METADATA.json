@@ -1,0 +1,47 @@
+{
+  "name": "haloskill-concepts",
+  "original": "design-taste-frontend",
+  "mode": "adapted-workflow",
+  "source": "See sources/upstream.json and docs/provenance.md",
+  "source_version": "0.2.0",
+  "license_status": "See LICENSE-NOTICE.md",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "aa194351b246b8b4799099d4ed7b033d29eab6e6e3d58d8d2172978be7b3ec89"
+    }
+  ],
+  "profile": "core",
+  "stage": "4",
+  "adaptation_sources": {
+    "project": "Desaign Builder",
+    "date": "2026-10-09",
+    "method": "Adapted concept generation, source roles, edits and continuations into portable instructions. No provider runtime, client data, catalog assets or production settings copied. Post-approval HTML and official Figma Code to canvas clipboard capture are the only transfer workflow. The portable capture-page template is newly authored; Figma runtime is loaded from its official origin and is not vendored. No client assets are included.",
+    "files": [
+      {
+        "path": "src/lib/generation/branding-art-direction.ts",
+        "sha256": "9cc72787f2ddc8a002d63bb8133456a10de8fb670c217a5e6211e92851695bd7"
+      },
+      {
+        "path": "src/lib/generation/concept-generator.ts",
+        "sha256": "dc9a59dd55d49c7323603954edabed4aaaf35c9f165f9e02938d488e577730f0"
+      },
+      {
+        "path": "src/lib/generation/branding-upload-style.ts",
+        "sha256": "27a414f4677058febd26a69de1a2df30631f0333d913f4d0800eaa67eefe0189"
+      },
+      {
+        "path": "src/lib/generation/branding-exploration.ts",
+        "sha256": "71a1af782abf78ec301b956f9487f8309a4f07e56038eea8640aafac2d4c06e2"
+      },
+      {
+        "path": "src/lib/generation/website-from-branding.ts",
+        "sha256": "ba5c935e0745e4bcf86d1893d43c220005a995fc1c5b743d9a18e9ca8050bf89"
+      },
+      {
+        "path": "src/lib/generation/branding-series.ts",
+        "sha256": "bbdb2aafecd3b633820c36315607ed997a567b1e9fba4c036d0a2f4a66ff5e26"
+      }
+    ]
+  }
+}

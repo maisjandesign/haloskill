@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Updated Concepts from the supplied 2026-10-09 package: website/branding image generation, focused revisions, explicit approval, editable HTML and direct Figma clipboard capture.
+- Added portable handoff resources and synchronized Concepts descriptions, commands, workflow, dependency guidance and source provenance.
+- Preserved the historical frontend source and existing license terms; Figma paste and native Auto Layout still require project-specific verification.
+
 ## 0.2.0 — 2026-10-07
 
 - Consolidated the family into 13 core workflows and 9 optional specialists.

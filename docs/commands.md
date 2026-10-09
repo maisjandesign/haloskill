@@ -11,7 +11,7 @@ Use these prompts inside Codex after installation. Replace “this” with attac
 | Workshop Script Writer | `$haloskill-workshop-script-writer prepare a workshop script from the brief and client research.` |
 | Research | `$haloskill-research synthesize these sources into findings and design implications.` |
 | Site Architecture | `$haloskill-site-architecture create the sitemap and primary user flows from the approved brief.` |
-| Concepts | `$haloskill-concepts create distinct website directions from the approved brief and sitemap.` |
+| Concepts | `$haloskill-concepts generate one website concept image from this brief and references; after I approve a version, build editable HTML with direct copy to Figma.` |
 | Copywriting | `$haloskill-copywriting write website copy from the approved sitemap, research, and brand voice.` |
 | Presentations | `$haloskill-presentations prepare a concept presentation with rationale, tradeoffs, and a clear client decision.` |
 | Web Build | `$haloskill-web-build implement the approved design with the studio Next.js starter.` |
@@ -26,6 +26,22 @@ Use these prompts inside Codex after installation. Replace “this” with attac
 | SEO Audit | `$haloskill-seo-audit audit this website for technical and on-page SEO issues.` |
 | Analytics | `$haloskill-analytics define and verify analytics events for the primary website journeys.` |
 | Design Canvas | `$haloskill-design-canvas prepare a Design Canvas review of these implemented pages and flows.` |
+
+## Concepts modes and handoff
+
+Supply a brief and references for website, branding or website-from-branding work. The available image tool generates actual concept images; the package does not include provider access. A complete sitemap is not required.
+
+```text
+$haloskill-concepts Generate one branding concept image from this brief. Use R1 for composition and R2 for visual style.
+
+$haloskill-concepts Create a website concept image using branding A2 as the identity and this web reference for layout.
+
+$haloskill-concepts In A1, preserve the layout and photos and refine the typography.
+
+$haloskill-concepts A2 is approved for transfer. Build editable HTML for that version and open the direct Copy to Figma preview.
+```
+
+After capture, paste directly onto the Figma Design canvas with Cmd+V / Ctrl+V. No custom Figma plugin is needed. Native layers and Auto Layout remain unverified until inspected after paste. See [requirements](../plugins/haloskill/skills/haloskill-concepts/references/setup-and-requirements.md) and [handoff details](../plugins/haloskill/skills/haloskill-concepts/references/html-figma-handoff.md).
 
 ## Useful continuations
 

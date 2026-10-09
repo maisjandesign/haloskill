@@ -69,9 +69,9 @@
       "title": "Concepts",
       "profile": "core",
       "stage": "4",
-      "description": "Create distinct visual directions and editable HTML concepts for a marketing website from an approved brief.",
-      "output": "Comparable visual directions and HTML concepts",
-      "command": "$haloskill-concepts create distinct website directions from the approved brief and sitemap."
+      "description": "Generate and refine website or branding concepts from a brief and references; after approval, build editable HTML with direct Figma clipboard transfer, without a Figma plugin.",
+      "output": "Versioned concept images; after approval, editable HTML and direct Figma copy",
+      "command": "$haloskill-concepts generate one website concept image from this brief and references; after I approve a version, build editable HTML with direct copy to Figma."
     },
     {
       "name": "haloskill-copywriting",

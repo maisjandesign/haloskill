@@ -41,7 +41,7 @@ Fixed option menus, forced ASCII output, and rigid story formatting are not carr
 | Site architecture | Corey Haines | Dean journey mapping and story mapping complement sitemap/navigation work |
 | Copywriting | Corey writing and editing | Brand voice/messaging modes + Miki fact-preserving editing; one entry point, no competing briefs |
 | Brand strategy | Brand-building positioning | Optional only when positioning is in scope |
-| Visual concepts | Retained design-taste method | Preserve the existing design base; no additional mandatory concept engines |
+| Visual concepts | User-supplied portable Concepts package adapted from Desaign Builder | Generate and revise images before approved HTML/direct Figma capture; retain design-taste as optional historical context |
 | Build, animation, Storybook, QA | User's Next.js starter | Replace duplicate Halo wrappers; do not bundle the starter again |
 | Sitemap vs canvas | Site Architecture / Design Canvas | Initial structure and captured-page review are different jobs |
 | Presentation | Retained Halo templates/assets | One entry point with proposal, concept and review modes |
@@ -99,6 +99,10 @@ Fixed option menus, forced ASCII output, and rigid story formatting are not carr
 | `executive-narrative` | `haloskill-presentations` | [Owl-Listener/design-leadership-skills](https://github.com/Owl-Listener/design-leadership-skills/blob/9b801db464b25c73e709a77a358854eac43a4937/org-influence/skills/executive-narrative/SKILL.md) |
 | `ai-copywriter` | `haloskill-copywriting` | [mikiarlo3/ai-copywriter](https://github.com/mikiarlo3/ai-copywriter/blob/08b53b1ad39887cd94cbaab61cac3b6aae2d8518/SKILL.md) |
 | `industry-research` | `haloskill-research` | [lu90/industry-research-skill](https://github.com/lu90/industry-research-skill/blob/590776790827f193da17bbc39df1fa07748f198a/skills/industry-research/SKILL.md) |
+
+## Concepts package update — 2026-10-09
+
+The user supplied `haloskill-concepts-final.zip`. Its workflow, references and generic clipboard template replace the earlier HTML-first entry point. The original `design-taste-frontend` snapshot is retained byte for byte as optional historical context. The package records adaptation-source hashes in its `SOURCE-METADATA.json`, mirrored in [manifest.json](../sources/manifest.json); the delivered package file is identified there by SHA-256. Source hashes describe provenance, not a new audit of the originating application. No provider runtime, credentials or client assets are imported. Figma capture loads the official remote runtime. Package validation does not establish browser capture, user paste or native Auto Layout verification.
 
 ## User materials and retained assets
 

@@ -9,6 +9,7 @@
 | Design Canvas | Upstream runtime, Next/React, Tailwind, Playwright, lucide | Optional adapter | Compatibility work, runtime setup, capture and production-exclusion tests |
 | Figma Library / Code Connect | Current Figma tooling and permissions | Methods, retained helper resources | Real files/components and tool-specific prerequisites |
 | Presentations | Figma Slides, presentation provider, or HTML tooling | Halo assets, templates and mode guides | Available provider and requested output validation |
+| Concepts | Image generation/editing tool; local HTTP preview; official Figma capture runtime and HTML clipboard | Concept workflow, references and generic capture template | Provider access, brief/assets, network/clipboard permissions and user paste into an editable Figma Design file; remote Figma MCP is optional |
 | Image Generation | Image generation provider | Workflow adapter | Connected generation tool |
 | CMS / integrations / deploy | Project-specific services | Scope and handoff guidance | Implementation, access, verification and release setup |
 

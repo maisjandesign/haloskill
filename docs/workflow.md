@@ -22,11 +22,13 @@ Afterward, Research synthesizes the real notes. Project Setup updates the brief,
 
 ## 4. Develop visual concepts
 
-Concepts uses the approved brief and structure to generate comparable directions. Copywriting supplies credible messages and realistic content; Image Generation is optional for needed raster assets. Designers curate and improve the directions and editable HTML concepts. **Exit:** distinct, coherent options with rationale, comparable content and known implementation implications.
+Concepts uses the available brief and references to generate website concepts, branding concepts or a website based on selected branding. A complete research package or sitemap is not required for exploration. Assign reference roles, use an available image-generation/editing tool, and preserve image versions and focused revisions. Start with one concept when no count is requested, or two for an unspecified comparison request. Copywriting supports credible content. **Exit:** inspected concept images with stable labels, short rationales and a recorded preference or change request; HTML follows explicit approval.
 
 ## 5. Present and select
 
-Presentations uses concepts mode to explain options and tradeoffs. The team presents; the client chooses or requests changes. Design Review supplies a consistent rubric. Project Setup records actual feedback, approval state, affected tasks and scope consequences. **Exit:** one selected direction and a clear change list; no inferred approval from silence.
+Presentations uses concepts mode to explain options and tradeoffs. The team presents; the client chooses or requests changes. Design Review supplies a consistent rubric. Project Setup records actual feedback, the exact image/version, approval wording, affected tasks and scope consequences. Selecting or liking an image alone does not authorize reconstruction.
+
+After explicit approval for transfer, Concepts rebuilds the approved scope as real HTML/CSS with native text and separate assets, checks it against the image, and opens the local Copy to Figma preview. The user copies through the official Figma Code to canvas runtime and pastes directly onto the Figma Design canvas; no custom Figma plugin is required. Capture success proves capture only. Verify appearance, native layers and appropriate Auto Layout separately when access permits, otherwise record verification as pending. **Exit:** explicit approval and the requested HTML/Figma handoff with actual verification status. This does not authorize production functionality, extra pages or publication.
 
 ## 6. Build the system and homepage
 

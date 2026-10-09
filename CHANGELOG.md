@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Fixed Concepts starting generation on a bare request: collect the missing brief, visual references and required source images first; wait for inputs or an explicit no-reference/delegated-selection choice. Reuse existing project context for continuations.
+
 - Updated Concepts from the supplied 2026-10-09 package: website/branding image generation, focused revisions, explicit approval, editable HTML and direct Figma clipboard capture.
 - Added portable handoff resources and synchronized Concepts descriptions, commands, workflow, dependency guidance and source provenance.
 - Preserved the historical frontend source and existing license terms; Figma paste and native Auto Layout still require project-specific verification.

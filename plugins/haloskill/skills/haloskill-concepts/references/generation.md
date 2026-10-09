@@ -1,5 +1,9 @@
 # Generation and revisions
 
+## Input readiness
+
+Apply the intake check in [SKILL.md](../SKILL.md) before any generation call. Missing references mean requesting materials and waiting, unless the user has explicitly chosen no-reference work or delegated reference selection. A default variant count, an inferred aesthetic or tool availability does not make missing inputs ready. For a focused edit, reuse the chosen generated image and existing project context instead of reopening intake.
+
 ## Execute with actual tools
 
 Use the available image-generation tool and live input rules. Inspect local images before supplying them. Preserve reference order and edit-target identity. Prefer the built-in tool when available; use an API/provider path only with the user's choice or existing authorization. This package includes no provider runtime or credentials. Never request secrets in chat. If generation is unavailable, retain the prepared brief/prompt and explain the missing capability; do not call the prompt a generated concept or silently substitute HTML.

@@ -1,4 +1,4 @@
 interface:
   display_name: "HaloSkill — Concepts"
   short_description: "Concepts to approved HTML and direct Figma copy"
-  default_prompt: "Use $haloskill-concepts to create website or branding concept images from my brief and references; after I approve a version, open editable HTML with direct copy to the Figma canvas, without a plugin."
+  default_prompt: "Use $haloskill-concepts to collect my brief, visual references and required images before generating website or branding concepts; ask for missing inputs and wait. After I approve a version, open editable HTML with direct copy to the Figma canvas, without a plugin."

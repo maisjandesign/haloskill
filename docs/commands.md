@@ -29,7 +29,7 @@ Use these prompts inside Codex after installation. Replace “this” with attac
 
 ## Concepts modes and handoff
 
-Supply a brief and references for website, branding or website-from-branding work. The available image tool generates actual concept images; the package does not include provider access. A complete sitemap is not required.
+Supply a brief and references for website, branding or website-from-branding work. A bare "create a concept" request starts intake: the skill asks for missing context, visual references and required source images, then waits. It reuses existing inputs. Working without references or delegating their selection is an explicit user choice. The available image tool generates actual concept images; the package does not include provider access. A complete sitemap is not required.
 
 ```text
 $haloskill-concepts Generate one branding concept image from this brief. Use R1 for composition and R2 for visual style.

@@ -22,7 +22,7 @@ Afterward, Research synthesizes the real notes. Project Setup updates the brief,
 
 ## 4. Develop visual concepts
 
-Concepts uses the available brief and references to generate website concepts, branding concepts or a website based on selected branding. A complete research package or sitemap is not required for exploration. Assign reference roles, use an available image-generation/editing tool, and preserve image versions and focused revisions. Start with one concept when no count is requested, or two for an unspecified comparison request. Copywriting supports credible content. **Exit:** inspected concept images with stable labels, short rationales and a recorded preference or change request; HTML follows explicit approval.
+Concepts uses the available brief and references to generate website concepts, branding concepts or a website based on selected branding. A complete research package or sitemap is not required for exploration. If the brief or visual basis is missing, request the brief, references and required source images and wait before generating. Reuse existing inputs; proceed without references only on the user's explicit instruction, or inspect sources selected under delegated reference choice. Assign reference roles, use an available image-generation/editing tool, and preserve image versions and focused revisions. Start with one concept when no count is requested, or two for an unspecified comparison request. Copywriting supports credible content. **Exit:** inspected concept images with stable labels, short rationales and a recorded preference or change request; HTML follows explicit approval.
 
 ## 5. Present and select
 

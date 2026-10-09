@@ -12,7 +12,7 @@ Example: "What is the business, who is it for, and what should the design commun
 
 Reference request: "Share images, links or a folder. Two references are a useful start: one for composition, one for visual character. One image or a larger collection also works. Tell me which details matter to you."
 
-Without references, propose a direction from the brief. Use a catalog only when its images are accessible. This skill does not include the Desaign Builder R2 collection. If a URL cannot be inspected, explain the gap and request a screenshot or another source. Never analyze unseen pixels as evidence.
+If no relevant references or source images are available, ask for them and wait. A bare concept request is not a no-reference choice. Ask also for any existing logo, brand assets or photos that must be used; do not require assets the user says do not exist. Only after the user explicitly chooses to proceed without references may you propose and generate an original direction from a sufficient brief. If the user asks you to choose references, inspect the selected sources first. Reuse explicit choices and materials already present in the current project. Use a catalog only when its images are accessible. This skill does not include the Desaign Builder R2 collection. If a URL cannot be inspected, explain the gap and request a screenshot or another source. Never analyze unseen pixels as evidence.
 
 ## Inspect and assign roles
 
@@ -27,7 +27,7 @@ Two primary sources are a default pairing, not a hard limit. Extra inputs need e
 | Branding, upload + catalog | Catalog board supplies structure only | Upload drives selected colors, type character, graphics, photography or texture |
 | Website from selected branding | Web reference supplies page structure only | Selected generated branding image supplies identity |
 | One reference | Its applicable structural qualities | Its compatible visual qualities, adapted to the business |
-| No references | Proposed composition appropriate to scope | Clearly labeled original direction |
+| Explicit user choice to proceed without references | Proposed composition appropriate to scope | Clearly labeled original direction |
 
 Explicit user role assignments override defaults. Never use a branding board's grid as website structure. For upload + catalog, ask what the user likes only when ambiguous; otherwise infer and state the relevant qualities. Catalog colors and subjects must not displace uploaded style.
 

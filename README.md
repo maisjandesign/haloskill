@@ -34,7 +34,7 @@ For design-only work, say so; the workflow ends in design handoff without forcin
 | [Workshop Script Writer](plugins/haloskill/skills/haloskill-workshop-script-writer/SKILL.md) | `$haloskill-workshop-script-writer` | Prepare the facilitator script, questions, exercises, and timing for a people-led workshop. |
 | [Research](plugins/haloskill/skills/haloskill-research/SKILL.md) | `$haloskill-research` | Synthesize evidence or investigate audience, competitors, and industry questions beyond workshop preparation. |
 | [Site Architecture](plugins/haloskill/skills/haloskill-site-architecture/SKILL.md) | `$haloskill-site-architecture` | Define a website sitemap, navigation, URLs, content responsibilities, and key user flows before visual design. |
-| [Concepts](plugins/haloskill/skills/haloskill-concepts/SKILL.md) | `$haloskill-concepts` | Generate and refine website or branding concepts from a brief and references; after approval, build editable HTML with direct Figma clipboard transfer, without a Figma plugin. |
+| [Concepts](plugins/haloskill/skills/haloskill-concepts/SKILL.md) | `$haloskill-concepts` | Collect the brief and visual references before generating website or branding concept images; after approval, build editable HTML with direct Figma clipboard transfer, without a Figma plugin. |
 | [Copywriting](plugins/haloskill/skills/haloskill-copywriting/SKILL.md) | `$haloskill-copywriting` | Write and edit website copy using approved positioning, brand voice, audience evidence, and verified proof. |
 | [Presentations](plugins/haloskill/skills/haloskill-presentations/SKILL.md) | `$haloskill-presentations` | Prepare Halo proposals, concept presentations, and project review decks with evidence and clear client decisions. |
 | [Web Build](plugins/haloskill/skills/haloskill-web-build/SKILL.md) | `$haloskill-web-build` | Implement approved website designs using the studio Next.js starter and its built-in component, motion, and QA workflows. |
@@ -81,7 +81,7 @@ python3 scripts/install.py --project /path/to/your/project --profile all
 
 **Design Canvas reviews captured pages and flows.** Initial sitemaps belong to Site Architecture. Canvas requires a separate runtime integration and real routes/states.
 
-**Concepts starts with images.** Use a brief and references for website, branding or website-from-branding exploration; a complete sitemap is not required. Review and revise the images, then explicitly approve a version for editable HTML and direct Figma copy. The user pastes onto the Figma Design canvas; capture success alone does not verify native layers or Auto Layout. See the [concept workflow and requirements](plugins/haloskill/skills/haloskill-concepts/references/setup-and-requirements.md).
+**Concepts starts with intake.** For a bare concept request, it asks for the missing brief, visual references and required source images, then waits before generating. Existing project materials are reused; working without references or delegating their selection requires an explicit user choice. A complete sitemap is not required. Review and revise the images, then explicitly approve a version for editable HTML and direct Figma copy. The user pastes onto the Figma Design canvas; capture success alone does not verify native layers or Auto Layout. See the [concept workflow and requirements](plugins/haloskill/skills/haloskill-concepts/references/setup-and-requirements.md).
 
 ## Documentation
 

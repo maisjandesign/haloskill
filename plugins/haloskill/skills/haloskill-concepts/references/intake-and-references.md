@@ -14,21 +14,23 @@ Reference request: "Share images, links or a folder. Two references are a useful
 
 If no relevant references or source images are available, ask for them and wait. A bare concept request is not a no-reference choice. Ask also for any existing logo, brand assets or photos that must be used; do not require assets the user says do not exist. Only after the user explicitly chooses to proceed without references may you propose and generate an original direction from a sufficient brief. If the user asks you to choose references, inspect the selected sources first. Reuse explicit choices and materials already present in the current project. Use a catalog only when its images are accessible. This skill does not include the Desaign Builder R2 collection. If a URL cannot be inspected, explain the gap and request a screenshot or another source. Never analyze unseen pixels as evidence.
 
-## Inspect and assign roles
+## Inspect, ask and wait for role assignments
 
-Record each source's identifier/path or URL, inspected status, role, useful qualities and exclusions. A folder is a candidate collection, not a command to attach every image. Group similar examples, use contact sheets if helpful, then inspect selected originals. Choose a small coherent set per concept, honor pinned sources and record the pairing for intentional variation later.
+Record each source's identifier/path or URL, inspected status, role, useful qualities and exclusions. A folder is a candidate collection, not a command to attach every image. Group similar examples, use contact sheets if helpful, then inspect selected originals. Propose a small coherent set per concept, honor pinned sources, and ask the user to assign or confirm roles before using the pairing. Do not change it for later variation without an explicit user assignment or confirmation.
 
-Two primary sources are a default pairing, not a hard limit. Extra inputs need explicit roles such as approved logo or photography. If tool input limits prevent using required sources, explain and resolve the selection instead of silently dropping them. Preserve actual attachment order in the prompt.
+Label the inspected references R1, R2, etc. Ask what to take from each (composition, style or specific details) and what to avoid, then wait for the answer before generation. This also applies to a single reference and agent-selected catalog sources. An existing explicit user assignment is already an answer; preserve it without asking again. Partial or ambiguous assignments require a focused follow-up. Extra inputs need explicit roles such as approved logo or photography. If tool input limits prevent using required sources, explain and resolve the selection instead of silently dropping them. Preserve actual attachment order in the prompt.
 
-| Mode | Composition source | Style or identity source |
+The following are possible mappings to discuss, never automatic defaults. Use only the mapping the user explicitly supplied or confirmed; do not infer roles from file order.
+
+| Mode | Possible composition role | Possible style or identity role |
 | --- | --- | --- |
-| Website from own references | First designated web reference: grid, proportions, hierarchy, whitespace | Second: typography character, palette, surfaces and imagery |
-| Branding from own or catalog pair | First board: panel count/bounds, text capacity and type scale | Second: color, graphics and treatment; compatible first-source qualities may contribute |
-| Branding, upload + catalog | Catalog board supplies structure only | Upload drives selected colors, type character, graphics, photography or texture |
-| Website from selected branding | Web reference supplies page structure only | Selected generated branding image supplies identity |
-| One reference | Its applicable structural qualities | Its compatible visual qualities, adapted to the business |
-| Explicit user choice to proceed without references | Proposed composition appropriate to scope | Clearly labeled original direction |
+| Website | A designated web reference: grid, proportions, hierarchy, whitespace | A designated style reference: typography, palette, surfaces and imagery |
+| Branding | A designated board: panel count/bounds, text capacity and type scale | A designated reference: colors, graphics and treatment |
+| Upload + catalog | Catalog structure, if confirmed by the user | Uploaded qualities specified by the user |
+| Website from branding | Web layout reference, if confirmed by the user | Selected branding identity, as requested by the user |
+| One reference | Only the structural qualities the user chooses | Only the visual qualities the user chooses |
+| Explicit no-reference work | Original composition within the brief | Original direction; no role question needed |
 
-Explicit user role assignments override defaults. Never use a branding board's grid as website structure. For upload + catalog, ask what the user likes only when ambiguous; otherwise infer and state the relevant qualities. Catalog colors and subjects must not displace uploaded style.
+Ask, for example: "For R1 and R2, which should guide composition, which should guide style, and are there specific details to use or avoid?" A proposed mapping must end with a confirmation question and a wait for the answer. Record the exact answer and source identifiers. For upload + catalog, always establish the desired uploaded qualities unless the user already specified them. Never silently borrow unassigned colors, subjects or details. Do not use a branding board's grid as website structure; if an assignment conflicts with the requested output or required identity, explain the conflict, ask for a resolution and wait.
 
 Requested weights guide visual treatment, not literal canvas percentages or permission to change structure. Do not invent numerical weights as measured evidence. The business brief controls meaning and factual copy; approved identity controls what must remain; designated sources control structure and style. Surface a conflict when a requested change contradicts a required identity constraint. Borrow principles rather than logos, exact artwork, people or recognizable signature constructions.

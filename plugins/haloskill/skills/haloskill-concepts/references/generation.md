@@ -2,13 +2,13 @@
 
 ## Input readiness
 
-Apply the intake check in [SKILL.md](../SKILL.md) before any generation call. Missing references mean requesting materials and waiting, unless the user has explicitly chosen no-reference work or delegated reference selection. A default variant count, an inferred aesthetic or tool availability does not make missing inputs ready. For a focused edit, reuse the chosen generated image and existing project context instead of reopening intake.
+Apply the intake check in [SKILL.md](../SKILL.md) before any generation call. Missing references mean requesting materials and waiting, unless the user has explicitly chosen no-reference work or delegated reference selection. A default variant count, an inferred aesthetic or tool availability does not make missing inputs ready. Supplied or agent-selected references also require an explicit user role assignment or an answer confirming a proposed mapping. If that answer is missing or ambiguous, ask and wait; do not use attachment order as a default. For a focused edit, reuse the chosen generated image and confirmed roles instead of reopening intake. New references or changed roles need the user's explicit assignment or confirmation before use.
 
 ## Execute with actual tools
 
 Use the available image-generation tool and live input rules. Inspect local images before supplying them. Preserve reference order and edit-target identity. Prefer the built-in tool when available; use an API/provider path only with the user's choice or existing authorization. This package includes no provider runtime or credentials. Never request secrets in chat. If generation is unavailable, retain the prepared brief/prompt and explain the missing capability; do not call the prompt a generated concept or silently substitute HTML.
 
-Assemble each prompt from deliverable/canvas, business facts, audience/goal, indexed image roles, selected direction, composition/type/whitespace rules, exact known copy, constraints and the relevant mode below. Request one finished concept per image. Use supplied project master prompts when available, reconcile them with the current request, and record their source/version. Do not assume saved application settings match repository defaults.
+Assemble each prompt from deliverable/canvas, business facts, audience/goal, indexed image roles, selected direction, composition/type/whitespace rules, exact known copy, constraints and the relevant mode below. Translate each confirmed role and exclusion into an explicit prompt constraint, tied to its source identifier. Do not let a style-only reference control layout or a composition-only reference supply unrequested colors, imagery or identity. Request one finished concept per image. Use supplied project master prompts when available, reconcile them with the current request, and record their source/version. Do not assume saved application settings match repository defaults.
 
 The current tool may differ from the application's model. Do not promise identical outputs or exact dimensions without inspecting the delivered file. Request the intended canvas and report a material discrepancy. Correct dimensions only through a supported, appropriate path, without distorting the design.
 
@@ -24,7 +24,7 @@ When a board is designated as the structural reference, preserve panel count, bo
 
 Treat text areas as fixed capacity. Preserve perceived letter height, headline/body hierarchy, alignment and approximate line count. Shorten copy instead of shrinking type, widening blocks or filling whitespace. Do not add palette swatches, typography tables, explanations or logo panels unless requested or already present. If no approved logo exists, use existing wordmark space for a provisional logo and label its provisional status outside the image.
 
-Use the second source for color relationships, graphic principles, materials and image treatment. In catalog + upload mode, catalog supplies structure only and upload drives style. Typeface character can change within the structural type scale. Weights never override panel boundaries or text capacity.
+Use the user-designated style source for the specific color relationships, graphic principles, materials and image treatment they selected. In catalog + upload mode, use catalog structure and uploaded style only if the user assigned or confirmed those roles. Typeface character can change within the structural type scale. Weights never override panel boundaries or text capacity.
 
 Invent new business-relevant subjects, metaphors, photographs and applications inside existing image areas. Recoloring or relabeling the same distinctive object or staging is insufficient for a new concept. Do not invent physical products the business does not offer. A proposed touchpoint is a concept, not evidence of an existing product. Without a structural reference, propose and record a suitable composition rather than pretending to match an unseen board.
 
@@ -37,12 +37,12 @@ Use the selected generated branding image as the primary identity source: palett
 ## Feedback
 
 - Focused edit: use the exact chosen generated version as the edit target, change the requested dimension, preserve unrelated layout, imagery and copy. Do not restart from inspiration references.
-- Alternative direction: generate a sibling concept with the same business scope; state the changed idea or reference pairing.
+- Alternative direction: generate a sibling concept with the same business scope; state the changed idea; keep the confirmed reference pairing unless the user explicitly assigns or confirms a new one.
 - Color/type/key-visual exploration: emphasize that dimension while retaining fixed board panel count, type scale and text capacity unless the user asks to change them.
 - Branding series: preserve identity and create distinct relevant subjects/applications. Record the source concept, shared identity and assets already used. A crop, recolor or another carrier for the same dominant object does not establish a fresh visual idea. Explicit requests to reuse an asset take precedence.
 
 ## Review and return
 
-View every requested output. Check business relevance, source roles, composition, copy correctness/legibility, identity, canvas/crop, novelty for new concepts and preservation for edits. Keep rationale outside the image. Fix clear defects with targeted edits; after two unsuccessful corrective attempts, explain the remaining defect and invite direction instead of looping.
+View every requested output. Check every source against its confirmed role and exclusions; correct role drift rather than silently reinterpreting the answer. Check business relevance, composition, copy correctness/legibility, identity, canvas/crop, novelty for new concepts and preservation for edits. Keep rationale outside the image. Fix clear defects with targeted edits; after two unsuccessful corrective attempts, explain the remaining defect and invite direction instead of looping.
 
 Return actual images with stable version labels, concise differences and real paths/native attachments. Record the final prompt and feedback without requiring the user to read them. Tool success is not approval; a concept is not production brand artwork or an implemented website.

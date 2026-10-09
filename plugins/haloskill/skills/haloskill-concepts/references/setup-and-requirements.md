@@ -22,7 +22,7 @@ Invoke `$haloskill-concepts` with a brief and references. Example:
 
 > $haloskill-concepts Generate a website concept from the attached brief. R1 controls composition, R2 controls branding, and R3 supplies card details. Start with one concept. After I approve it, build HTML with direct copy to Figma, without a plugin.
 
-The same entrypoint supports branding and website-from-branding. A bare concept request starts a short intake: ask for the missing brief, references and any required source images, then wait. Two references are a useful pairing, not a minimum. Generate without references only when the user explicitly chooses that route; if reference selection is delegated, inspect the chosen sources first. Reuse existing project inputs and explicit choices. If a user says references will arrive later, wait for them before generation. Keep each project's materials separate.
+The same entrypoint supports branding and website-from-branding. A bare concept request starts a short intake: ask for the missing brief, references and any required source images, then wait. Two references are a useful pairing, not a minimum. Generate without references only when the user explicitly chooses that route; if reference selection is delegated, inspect the chosen sources first. Ask the user what to take from each reference and wait for an explicit assignment or confirmation before generating, including for one reference or agent-selected sources. Do not default to first=composition and second=style. Reuse existing project inputs and explicit role answers. If a user says references will arrive later, wait for them before generation. Keep each project's materials separate.
 
 ## Distribution and validation boundaries
 

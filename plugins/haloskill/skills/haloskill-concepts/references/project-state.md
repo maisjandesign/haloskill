@@ -6,7 +6,7 @@ Keep one concise record of:
 
 - Mode, brief, audience, goal, language, scope and unresolved assumptions.
 - Intake readiness: missing brief essentials, references requested/received, or the user's exact instruction to proceed without references or delegate selection. Record only actual evidence.
-- Reference paths/URLs, inspected status, roles, selected qualities and pins. Identify an accessible catalog or record that none is connected.
+- Reference paths/URLs, inspected status, the exact user role answer or confirmation, roles, selected qualities, exclusions and pins. Mark roles awaiting an answer as pending; generation stays blocked until resolved. Identify an accessible catalog or record that none is connected.
 - Each version's stable label, actual image path, parent version, prompt, input order, direction, actual provider/tool, feedback and verified dimensions when available.
 - Selected version, exact approval evidence, approver, scope and exceptions. Keep human approval separate from generation/Figma execution state.
 - HTML preview path/URL, approved source version, clipboard format, official capture runtime/version evidence, exported scope, browser checks and copy-page path.

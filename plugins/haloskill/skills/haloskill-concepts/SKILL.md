@@ -5,7 +5,7 @@ description: "Collect the brief and visual references before generating website 
 
 # HaloSkill — Concepts
 
-Create website concepts, branding concepts, or a website derived from a selected branding concept. Default workflow: **brief and references → concept images → revisions → explicit approval → editable HTML preview → user copies and pastes directly onto the Figma canvas**. Reuse existing project context; a complete research package or sitemap is not required for exploration.
+Create website concepts, branding concepts, or a website derived from a selected branding concept. Default workflow: **brief and references → user-defined reference roles → concept images → revisions → explicit approval → editable HTML preview → user copies and pastes directly onto the Figma canvas**. Reuse existing project context; a complete research package or sitemap is not required for exploration.
 
 For a new environment, first read [setup and requirements](references/setup-and-requirements.md). Discover actual capabilities before promising generation or transfer.
 
@@ -14,15 +14,19 @@ For a new environment, first read [setup and requirements](references/setup-and-
 A bare request such as "Create a design concept using HaloSkill Concepts" starts intake, not image generation. Before calling an image-generation tool or handing off to an image-generation skill, establish both:
 
 - **Brief:** the actual business/product, intended audience, goal and requested design scope, from the current project or the user. Ask for missing essentials instead of inventing a project.
-- **Visual basis:** relevant references and source images already supplied or explicitly selected for this project, inspected and assigned roles; or an explicit user instruction to proceed without references or to choose them on the user's behalf.
+- **Visual basis:** relevant references and source images already supplied or explicitly selected for this project, inspected and assigned roles explicitly by the user or confirmed in response to a role question; or an explicit user instruction to proceed without references or to choose them on the user's behalf.
 
 If the visual basis is missing, ask for reference images, links or a folder, plus any existing logo, brand assets or photos that must be used. If the brief is missing too, bundle those requests into one short intake message in the user's language. Explain that one reference is enough to start and that the user may explicitly choose to proceed without references. Then wait for the response. Do not generate a sample, placeholder concept or HTML while waiting. A general "create a concept", missing attachments, silence or elapsed time is not permission to skip references. If the user says materials will arrive later, wait for them.
 
-Reuse materials and explicit choices already present in the current project; do not ask the user to resend them or reconfirm a no-reference choice. If the user delegated reference selection, choose and inspect relevant sources before generation. Once the inputs are ready, continue without a separate intake-approval step.
+Reuse materials and explicit choices already present in the current project; do not ask the user to resend them or reconfirm a no-reference choice. If the user delegated reference selection, choose and inspect relevant sources, then ask the role question below. Permission to select references does not confirm their roles.
+
+**Required role question:** For supplied or selected references whose roles are not already explicit, label them R1, R2, etc. and ask: "What should we take from each reference: composition, style (typography, colors, imagery), or specific details? What should we avoid?" For one reference, ask which aspects to use; do not automatically use it for both composition and style. You may propose a mapping, but ask the user to confirm it and wait for the answer. Do not call generation tools, generate samples or begin HTML until the roles are answered. Attachment order, silence, elapsed time or apparent visual suitability cannot substitute for an answer. If the user already specified the roles, that satisfies the question; do not ask again. Explicit no-reference work has no reference roles to confirm.
+
+Record and follow the answered mapping exactly in the generation prompt and output review. Do not swap sources, blend unassigned qualities, change the pairing or broaden a reference's role yourself. If the answer leaves a material role unclear, conflicts with required identity, or cannot be followed with available tools, ask a focused follow-up and wait. New references or changed roles require an explicit assignment or confirmation before use; unchanged roles carry forward through revisions.
 
 Read [intake and reference roles](references/intake-and-references.md). Extract known answers before asking for missing information. Speak the user's language; default visible deliverable copy to English unless the project specifies another language. Ask short questions in stages. Two references are a useful pairing, not a minimum count; this does not waive the visual-basis check above. Inspect supplied images, links or folders. Do not assume the application's catalog or saved settings are accessible.
 
-Select website, branding or website-from-branding mode from context. Clarify only when it materially affects the result. Briefly state the design interpretation and which sources control composition and style. This is a progress update, not an extra approval gate.
+Select website, branding or website-from-branding mode from context. Clarify only when it materially affects the result. After the user has answered the role question, briefly restate the design interpretation and confirmed source roles, then proceed without another approval request.
 
 ## 2. Generate and refine images
 

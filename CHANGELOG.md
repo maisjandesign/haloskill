@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Required explicit user reference-role assignments before Concepts generation, including single references and agent-selected sources; removed attachment-order defaults and preserved confirmed roles through revisions.
+
 - Fixed Concepts starting generation on a bare request: collect the missing brief, visual references and required source images first; wait for inputs or an explicit no-reference/delegated-selection choice. Reuse existing project context for continuations.
 
 - Updated Concepts from the supplied 2026-10-09 package: website/branding image generation, focused revisions, explicit approval, editable HTML and direct Figma clipboard capture.
